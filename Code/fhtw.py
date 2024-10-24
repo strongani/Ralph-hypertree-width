@@ -107,10 +107,12 @@ def main():
 
     sys.setrecursionlimit(100000) 
 
-    if not ('wiki' in name or 'tpcds' in name or ('tpch' in name and'tpch-' not in name)):
-        sys.stdin = open(f'Hypergraphs/{name}')
-    else:
-        sys.stdin = open(f'New_Instances/{name}')
+    # if not ('wiki' in name or 'tpcds' in name or ('tpch' in name and'tpch-' not in name)):
+    #     sys.stdin = open(f'Hypergraphs/{name}')
+    # else:
+    #     sys.stdin = open(f'New_Instances/{name}')
+
+    sys.stdin = open(f'../Hypergraphs/{name}')
 
     H = hypergraph()
     print(f'[{time.time()}]: Starting fhtw on {name}')
