@@ -1,0 +1,22 @@
+10, 0.9166656666666667, 2.0, 2
++-- , 0 , {9, 3} , {'G15', 'G12', 'G8'}
+| +-- , 9 , {21, 11, 15} , {'G8', 'G9', 'G6', 'G15', 'G14', 'G16'}
+| | +-- , 21 , set() , {'G14', 'G0'}
+| | +-- , 11 , set() , {'G3', 'G8', 'G16'}
+| | +-- , 15 , {17, 19} , {'G6', 'G14', 'G5', 'G9', 'G11'}
+| | | +-- , 17 , set() , {'G11', 'G17'}
+| | | +-- , 19 , set() , {'G10', 'G14', 'G5', 'G11'}
+| +-- , 3 , {5} , {'G7', 'G12', 'G1'}
+| | +-- , 5 , {7} , {'G7', 'G13', 'G12'}
+| | | +-- , 7 , set() , {'G2', 'G13', 'G12'}
+
+
+Max number of edges with non zero Y: 4
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 2.511
+Time spent solving Separator LP: 0.037
+Total time spent solving: 3.448
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'G8', 'G5', 'G9', 'G17', 'G0', 'G11', 'G6', 'G15', 'G14', 'G16', 'G10'}, {'G15', 'G8', 'G16'})

@@ -1,0 +1,101 @@
+89, 0, 7.0, 7
++-- , 0 , {7, 136, 202} , {'UC_25', 'CO2', 'UC_24', 'UC_26', 'TCOMBVNODE14', 'C2_CO', 'C2_QN2', 'C3VCO2', 'Y1CVAD1NF', 'TCOMB_YA1', 'TCOMBVNODE16', 'CLRB', 'TCOMB_FE'}
+| +-- , 7 , {12} , {'UC_24', 'TCOMBVNQA', 'C3_Q3', 'TCOMBVNODE14', 'Y1CVAD1NF', 'TCOMBVNODE16', 'CLRB', 'UC_25', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'TCOMBVNODE15', 'C2_QN2', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_YA1', 'C3_Q1', 'TCOMB_FE'}
+| | +-- , 12 , {134, 14} , {'UC_24', 'TCOMBVNQA', 'C3_Q3', 'C3_Q2', 'Y1CVAD1NF', 'TCOMBVNODE16', 'CLRB', 'UC_25', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'OLATCH_FEL', 'C2_QN2', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_RA1VOR1NF', 'TCOMB_YA1', 'C3_Q1', 'TCOMBVNODE19', 'TCOMB_FE', 'TCOMBVNODE16VOR1NF'}
+| | | +-- , 134 , set() , {'TCOMB_FE', 'I84', 'OLATCH_FEL', 'TCOMB_FE_BF'}
+| | | +-- , 14 , {24, 16} , {'TCOMBVNQA', 'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'Y1CVAD1NF', 'TCOMBVNODE16', 'CLRB', 'UC_25', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'OLATCH_FEL', 'C2_QN2', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_RA1VOR1NF', 'TCOMB_YA1', 'C3_Q1', 'TCOMBVNODE19', 'TCOMB_FE', 'TCOMBVNODE16VOR1NF'}
+| | | | +-- , 24 , {128, 30} , {'TCOMBVNODE8', 'TCOMBVNQA', 'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'Y1CVAD1NF', 'TCOMBVNODE8VOR2NF', 'TCOMBVNODE8VOR1NF', 'TCOMBVNODE16', 'CLRB', 'UC_25', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'TCOMB_GA1', 'TCOMB_GA1VAD1NF', 'OLATCH_FEL', 'C2_QN2', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_YA1', 'C3_Q1', 'TCOMBVNODE19', 'TCOMB_FE', 'TCOMBVNODE16VOR1NF'}
+| | | | | +-- , 128 , {130} , {'TCOMB_GA1', 'OLATCH_G1L'}
+| | | | | | +-- , 130 , {132} , {'OUTBUFVBUFG1VIR1', 'OLATCH_G1L'}
+| | | | | | | +-- , 132 , set() , {'OUTBUFVBUFG1VIR1', 'GRN1'}
+| | | | | +-- , 30 , {32} , {'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'Y1CVAD1NF', 'TCOMBVNODE8VOR1NF', 'TCOMBVNODE6', 'TCOMBVNODE16', 'CLRB', 'UC_25', 'OLATCH_FEL', 'C2_QN2', 'TCOMBVNODE19', 'TCOMB_FE', 'TCOMBVNODE16VOR1NF', 'TCOMBVNQA', 'TCOMBVNODE8VOR2NF', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'TCOMB_GA1VAD1NF', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_YA1', 'C3_Q1'}
+| | | | | | +-- , 32 , {34, 70, 116, 87, 89} , {'TCOMBVNQA', 'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'C3_Q0', 'Y1CVAD1NF', 'TCOMBVNODE8VOR2NF', 'TCOMBVNODE8VOR1NF', 'TCOMBVNODE6', 'TCOMBVNODE16', 'CLRB', 'TCOMBVNQB', 'UC_25', 'CO2', 'TCOMBVNFM', 'TCOMBVNQC', 'UC_26', 'OLATCH_FEL', 'C2_QN2', 'TCOMBVNQD', 'C3VCO2', 'TCOMBVNODE4VOR1NF', 'TCOMB_YA1', 'C3_Q1', 'TCOMBVNODE19', 'TCOMB_FE', 'TCOMBVNODE16VOR1NF'}
+| | | | | | | +-- , 34 , {44, 36} , {'TCOMBVNQA', 'TCOMBVNFEL', 'TCOMBVNCLR', 'C3_Q0', 'Y1CVAD1NF', 'CLRB', 'TCOMBVNQC', 'TCOMBVNODE12', 'OLATCH_FEL', 'TCOMBVNQD', 'C2_QN2', 'TCOMB_YA1', 'C3_Q1', 'TCOMB_RA2VOR1NF', 'TCOMBVNODE19', 'TCOMB_FE'}
+| | | | | | | | +-- , 44 , {48, 64} , {'Y1C', 'TCOMBVNFEL', 'TCOMBVNQC', 'OLATCHVUC_6', 'C2_QN2', 'Y1CVAD1NF', 'TCOMB_YA1', 'TCOMB_RA2VOR1NF', 'CLRB', 'TCOMB_FE'}
+| | | | | | | | | +-- , 48 , {50} , {'Y1C', 'TCOMBVNQC', 'TCOMBVNFEL', 'C2_QN2', 'Y1CVAD1NF', 'TCOMB_YA1', 'TCOMB_RA2VOR1NF', 'CLRB', 'TCOMB_FE', 'Y1CVAD2NF'}
+| | | | | | | | | | +-- , 50 , {52, 62} , {'TCOMBVNQC', 'TCOMBVNFEL', 'R2CVAD1NF', 'FEN', 'C2_QN2', 'TCOMB_YA1', 'TCOMB_RA2VOR1NF', 'CLRB', 'TCOMB_RA2', 'TCOMB_FE', 'Y1CVAD2NF'}
+| | | | | | | | | | | +-- , 52 , {54} , {'R2C', 'R2CVAD2NF', 'R2CVAD1NF', 'TCOMB_RA2', 'FEN'}
+| | | | | | | | | | | | +-- , 54 , {56} , {'R2C', 'OLATCHVUC_5'}
+| | | | | | | | | | | | | +-- , 56 , {58} , {'OLATCH_R2L', 'OLATCHVUC_5'}
+| | | | | | | | | | | | | | +-- , 58 , {60} , {'OLATCH_R2L', 'OUTBUFVBUFR2VIR1'}
+| | | | | | | | | | | | | | | +-- , 60 , set() , {'OUTBUFVBUFR2VIR1', 'RED2'}
+| | | | | | | | | | | +-- , 62 , set() , {'TCOMBVNFEL', 'TCOMBVNQC', 'TCOMB_RA2VOR2NF', 'TCOMB_RA2VOR3NF', 'TCOMB_RA2VOR1NF', 'CLRB', 'TCOMB_RA2'}
+| | | | | | | | | +-- , 64 , {66} , {'OLATCHVUC_6', 'OLATCH_Y1L'}
+| | | | | | | | | | +-- , 66 , {68} , {'OUTBUFVBUFY1VIR1', 'OLATCH_Y1L'}
+| | | | | | | | | | | +-- , 68 , set() , {'OUTBUFVBUFY1VIR1', 'YLW1'}
+| | | | | | | | +-- , 36 , {38} , {'TCOMBVNODE12', 'TCOMBVNQA', 'TCOMB_YA2'}
+| | | | | | | | | +-- , 38 , {40} , {'OLATCH_Y2L', 'TCOMB_YA2'}
+| | | | | | | | | | +-- , 40 , {42} , {'OLATCH_Y2L', 'OUTBUFVBUFY2VIR1'}
+| | | | | | | | | | | +-- , 42 , set() , {'OUTBUFVBUFY2VIR1', 'YLW2'}
+| | | | | | | +-- , 70 , {72} , {'TCOMBVNFM', 'TCOMBVNODE18', 'C3_Q3', 'TCOMBVNQC', 'C3_Q0', 'FML', 'CLRB', 'TCOMBVNQB', 'TCOMBVNODE16VOR1NF'}
+| | | | | | | | +-- , 72 , {75} , {'FML', 'CLRB', 'FMLVINLATCHN', 'FMLVINLATCHVCDN'}
+| | | | | | | | | +-- , 75 , {77} , {'FML', 'FMLVINLATCHN', 'FMLVINLATCHVCDAD', 'FMLVINLATCHVCDN', 'FMLVINMUX'}
+| | | | | | | | | | +-- , 77 , {79} , {'FML', 'FMLVINMUXVND1', 'FMLVINLATCHN', 'FMLVINMUX'}
+| | | | | | | | | | | +-- , 79 , {81} , {'FMLVINMUXVOR2NF', 'FMLVINMUXVND1', 'FML', 'FMLVINMUXVOR1NF', 'FMLVINLATCHN'}
+| | | | | | | | | | | | +-- , 81 , {83} , {'FML', 'FMLVINMUXVIR1', 'FMLVINMUXVOR2NF', 'FMLVINMUXVOR1NF', 'FMB', 'FMLVINLATCHN'}
+| | | | | | | | | | | | | +-- , 83 , {85} , {'FMB', 'FMBVIR1'}
+| | | | | | | | | | | | | | +-- , 85 , set() , {'FM', 'FMBVIR1'}
+| | | | | | | +-- , 116 , {118} , {'TCOMBVNQA', 'TCOMB_GA2VAD2NF', 'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'OLATCH_FEL', 'C3_Q0', 'C3_Q1'}
+| | | | | | | | +-- , 118 , {120} , {'TCOMBVNQA', 'TCOMB_GA2VAD2NF', 'C3_Q3', 'C3_Q2', 'TCOMBVNCLR', 'OLATCH_FEL', 'TCOMB_GA2VAD1NF'}
+| | | | | | | | | +-- , 120 , {122} , {'TCOMB_GA2VAD2NF', 'TCOMBVNCLR', 'C3_Q2', 'OLATCH_FEL', 'TCOMB_GA2VAD4NF', 'TCOMB_GA2', 'TCOMB_GA2VAD1NF', 'TCOMB_GA2VAD3NF'}
+| | | | | | | | | | +-- , 122 , {124} , {'OLATCH_G2L', 'TCOMB_GA2'}
+| | | | | | | | | | | +-- , 124 , {126} , {'OUTBUFVBUFG2VIR1', 'OLATCH_G2L'}
+| | | | | | | | | | | | +-- , 126 , set() , {'GRN2', 'OUTBUFVBUFG2VIR1'}
+| | | | | | | +-- , 87 , set() , {'TCOMBVNQA', 'TCOMBVNODE4', 'C3_Q2', 'TCOMBVNQD', 'TCOMBVNODE4VOR1NF', 'TCOMBVNODE3', 'TCOMB_YA1', 'TCOMBVNODE16', 'CLRB', 'TCOMBVNODE4VOR2NF', 'TCOMBVNQB'}
+| | | | | | | +-- , 89 , {96, 92} , {'C3_Q3', 'C3_Q2', 'C3_Q0', 'CLRB', 'UC_25', 'CO2', 'UC_26', 'C3VCO2', 'C3VCIA', 'C3_Q1', 'C3_Q2VZ'}
+| | | | | | | | +-- , 96 , {98, 114, 102, 109} , {'C3_Q2VD', 'CO2', 'C3_Q2VZ', 'C3_Q3', 'C3_Q2', 'C3VCO0', 'UC_26', 'C3_Q3VUC_0', 'C3_Q0', 'C3VCO2', 'C3VCIA', 'C3_Q1', 'CLRB', 'UC_27'}
+| | | | | | | | | +-- , 98 , {100} , {'C3_Q3VD', 'C3_Q3', 'C3_Q3VUC_0', 'C3VCO2', 'C3_Q3VZ', 'CLRB', 'UC_27'}
+| | | | | | | | | | +-- , 100 , set() , {'C3_Q3', 'C3_Q3VUC_0', 'C3VCO2', 'C3_Q3VZVOR1NF', 'C3_Q3VZ'}
+| | | | | | | | | +-- , 114 , set() , {'CO2', 'C3_Q3', 'C3VCIA', 'UC_23', 'UC_27'}
+| | | | | | | | | +-- , 102 , {105} , {'CO2', 'C3_Q0VUC_0', 'C3_Q0', 'C3VINHN', 'CLRB', 'UC_27'}
+| | | | | | | | | | +-- , 105 , {107} , {'C3_Q0VUC_0', 'C3_Q0VD', 'C3_Q0', 'C3_Q0VZ', 'C3VINHN', 'CLRB', 'UC_27'}
+| | | | | | | | | | | +-- , 107 , set() , {'C3_Q0VZVOR1NF', 'C3_Q0VUC_0', 'C3_Q0', 'C3_Q0VZ', 'C3VINHN'}
+| | | | | | | | | +-- , 109 , {112} , {'C3VCO0', 'C3_Q1VZVOR1NF', 'C3_Q1VZ', 'C3_Q1', 'CLRB', 'UC_27', 'C3_Q1VD'}
+| | | | | | | | | | +-- , 112 , set() , {'C3_Q1VUC_0', 'C3VCO0', 'C3_Q1VZVOR1NF', 'C3_Q1VZ', 'C3_Q1'}
+| | | | | | | | +-- , 92 , {94} , {'UC_25', 'CO2', 'UC_26', 'C3_Q2', 'C3VCO1', 'C3_Q2VZ'}
+| | | | | | | | | +-- , 94 , set() , {'C3_Q2', 'C3VCO1', 'C3_Q2VZVOR1NF', 'C3_Q2VZ', 'C3_Q2VUC_0'}
+| | | | +-- , 16 , {18} , {'C3_Q2', 'TCOMBVNCLR', 'C3_Q3', 'TCOMB_RA1VOR2NF', 'TCOMB_RA1', 'OLATCH_FEL', 'TCOMB_RA1VOR1NF'}
+| | | | | +-- , 18 , {20} , {'OLATCH_R1L', 'TCOMB_RA1'}
+| | | | | | +-- , 20 , {22} , {'OLATCH_R1L', 'OUTBUFVBUFR1VIR1'}
+| | | | | | | +-- , 22 , set() , {'OUTBUFVBUFR1VIR1', 'RED1'}
+| +-- , 136 , {180, 200, 138} , {'C2VCO0', 'UC_18VD', 'UC_18', 'C2_CO', 'C2_QN2', 'UC_18VZ', 'UC_21', 'UC_18VZVOR1NF', 'UC_22', 'C2VCO2', 'CTST', 'CLRB'}
+| | +-- , 180 , {194, 183, 187} , {'UC_18', 'C2VCIA', 'UC_22', 'C2VCO2', 'CTST', 'UC_16VZ', 'CLRB', 'UC_16VD', 'C2_CO', 'C2_QN2', 'UC_19', 'UC_21', 'UC_17'}
+| | | +-- , 194 , {196} , {'C2_CO', 'UC_19', 'UC_19VUC_0', 'CTST', 'CLRB', 'C2VINHN'}
+| | | | +-- , 196 , {198} , {'UC_19VZ', 'UC_19VD', 'C2_CO', 'UC_19', 'UC_19VUC_0', 'CLRB', 'C2VINHN'}
+| | | | | +-- , 198 , set() , {'UC_19VZ', 'UC_19VZVOR1NF', 'UC_19', 'UC_19VUC_0', 'C2VINHN'}
+| | | +-- , 183 , {185} , {'UC_16VUC_0', 'UC_16', 'C2_CO', 'C2VCIA', 'UC_20', 'CTST', 'C2VCO2', 'UC_16VZ', 'UC_16VD'}
+| | | | +-- , 185 , set() , {'UC_16VUC_0', 'UC_16VZVOR1NF', 'UC_16', 'C2VCO2', 'UC_16VZ'}
+| | | +-- , 187 , {190} , {'UC_17VD', 'C2_CO', 'UC_17VZ', 'UC_21', 'UC_17', 'UC_22', 'CTST', 'CLRB'}
+| | | | +-- , 190 , {192} , {'C2VCO1', 'UC_17VZ', 'UC_21', 'UC_17', 'UC_22', 'CTST', 'UC_17VZVOR1NF'}
+| | | | | +-- , 192 , set() , {'C2VCO1', 'UC_17VZ', 'UC_17VUC_0', 'UC_17', 'UC_17VZVOR1NF'}
+| | +-- , 200 , set() , {'C2VCO0', 'UC_18', 'UC_18VUC_0', 'UC_18VZVOR1NF', 'UC_18VZ'}
+| | +-- , 138 , {140, 165} , {'TESTLVINLATCHVCDN', 'TESTL', 'C1_CO', 'CTST', 'CLRB'}
+| | | +-- , 140 , {144, 161} , {'UC_10VZVOR1NF', 'UC_11VZ', 'UC_11VD', 'UC_10', 'C1VCO0', 'C1_CO', 'CLRB'}
+| | | | +-- , 144 , {149} , {'C1VCIA', 'UC_9', 'UC_11VD', 'UC_9VD', 'UC_8VZVOR1NF', 'C1VCO0', 'C1_CO', 'CLRB', 'UC_8VZ', 'UC_11VZ', 'UC_8VUC_0', 'UC_10', 'UC_11VUC_0', 'UC_12'}
+| | | | | +-- , 149 , {151} , {'C1VCIA', 'UC_9', 'UC_11VD', 'UC_9VD', 'UC_8VZVOR1NF', 'C1_CO', 'C1VCO0', 'CLRB', 'UC_8VZ', 'UC_8VUC_0', 'UC_10', 'UC_11VUC_0', 'UC_12', 'UC_11'}
+| | | | | | +-- , 151 , {153, 159} , {'UC_8', 'UC_8VUC_0', 'UC_9', 'UC_15', 'UC_9VD', 'UC_8VZVOR1NF', 'UC_10', 'C1VCO0', 'C1_CO', 'UC_9VZ', 'CLRB', 'UC_8VZ', 'UC_12', 'UC_11'}
+| | | | | | | +-- , 153 , {155} , {'UC_8', 'C1VCO2', 'UC_8VUC_0', 'UC_9', 'UC_15', 'UC_9VUC_0', 'UC_10', 'UC_8VZVOR1NF', 'UC_9VZVOR1NF', 'UC_9VZ'}
+| | | | | | | | +-- , 155 , {157} , {'C1VCO2', 'UC_9', 'UC_15', 'UC_9VUC_0', 'UC_10', 'UC_9VZVOR1NF', 'UC_13', 'UC_14'}
+| | | | | | | | | +-- , 157 , set() , {'C1VCO1', 'UC_9', 'UC_15', 'UC_9VUC_0', 'UC_9VZVOR1NF', 'UC_14'}
+| | | | | | | +-- , 159 , set() , {'UC_8', 'UC_8VD', 'C1_CO', 'CLRB', 'UC_8VZ'}
+| | | | +-- , 161 , {163} , {'UC_10VZVOR1NF', 'C1_CO', 'UC_10VZ', 'UC_10VD', 'UC_10', 'C1VCO0', 'CLRB'}
+| | | | | +-- , 163 , set() , {'UC_10VZVOR1NF', 'UC_10VZ', 'UC_10', 'C1VCO0', 'UC_10VUC_0'}
+| | | +-- , 165 , {167} , {'TESTLVINLATCHVCDN', 'TESTL', 'TESTLVINLATCHVCDAD', 'TESTLVINMUX'}
+| | | | +-- , 167 , {169} , {'TESTLVINMUXVND1', 'TESTL', 'TESTLVINLATCHN', 'TESTLVINMUX'}
+| | | | | +-- , 169 , {171} , {'TESTLVINMUXVOR1NF', 'TESTLVINMUXVND1', 'TESTL', 'TESTLVINLATCHN', 'TESTLVINMUXVOR2NF'}
+| | | | | | +-- , 171 , {173} , {'TESTLVINMUXVOR2NF', 'TESTLVINMUXVOR1NF', 'TESTLVINMUXVIR1', 'TESTL', 'TESTLVINLATCHN', 'TESTB'}
+| | | | | | | +-- , 173 , {175} , {'TESTBVIR1', 'TESTB'}
+| | | | | | | | +-- , 175 , set() , {'TESTBVIR1', 'TEST'}
+| +-- , 202 , {204} , {'CLRB', 'CLRBVIR1'}
+| | +-- , 204 , set() , {'CLRBVIR1', 'CLR'}
+
+
+Max number of edges with non zero Y: 91
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 87.244
+Time spent solving Separator LP: 0.404
+Total time spent solving: 106.341
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'OUTBUFVBUFY2VIR1', 'FMLVINMUXVOR2NF', 'TCOMBVNODE18', 'TCOMBVNCLR', 'UC_18', 'TESTLVINMUXVIR1', 'FMB', 'FM', 'Y1CVAD1NF', 'UC_20', 'C3VINHN', 'TCOMBVNODE16', 'CLRB', 'UC_17VZ', 'C3_Q3VZVOR1NF', 'R2C', 'TESTLVINLATCHVCDN', 'TCOMB_GA2', 'TCOMBVNQA', 'C2VCO1', 'UC_17VUC_0', 'UC_18VUC_0', 'C3_Q1VZ', 'OLATCHVUC_5', 'TCOMB_GA2VAD3NF', 'TCOMB_RA2', 'TESTLVINMUX', 'CO2', 'TCOMB_GA1', 'UC_19VZVOR1NF', 'UC_19', 'C3_Q1', 'C3_Q2VD', 'UC_10VZVOR1NF', 'UC_8', 'UC_16VUC_0', 'UC_10VD', 'OLATCHVUC_6', 'UC_9VD', 'TESTB', 'C2VCIA', 'UC_9VZVOR1NF', 'UC_16VZ', 'UC_23', 'C1VCO2', 'TCOMB_GA2VAD2NF', 'TCOMB_RA1VOR2NF', 'UC_19VD', 'UC_15', 'C2_QN2', 'UC_10', 'C3VCIA', 'C3_Q1VZVOR1NF', 'TCOMBVNODE3', 'UC_17VD', 'UC_11VUC_0', 'TEST', 'TCOMBVNODE16VOR1NF', 'CLR', 'TCOMBVNODE8', 'C1VCIA', 'C1VCO1', 'UC_16', 'FEN', 'C3_Q0VZ', 'FMBVIR1', 'GRN1', 'TCOMBVNQB', 'FMLVINLATCHVCDN', 'Y1CVAD2NF', 'TCOMBVNFM', 'UC_26', 'TCOMBVNQD', 'C3VCO2', 'FMLVINMUX', 'TCOMB_RA1VOR1NF', 'TCOMB_YA2', 'TCOMB_RA2VOR3NF', 'C3_Q3VZ', 'TCOMBVNODE4VOR1NF', 'TCOMB_RA2VOR1NF', 'YLW2', 'TCOMB_FE_BF', 'UC_10VUC_0', 'UC_10VZ', 'R2CVAD1NF', 'OUTBUFVBUFR1VIR1', 'TCOMBVNODE14', 'CLRBVIR1', 'TCOMB_GA2VAD4NF', 'UC_8VD', 'OUTBUFVBUFR2VIR1', 'FMLVINMUXVOR1NF', 'C3_Q2VZVOR1NF', 'TCOMBVNODE8VOR1NF', 'C1_CO', 'CTST', 'UC_25', 'C3_Q1VUC_0', 'Y1C', 'UC_11VZ', 'TESTLVINMUXVOR1NF', 'C3VCO0', 'TCOMB_RA2VOR2NF', 'C3_Q0VD', 'TCOMBVNODE12', 'OLATCH_FEL', 'TESTBVIR1', 'UC_18VZVOR1NF', 'TESTL', 'FMLVINLATCHN', 'TCOMBVNODE4VOR2NF', 'OLATCH_G2L', 'OLATCH_G1L', 'UC_18VD', 'RED2', 'TCOMBVNFEL', 'YLW1', 'FMLVINMUXVIR1', 'TCOMBVNODE8VOR2NF', 'C2VCO2', 'C1VCO0', 'OLATCH_Y2L', 'GRN2', 'TCOMB_GA1VAD1NF', 'C3_Q3VUC_0', 'UC_21', 'FML', 'UC_13', 'UC_18VZ', 'TCOMB_GA2VAD1NF', 'C3_Q2VZ', 'OLATCH_Y1L', 'UC_11', 'OUTBUFVBUFG1VIR1', 'UC_24', 'UC_9', 'C3_Q3', 'C3_Q2', 'C3_Q0VUC_0', 'I84', 'C3_Q0', 'UC_8VZVOR1NF', 'TESTLVINMUXVND1', 'R2CVAD2NF', 'UC_22', 'OLATCH_R1L', 'TCOMBVNODE6', 'UC_17VZVOR1NF', 'UC_16VD', 'UC_8VZ', 'TESTLVINMUXVOR2NF', 'UC_9VZ', 'C3_Q1VD', 'UC_8VUC_0', 'UC_19VZ', 'TCOMBVNODE4', 'TCOMBVNODE15', 'C2_CO', 'FMLVINLATCHVCDAD', 'C3VCO1', 'TCOMBVNODE19', 'TCOMB_FE', 'UC_12', 'UC_27', 'C3_Q2VUC_0', 'UC_14', 'OLATCH_R2L', 'TCOMB_RA1', 'C3_Q3VD', 'UC_16VZVOR1NF', 'UC_11VD', 'OUTBUFVBUFY1VIR1', 'UC_9VUC_0', 'UC_19VUC_0', 'OUTBUFVBUFG2VIR1', 'C2VINHN', 'C2VCO0', 'RED1', 'TCOMBVNQC', 'C3_Q0VZVOR1NF', 'FMLVINMUXVND1', 'UC_17', 'TCOMB_YA1', 'TESTLVINLATCHN', 'TESTLVINLATCHVCDAD'}, {'TCOMBVNODE18', 'TCOMBVNODE14', 'R2CVAD2NF', 'UC_11VUC_0', 'TESTLVINMUXVOR2NF'})

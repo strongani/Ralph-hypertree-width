@@ -1,0 +1,29 @@
+19, 3.0182506193762406, 9.5, 10
++-- , 0 , {45, 7} , {'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL26J', 'xL15J', 'xL30J', 'xL5J', 'xL37J', 'xL35J', 'xL10J', 'xL31J', 'xL34J', 'xL29J', 'xL38J', 'xL36J', 'xL25J'}
+| +-- , 45 , set() , {'xL39J', 'xL15J', 'xL35J'}
+| +-- , 7 , {9} , {'xL18J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL26J', 'xL30J', 'xL15J', 'xL5J', 'xL37J', 'xL35J', 'xL10J', 'xL31J', 'xL25J', 'xL29J', 'xL36J', 'xL38J'}
+| | +-- , 9 , {12} , {'xL18J', 'xL12J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL26J', 'xL15J', 'xL30J', 'xL5J', 'xL37J', 'xL35J', 'xL25J', 'xL29J', 'xL38J', 'xL36J', 'xL6J'}
+| | | +-- , 12 , {16, 41, 43} , {'xL18J', 'xL12J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL26J', 'xL13J', 'xL15J', 'xL30J', 'xL5J', 'xL37J', 'xL35J', 'xL25J', 'xL29J', 'xL9J', 'xL6J', 'xL3J'}
+| | | | +-- , 16 , {19} , {'xL24J', 'xL18J', 'xL12J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL13J', 'xL26J', 'xL15J', 'xL30J', 'xL5J', 'xL37J', 'xL35J', 'xL25J', 'xL9J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | +-- , 19 , {21} , {'xL24J', 'xL18J', 'xL12J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL13J', 'xL26J', 'xL30J', 'xL15J', 'xL5J', 'xL37J', 'xL25J', 'xL9J', 'xL32J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | | +-- , 21 , {35, 23, 39, 37} , {'xL18J', 'xL12J', 'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL13J', 'xL26J', 'xL15J', 'xL28J', 'xL30J', 'xL5J', 'xL25J', 'xL9J', 'xL32J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | | | +-- , 35 , set() , {'xL9J', 'xL30J', 'xL28J', 'xL27J'}
+| | | | | | | +-- , 23 , {25} , {'xL0J', 'xL7J', 'xL17J', 'xL2J', 'xL13J', 'xL30J', 'xL15J', 'xL5J', 'xL28J', 'xL20J', 'xL25J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | | | | +-- , 25 , {33, 27} , {'xL0J', 'xL2J', 'xL22J', 'xL13J', 'xL30J', 'xL15J', 'xL5J', 'xL20J', 'xL25J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | | | | | +-- , 33 , set() , {'xL22J', 'xL1J'}
+| | | | | | | | | +-- , 27 , {29} , {'xL0J', 'xL2J', 'xL22J', 'xL30J', 'xL5J', 'xL21J', 'xL20J', 'xL25J', 'xL6J', 'xL3J', 'xL4J'}
+| | | | | | | | | | +-- , 29 , {31} , {'xL19J', 'xL6J', 'xL2J', 'xL22J', 'xL30J', 'xL3J', 'xL5J', 'xL4J', 'xL21J', 'xL20J'}
+| | | | | | | | | | | +-- , 31 , set() , {'xL19J', 'xL2J', 'xL11J', 'xL16J', 'xL3J', 'xL4J'}
+| | | | | | | +-- , 39 , set() , {'xL18J', 'xL14J', 'xL6J', 'xL28J', 'xL3J'}
+| | | | | | | +-- , 37 , set() , {'xL32J', 'xL26J', 'xL30J', 'xL8J', 'xL28J', 'xL5J'}
+| | | | +-- , 41 , set() , {'xL23J', 'xL18J', 'xL6J', 'xL13J'}
+| | | | +-- , 43 , set() , {'xL9J', 'xL33J', 'xL18J'}
+
+
+Max number of edges with non zero Y: 30
+Max number of iterations of outer rounding loop: 10
+Max number of candidate sets: 2
+Time spent rounding: 52.428
+Time spent solving Separator LP: 1.085
+
+LP Solver: GaifmanNormal

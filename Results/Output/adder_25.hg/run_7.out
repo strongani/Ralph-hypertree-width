@@ -1,0 +1,103 @@
+91, 0, 8.0, 8
++-- , 0 , {104, 5} , {'TempHb13', 'TempHa13', 'C13'}
+| +-- , 104 , {208, 106} , {'TempHb14', 'TempG14', 'C13'}
+| | +-- , 208 , set() , {'TempG14', 'S14', 'C13'}
+| | +-- , 106 , {137, 108} , {'TempHb14', 'TempG14', 'TempHa22', 'C22', 'TempHb22'}
+| | | +-- , 137 , {144} , {'TempHb14', 'TempG20', 'I44', 'I40', 'TempG22', 'TempHa17', 'I39', 'I43', 'TempG14', 'TempHa22', 'I33', 'I34', 'TempHb22'}
+| | | | +-- , 144 , {146, 206} , {'TempHb14', 'TempG14', 'TempG20', 'I40', 'TempG22', 'I33', 'TempHa17', 'C21', 'I39', 'I34', 'TempHb22'}
+| | | | | +-- , 146 , {148} , {'TempHb14', 'TempG20', 'I40', 'TempHa17', 'C21', 'I39', 'TempG14', 'TempHa21', 'I33', 'I34', 'TempHb21'}
+| | | | | | +-- , 148 , {178, 150} , {'TempHb14', 'TempG14', 'TempHa21', 'TempG20', 'I40', 'C17', 'I33', 'TempHa17', 'I39', 'I34', 'TempHb21'}
+| | | | | | | +-- , 178 , {180} , {'TempHb14', 'TempG14', 'C17', 'TempHb17', 'I33', 'TempHa17', 'I34'}
+| | | | | | | | +-- , 180 , {204, 182} , {'TempHb14', 'TempG14', 'C16', 'TempHb17', 'I33', 'TempG17', 'I34'}
+| | | | | | | | | +-- , 204 , set() , {'TempG17', 'C16', 'S17'}
+| | | | | | | | | +-- , 182 , {184} , {'TempHb14', 'TempG14', 'C16', 'TempHa16', 'TempHb16'}
+| | | | | | | | | | +-- , 184 , {187, 191} , {'TempHb14', 'TempG14', 'TempHa16', 'TempG15', 'S15', 'C14', 'TempHb16'}
+| | | | | | | | | | | +-- , 187 , {189} , {'TempHb14', 'C14', 'TempG14', 'TempHa14'}
+| | | | | | | | | | | | +-- , 189 , set() , {'I28', 'TempHa14', 'I27', 'TempG14'}
+| | | | | | | | | | | +-- , 191 , {193} , {'TempHb15', 'TempHa16', 'TempG15', 'C14', 'TempHb16'}
+| | | | | | | | | | | | +-- , 193 , {196} , {'TempG16', 'I32', 'TempHb15', 'TempHa16', 'TempG15', 'TempHb16', 'I31'}
+| | | | | | | | | | | | | +-- , 196 , {200, 198} , {'C15', 'TempG15', 'TempG16', 'TempHb16', 'TempHb15'}
+| | | | | | | | | | | | | | +-- , 200 , {202} , {'C15', 'TempG15', 'TempHa15', 'TempHb15'}
+| | | | | | | | | | | | | | | +-- , 202 , set() , {'I30', 'I29', 'TempG15', 'TempHa15'}
+| | | | | | | | | | | | | | +-- , 198 , set() , {'C15', 'S16', 'TempG16'}
+| | | | | | | +-- , 150 , {152} , {'S18', 'TempHa21', 'TempG20', 'I40', 'C17', 'TempG18', 'I39', 'TempHb21'}
+| | | | | | | | +-- , 152 , {154} , {'TempHb18', 'TempHa21', 'TempG20', 'I40', 'C17', 'TempG18', 'I39', 'TempHb21'}
+| | | | | | | | | +-- , 154 , {162, 156} , {'TempHb18', 'TempHa21', 'TempG20', 'I40', 'TempG18', 'I39', 'TempHb20', 'TempHb21'}
+| | | | | | | | | | +-- , 162 , {176, 164} , {'TempHb18', 'TempG18', 'TempG20', 'C19', 'TempHb20'}
+| | | | | | | | | | | +-- , 176 , set() , {'TempG20', 'S20', 'C19'}
+| | | | | | | | | | | +-- , 164 , {166} , {'TempHb18', 'TempHa19', 'C19', 'TempHb19', 'TempG18'}
+| | | | | | | | | | | | +-- , 166 , {168, 172} , {'TempHb18', 'TempG18', 'TempHa19', 'C18', 'TempHb19'}
+| | | | | | | | | | | | | +-- , 168 , {170} , {'TempHb18', 'TempG18', 'TempHa18', 'C18'}
+| | | | | | | | | | | | | | +-- , 170 , set() , {'TempG18', 'TempHa18', 'I35', 'I36'}
+| | | | | | | | | | | | | +-- , 172 , {174} , {'I37', 'TempHa19', 'TempG19', 'C18', 'I38', 'TempHb19'}
+| | | | | | | | | | | | | | +-- , 174 , set() , {'S19', 'TempG19', 'C18'}
+| | | | | | | | | | +-- , 156 , {158} , {'TempHa21', 'I40', 'C20', 'I39', 'TempHa20', 'TempHb20', 'TempHb21'}
+| | | | | | | | | | | +-- , 158 , {160} , {'TempG21', 'I42', 'TempHa21', 'TempHb21', 'C20', 'I41'}
+| | | | | | | | | | | | +-- , 160 , set() , {'C20', 'TempG21', 'S21'}
+| | | | | +-- , 206 , set() , {'TempG22', 'C21', 'S22'}
+| | | +-- , 108 , {110, 133} , {'C22', 'TempHb23', 'TempG23'}
+| | | | +-- , 110 , {113, 123} , {'TempHa24', 'C24', 'TempHb23', 'TempHb24', 'TempG23'}
+| | | | | +-- , 113 , {115, 117} , {'TempG24', 'TempHa24', 'TempHb23', 'TempHb24', 'TempG23'}
+| | | | | | +-- , 115 , set() , {'TempHa24', 'I47', 'I48', 'TempG24'}
+| | | | | | +-- , 117 , {121, 119} , {'TempHb23', 'TempHb24', 'C23', 'TempG23', 'TempG24'}
+| | | | | | | +-- , 121 , set() , {'I46', 'TempHb23', 'I45', 'C23', 'TempG23', 'TempHa23'}
+| | | | | | | +-- , 119 , set() , {'S24', 'C23', 'TempG24'}
+| | | | | +-- , 123 , {131, 125} , {'C24', 'TempHb25', 'TempG25'}
+| | | | | | +-- , 131 , set() , {'C24', 'S25', 'TempG25'}
+| | | | | | +-- , 125 , {129, 127} , {'TempHb25', 'TempHa25', 'TempG25'}
+| | | | | | | +-- , 129 , set() , {'TempHb25', 'C25', 'TempHa25'}
+| | | | | | | +-- , 127 , set() , {'TempHa25', 'I49', 'I50', 'TempG25'}
+| | | | +-- , 133 , set() , {'C22', 'TempG23', 'S23'}
+| +-- , 5 , {17, 102, 10} , {'C1', 'TempHa13', 'TempHb2', 'TempHb13', 'I7', 'TempG2', 'I8', 'TempHa4'}
+| | +-- , 17 , {96, 98, 20} , {'TempHb3', 'TempHa13', 'TempHb2', 'TempHb13', 'I7', 'TempG2', 'I8', 'TempG3', 'C2', 'TempHa4'}
+| | | +-- , 96 , set() , {'TempG3', 'C2', 'S3'}
+| | | +-- , 98 , {100} , {'TempHa2', 'C2', 'TempHb2', 'TempG2'}
+| | | | +-- , 100 , set() , {'TempHa2', 'I4', 'I3', 'TempG2'}
+| | | +-- , 20 , {92, 30} , {'TempHa13', 'I24', 'I7', 'I15', 'I20', 'TempHa12', 'I9', 'I16', 'I10', 'TempHa5', 'I8', 'TempHa4', 'TempHb3', 'I23', 'TempHa10', 'I19', 'TempHa8', 'TempG3', 'TempHb13', 'C3'}
+| | | | +-- , 92 , {94} , {'TempHb3', 'C3', 'TempHa3', 'TempG3'}
+| | | | | +-- , 94 , set() , {'TempG3', 'I6', 'I5', 'TempHa3'}
+| | | | +-- , 30 , {32, 90} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'TempHa8', 'I7', 'TempHb4', 'TempG4', 'I15', 'I20', 'TempHa12', 'I9', 'TempHb13', 'C3', 'I16', 'I10', 'TempHa5', 'I8', 'TempHa4'}
+| | | | | +-- , 32 , {34} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'TempHa8', 'TempHb4', 'I15', 'I20', 'TempHa12', 'I9', 'TempHb13', 'I16', 'I10', 'C4', 'TempHa5', 'TempHa4'}
+| | | | | | +-- , 34 , {36} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'S5', 'TempHa8', 'I15', 'I20', 'TempHa12', 'I9', 'TempG5', 'TempHb13', 'I16', 'I10', 'C4', 'TempHa5'}
+| | | | | | | +-- , 36 , {38} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'TempHa8', 'TempHb5', 'I15', 'C5', 'I20', 'TempHa12', 'TempG5', 'TempHb13', 'I16', 'C4', 'TempHa5'}
+| | | | | | | | +-- , 38 , {40} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'TempHa8', 'TempG6', 'I15', 'C5', 'I20', 'TempHa12', 'TempHb13', 'I16', 'S6'}
+| | | | | | | | | +-- , 40 , {42} , {'I23', 'TempHa10', 'I19', 'TempHa13', 'I24', 'TempHa8', 'TempHb6', 'TempG6', 'I15', 'C5', 'I20', 'TempHa12', 'TempHb13', 'I16'}
+| | | | | | | | | | +-- , 42 , {88, 59, 44} , {'I23', 'TempHa10', 'I20', 'I19', 'TempHa13', 'I24', 'TempHa12', 'TempHa8', 'TempHb6', 'TempG6', 'TempHb13', 'I16', 'TempG11', 'C10', 'I15'}
+| | | | | | | | | | | +-- , 88 , set() , {'S11', 'TempG11', 'C10'}
+| | | | | | | | | | | +-- , 59 , {61} , {'I20', 'TempHa10', 'I19', 'TempHb10', 'TempHa8', 'TempHb6', 'TempG6', 'TempG10', 'I16', 'C10', 'I15'}
+| | | | | | | | | | | | +-- , 61 , {86, 63} , {'C9', 'TempHb10', 'TempHa8', 'TempHb6', 'TempG6', 'TempG10', 'I16', 'I15'}
+| | | | | | | | | | | | | +-- , 86 , set() , {'C9', 'TempG10', 'S10'}
+| | | | | | | | | | | | | +-- , 63 , {65} , {'C9', 'TempHa9', 'TempHb9', 'TempHa8', 'TempHb6', 'TempG6', 'I16', 'I15'}
+| | | | | | | | | | | | | | +-- , 65 , {67, 71} , {'C8', 'TempHa9', 'TempHb9', 'I18', 'TempHa8', 'TempHb6', 'TempG6', 'I16', 'I17', 'I15'}
+| | | | | | | | | | | | | | | +-- , 67 , {69} , {'C8', 'TempG9', 'I17', 'TempHb9', 'I18'}
+| | | | | | | | | | | | | | | | +-- , 69 , set() , {'C8', 'S9', 'TempG9'}
+| | | | | | | | | | | | | | | +-- , 71 , {73} , {'C8', 'TempHa8', 'TempG6', 'TempHb6', 'I16', 'TempHb8', 'I15'}
+| | | | | | | | | | | | | | | | +-- , 73 , {75, 84} , {'C7', 'TempG6', 'TempHb6', 'I16', 'TempG8', 'TempHb8', 'I15'}
+| | | | | | | | | | | | | | | | | +-- , 75 , {77} , {'TempHb7', 'C7', 'TempHa7', 'TempG6', 'TempHb6'}
+| | | | | | | | | | | | | | | | | | +-- , 77 , {80} , {'C6', 'I12', 'TempHb7', 'TempHa6', 'TempG6', 'TempHa7', 'TempHb6', 'I11'}
+| | | | | | | | | | | | | | | | | | | +-- , 80 , {82} , {'C6', 'I13', 'TempHb7', 'I14', 'TempHa7', 'TempG7'}
+| | | | | | | | | | | | | | | | | | | | +-- , 82 , set() , {'C6', 'S7', 'TempG7'}
+| | | | | | | | | | | | | | | | | +-- , 84 , set() , {'C7', 'S8', 'TempG8'}
+| | | | | | | | | | | +-- , 44 , {46} , {'I23', 'TempHa13', 'I24', 'TempHa12', 'TempHb13', 'TempHb11', 'TempG11', 'C10'}
+| | | | | | | | | | | | +-- , 46 , {49, 57} , {'I23', 'S13', 'TempHa13', 'I24', 'TempHa12', 'TempHb13', 'C12', 'TempHb11', 'TempG11', 'TempG13'}
+| | | | | | | | | | | | | +-- , 49 , {51} , {'I23', 'TempG12', 'TempHb12', 'I24', 'TempHa12', 'C12', 'TempHb11', 'TempG11'}
+| | | | | | | | | | | | | | +-- , 51 , {53, 55} , {'TempG12', 'C11', 'TempHb12', 'TempHb11', 'TempG11'}
+| | | | | | | | | | | | | | | +-- , 53 , set() , {'I21', 'I22', 'TempHa11', 'C11', 'TempHb11', 'TempG11'}
+| | | | | | | | | | | | | | | +-- , 55 , set() , {'TempG12', 'C11', 'S12'}
+| | | | | | | | | | | | | +-- , 57 , set() , {'I26', 'I25', 'TempG13', 'TempHa13'}
+| | | | | +-- , 90 , set() , {'S4', 'C3', 'TempG4'}
+| | +-- , 102 , set() , {'S2', 'C1', 'TempG2'}
+| | +-- , 10 , {12} , {'C1', 'TempHa1', 'TempHb1'}
+| | | +-- , 12 , {15} , {'S1', 'TempHa1', 'C0', 'TempG1', 'TempHb1'}
+| | | | +-- , 15 , set() , {'I1', 'I2', 'TempHa1', 'TempG1'}
+
+
+Max number of edges with non zero Y: 82
+Max number of iterations of outer rounding loop: 4
+Max number of candidate sets: 2
+Time spent rounding: 99.502
+Time spent solving Separator LP: 1.049
+Total time spent solving: 130.624
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'I35', 'TempG1', 'C25', 'I7', 'TempHb4', 'TempG10', 'I29', 'S21', 'TempHa25', 'S23', 'C5', 'S18', 'I12', 'TempHa21', 'TempHb12', 'C17', 'I38', 'TempHb19', 'C24', 'I16', 'I10', 'C12', 'TempHb20', 'TempHb21', 'C13', 'TempHb18', 'C6', 'TempHa10', 'C1', 'S4', 'TempG16', 'I28', 'TempHa19', 'S7', 'TempHb2', 'TempG2', 'C22', 'TempHa16', 'C23', 'I47', 'I42', 'I43', 'I46', 'TempG14', 'I30', 'TempHa7', 'TempHa23', 'I21', 'S13', 'TempHa11', 'I1', 'I44', 'C18', 'TempG24', 'TempHa24', 'I39', 'I15', 'I20', 'S16', 'C0', 'TempHb9', 'TempHb15', 'TempG7', 'TempHb24', 'TempHa3', 'I8', 'S20', 'TempHb10', 'S12', 'TempG20', 'S5', 'TempG22', 'I18', 'I48', 'TempHa17', 'TempHb11', 'S14', 'TempHa6', 'S19', 'C15', 'TempHa15', 'I45', 'I2', 'S8', 'TempHb22', 'I4', 'TempHb14', 'TempG21', 'S1', 'I32', 'TempHa18', 'TempHa9', 'TempHb17', 'TempHb6', 'I14', 'TempG8', 'TempHa2', 'I36', 'I37', 'C8', 'S24', 'I49', 'TempHa14', 'TempHb8', 'TempHa5', 'C14', 'TempHb16', 'I34', 'TempG13', 'TempHa4', 'TempG12', 'TempHb3', 'I6', 'S3', 'I26', 'TempG3', 'TempHb5', 'TempG11', 'S9', 'C20', 'C16', 'TempHa22', 'TempHb13', 'TempG18', 'I13', 'S2', 'I33', 'S10', 'C3', 'I17', 'TempHa20', 'TempHb7', 'TempHa13', 'I24', 'TempG19', 'I40', 'I41', 'TempG15', 'C21', 'C11', 'I31', 'I27', 'TempHa1', 'C7', 'TempHa12', 'C19', 'I9', 'S22', 'TempHb23', 'I11', 'I23', 'S25', 'I19', 'TempHb1', 'TempHa8', 'S17', 'S11', 'TempG6', 'TempG17', 'TempG9', 'I5', 'I3', 'S15', 'C2', 'TempG23', 'TempG4', 'C9', 'I22', 'TempHb25', 'I50', 'I25', 'TempG5', 'TempG25', 'C4', 'S6', 'C10'}, {'TempG2', 'TempG7', 'TempG17', 'C11', 'C2'})

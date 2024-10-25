@@ -1,0 +1,14 @@
+4, 0.9000000000000001, 2.0, 2
++-- , 0 , {3, 7} , {'5', '3', '4'}
+| +-- , 3 , {5} , {'4', '2', '3'}
+| | +-- , 5 , set() , {'0', '1', '2'}
+| +-- , 7 , set() , {'4', '5', '6'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.460
+Time spent solving Separator LP: 0.018
+
+LP Solver: GaifmanBoosted

@@ -1,0 +1,13 @@
+3, 0.8999994000000001, 2.5, 3
++-- , 0 , {4} , {'V3', 'V4', 'V6', 'V10', 'V5', 'V9'}
+| +-- , 4 , {6} , {'V3', 'V6', 'V10', 'V9', 'V7', 'V2'}
+| | +-- , 6 , set() , {'V8', 'V10', 'V9', 'V7', 'V1', 'V2'}
+
+
+Max number of edges with non zero Y: 4
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 2.143
+Time spent solving Separator LP: 0.022
+
+LP Solver: GaifmanNormal

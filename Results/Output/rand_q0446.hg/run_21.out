@@ -1,0 +1,13 @@
+1, 1.107142129024944, 1.92, 3
++-- , 0 , set() , {'21', '3', '14', '1', '0', '8', '20', '7', '17', '10', '2', '9', '19', '11', '4', '13', '18', '5', '15', '16', '12', '6'}
+
+
+Max number of edges with non zero Y: 14
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 20.107
+Time spent solving Separator LP: 2.318
+Total time spent solving: 26.446
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'21', '3', '14', '1', '0', '8', '7', '20', '17', '10', '2', '9', '19', '11', '4', '13', '18', '5', '15', '12', '16', '6'}, {'3', '14', '1', '0', '8', '7', '20', '17', '10', '2', '9', '19', '11', '4', '13', '18', '5', '15', '12', '16', '6'})

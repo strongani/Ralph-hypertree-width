@@ -1,0 +1,33 @@
+23, 0, 8.0, 9
++-- , 0 , {6, 41, 47, 49, 51, 53, 55} , {'xL14J', 'xL28J', 'xL13J', 'xL35J', 'xL21J', 'xL33J', 'xL24J', 'xL4J', 'xL27J', 'xL7J'}
+| +-- , 6 , {8} , {'xL14J', 'xL28J', 'xL2J', 'xL13J', 'xL21J', 'xL4J', 'xL7J', 'xL35J', 'xL33J', 'xL27J'}
+| | +-- , 8 , {10} , {'xL28J', 'xL2J', 'xL13J', 'xL39J', 'xL21J', 'xL4J', 'xL7J', 'xL35J', 'xL33J', 'xL27J'}
+| | | +-- , 10 , {33, 35, 19, 39} , {'xL28J', 'xL10J', 'xL2J', 'xL39J', 'xL13J', 'xL21J', 'xL26J', 'xL4J', 'xL35J', 'xL16J', 'xL37J', 'xL33J', 'xL5J', 'xL38J', 'xL27J'}
+| | | | +-- , 33 , set() , {'xL33J', 'xL3J', 'xL38J'}
+| | | | +-- , 35 , {37} , {'xL16J', 'xL4J', 'xL8J', 'xL33J'}
+| | | | | +-- , 37 , set() , {'xL15J', 'xL8J'}
+| | | | +-- , 19 , {21, 31} , {'xL28J', 'xL34J', 'xL2J', 'xL39J', 'xL13J', 'xL21J', 'xL36J', 'xL10J', 'xL26J', 'xL4J', 'xL16J', 'xL37J', 'xL33J', 'xL5J', 'xL38J', 'xL27J'}
+| | | | | +-- , 21 , {25, 23} , {'xL28J', 'xL34J', 'xL10J', 'xL39J', 'xL2J', 'xL13J', 'xL36J', 'xL21J', 'xL26J', 'xL4J', 'xL16J', 'xL22J', 'xL33J', 'xL38J', 'xL27J'}
+| | | | | | +-- , 25 , {27} , {'xL28J', 'xL34J', 'xL10J', 'xL2J', 'xL30J', 'xL13J', 'xL26J', 'xL4J', 'xL16J', 'xL22J', 'xL33J', 'xL38J', 'xL27J'}
+| | | | | | | +-- , 27 , {29} , {'xL28J', 'xL10J', 'xL34J', 'xL13J', 'xL30J', 'xL22J', 'xL33J', 'xL38J', 'xL20J', 'xL23J', 'xL31J'}
+| | | | | | | | +-- , 29 , set() , {'xL10J', 'xL20J', 'xL1J', 'xL23J', 'xL31J'}
+| | | | | | +-- , 23 , set() , {'xL13J', 'xL39J', 'xL21J', 'xL22J', 'xL32J', 'xL27J'}
+| | | | | +-- , 31 , set() , {'xL13J', 'xL34J', 'xL6J', 'xL33J', 'xL27J'}
+| | | | +-- , 39 , set() , {'xL39J', 'xL11J', 'xL26J'}
+| +-- , 41 , {43} , {'xL35J', 'xL13J', 'xL21J', 'xL0J', 'xL33J', 'xL4J', 'xL27J'}
+| | +-- , 43 , {45} , {'xL35J', 'xL13J', 'xL0J', 'xL9J'}
+| | | +-- , 45 , set() , {'xL25J', 'xL9J'}
+| +-- , 47 , set() , {'xL29J', 'xL24J'}
+| +-- , 49 , set() , {'xL17J', 'xL24J'}
+| +-- , 51 , set() , {'xL19J', 'xL7J'}
+| +-- , 53 , set() , {'xL33J', 'xL12J'}
+| +-- , 55 , set() , {'xL27J', 'xL18J'}
+
+
+Max number of edges with non zero Y: 26
+Max number of iterations of outer rounding loop: 10
+Max number of candidate sets: 2
+Time spent rounding: 59.030
+Time spent solving Separator LP: 0.186
+
+LP Solver: gammaPlusFractionalCoverHeuristic

@@ -1,0 +1,30 @@
+20, 2.684834474055989, 8.0, 8
++-- , 0 , {37, 5, 41, 25, 27, 29, 31} , {'xL10J', 'xL27J', 'xL1J', 'xL14J', 'xL34J', 'xL37J', 'xL11J', 'xL35J', 'xL0J', 'xL30J', 'xL32J', 'xL8J', 'xL29J', 'xL4J', 'xL17J'}
+| +-- , 37 , {39} , {'xL11J', 'xL22J', 'xL32J', 'xL8J', 'xL34J', 'xL29J', 'xL4J'}
+| | +-- , 39 , set() , {'xL23J', 'xL22J', 'xL32J', 'xL34J', 'xL4J'}
+| +-- , 5 , {7} , {'xL7J', 'xL10J', 'xL27J', 'xL1J', 'xL14J', 'xL34J', 'xL37J', 'xL26J', 'xL11J', 'xL35J', 'xL0J', 'xL30J', 'xL8J', 'xL29J', 'xL4J', 'xL17J'}
+| | +-- , 7 , {9, 23} , {'xL7J', 'xL26J', 'xL11J', 'xL10J', 'xL35J', 'xL0J', 'xL30J', 'xL27J', 'xL1J', 'xL14J', 'xL8J', 'xL4J', 'xL37J', 'xL5J'}
+| | | +-- , 9 , {11, 19} , {'xL11J', 'xL10J', 'xL35J', 'xL0J', 'xL30J', 'xL27J', 'xL1J', 'xL14J', 'xL8J', 'xL4J', 'xL19J', 'xL37J', 'xL5J'}
+| | | | +-- , 11 , {13} , {'xL11J', 'xL35J', 'xL0J', 'xL30J', 'xL36J', 'xL1J', 'xL8J', 'xL21J', 'xL14J', 'xL19J', 'xL37J', 'xL5J'}
+| | | | | +-- , 13 , {17, 15} , {'xL11J', 'xL35J', 'xL36J', 'xL1J', 'xL21J', 'xL8J', 'xL25J'}
+| | | | | | +-- , 17 , set() , {'xL18J', 'xL25J', 'xL35J'}
+| | | | | | +-- , 15 , set() , {'xL13J', 'xL36J', 'xL25J', 'xL1J'}
+| | | | +-- , 19 , {21} , {'xL9J', 'xL10J', 'xL19J', 'xL37J'}
+| | | | | +-- , 21 , set() , {'xL15J', 'xL9J'}
+| | | +-- , 23 , set() , {'xL12J', 'xL26J', 'xL11J', 'xL0J', 'xL5J'}
+| +-- , 41 , set() , {'xL27J', 'xL32J', 'xL28J', 'xL14J', 'xL37J', 'xL39J'}
+| +-- , 25 , set() , {'xL38J', 'xL1J'}
+| +-- , 27 , set() , {'xL24J', 'xL35J'}
+| +-- , 29 , set() , {'xL10J', 'xL30J', 'xL27J', 'xL6J', 'xL31J', 'xL4J'}
+| +-- , 31 , {33} , {'xL11J', 'xL27J', 'xL32J', 'xL33J', 'xL14J', 'xL34J', 'xL3J', 'xL4J', 'xL17J'}
+| | +-- , 33 , {35} , {'xL2J', 'xL20J', 'xL27J', 'xL33J', 'xL14J', 'xL34J', 'xL17J'}
+| | | +-- , 35 , set() , {'xL16J', 'xL20J', 'xL34J'}
+
+
+Max number of edges with non zero Y: 23
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 6.283
+Time spent solving Separator LP: 0.453
+
+LP Solver: GaifmanNormal

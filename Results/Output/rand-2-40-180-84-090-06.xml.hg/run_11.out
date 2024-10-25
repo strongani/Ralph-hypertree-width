@@ -1,0 +1,31 @@
+21, 2.3675674626264285, 9.0, 9
++-- , 0 , {47, 39, 9, 43, 45, 41} , {'xL0J', 'xL19J', 'xL12J', 'xL31J', 'xL39J', 'xL4J', 'xL32J', 'xL10J', 'xL17J', 'xL3J', 'xL8J', 'xL27J', 'xL9J', 'xL21J', 'xL28J', 'xL36J', 'xL29J', 'xL26J'}
+| +-- , 47 , set() , {'xL23J', 'xL8J'}
+| +-- , 39 , set() , {'xL0J', 'xL27J', 'xL35J', 'xL36J', 'xL29J', 'xL26J'}
+| +-- , 9 , {33, 35, 37, 11, 31} , {'xL19J', 'xL20J', 'xL12J', 'xL31J', 'xL39J', 'xL4J', 'xL32J', 'xL17J', 'xL3J', 'xL8J', 'xL27J', 'xL9J', 'xL33J', 'xL36J', 'xL29J', 'xL26J'}
+| | +-- , 33 , set() , {'xL33J', 'xL15J'}
+| | +-- , 35 , set() , {'xL33J', 'xL29J', 'xL39J', 'xL7J'}
+| | +-- , 37 , set() , {'xL20J', 'xL22J'}
+| | +-- , 11 , {13} , {'xL19J', 'xL20J', 'xL12J', 'xL39J', 'xL4J', 'xL32J', 'xL17J', 'xL3J', 'xL8J', 'xL27J', 'xL9J', 'xL18J', 'xL33J', 'xL36J', 'xL29J', 'xL26J'}
+| | | +-- , 13 , {19, 29, 15} , {'xL19J', 'xL20J', 'xL12J', 'xL39J', 'xL4J', 'xL32J', 'xL17J', 'xL13J', 'xL3J', 'xL8J', 'xL27J', 'xL9J', 'xL18J', 'xL33J', 'xL36J', 'xL29J'}
+| | | | +-- , 19 , {25, 21} , {'xL3J', 'xL19J', 'xL20J', 'xL27J', 'xL30J', 'xL39J', 'xL13J'}
+| | | | | +-- , 25 , {27} , {'xL3J', 'xL1J', 'xL19J', 'xL30J'}
+| | | | | | +-- , 27 , set() , {'xL1J', 'xL38J', 'xL19J'}
+| | | | | +-- , 21 , {23} , {'xL19J', 'xL20J', 'xL16J', 'xL30J', 'xL39J', 'xL13J', 'xL34J'}
+| | | | | | +-- , 23 , set() , {'xL39J', 'xL16J', 'xL37J'}
+| | | | +-- , 29 , set() , {'xL12J', 'xL36J', 'xL24J', 'xL13J'}
+| | | | +-- , 15 , {17} , {'xL6J', 'xL27J', 'xL9J', 'xL39J', 'xL36J', 'xL4J', 'xL32J', 'xL17J', 'xL13J'}
+| | | | | +-- , 17 , set() , {'xL6J', 'xL27J', 'xL14J', 'xL39J', 'xL4J'}
+| | +-- , 31 , set() , {'xL25J', 'xL20J'}
+| +-- , 43 , set() , {'xL3J', 'xL2J'}
+| +-- , 45 , set() , {'xL5J', 'xL0J', 'xL8J', 'xL29J', 'xL32J'}
+| +-- , 41 , set() , {'xL11J', 'xL19J', 'xL36J', 'xL4J', 'xL26J'}
+
+
+Max number of edges with non zero Y: 21
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 17.502
+Time spent solving Separator LP: 0.473
+
+LP Solver: GaifmanNormal

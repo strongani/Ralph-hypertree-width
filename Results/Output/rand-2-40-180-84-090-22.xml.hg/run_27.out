@@ -1,0 +1,32 @@
+22, 2.5726390055621575, 7.0, 7
++-- , 0 , {1} , {'xL35J', 'xL9J'}
+| +-- , 1 , {3, 41, 43, 45, 47, 20} , {'xL11J', 'xL8J', 'xL17J', 'xL27J', 'xL15J', 'xL30J', 'xL18J', 'xL21J', 'xL20J', 'xL14J', 'xL37J', 'xL32J'}
+| | +-- , 3 , {5, 7} , {'xL15J', 'xL8J', 'xL20J', 'xL21J', 'xL6J', 'xL17J', 'xL14J', 'xL32J'}
+| | | +-- , 5 , set() , {'xL32J', 'xL13J', 'xL6J'}
+| | | +-- , 7 , {9, 15} , {'xL32J', 'xL15J', 'xL8J', 'xL21J', 'xL6J', 'xL17J', 'xL14J', 'xL23J'}
+| | | | +-- , 9 , {11} , {'xL15J', 'xL10J', 'xL6J', 'xL17J', 'xL14J', 'xL23J'}
+| | | | | +-- , 11 , {13} , {'xL0J', 'xL10J', 'xL15J', 'xL23J'}
+| | | | | | +-- , 13 , set() , {'xL15J', 'xL10J', 'xL0J', 'xL31J'}
+| | | | +-- , 15 , set() , {'xL19J', 'xL23J', 'xL21J', 'xL6J', 'xL32J'}
+| | +-- , 41 , set() , {'xL15J', 'xL38J', 'xL21J'}
+| | +-- , 43 , set() , {'xL33J', 'xL27J', 'xL29J', 'xL18J', 'xL20J'}
+| | +-- , 45 , set() , {'xL17J', 'xL4J'}
+| | +-- , 47 , set() , {'xL18J', 'xL21J', 'xL1J'}
+| | +-- , 20 , {24, 39} , {'xL11J', 'xL7J', 'xL8J', 'xL17J', 'xL25J', 'xL27J', 'xL15J', 'xL30J', 'xL3J', 'xL21J', 'xL20J', 'xL14J', 'xL37J', 'xL32J'}
+| | | +-- , 24 , {26} , {'xL11J', 'xL7J', 'xL17J', 'xL25J', 'xL27J', 'xL39J', 'xL30J', 'xL3J', 'xL21J', 'xL20J', 'xL14J', 'xL34J', 'xL37J', 'xL32J'}
+| | | | +-- , 26 , {28} , {'xL11J', 'xL27J', 'xL7J', 'xL39J', 'xL30J', 'xL24J', 'xL21J', 'xL20J', 'xL34J'}
+| | | | | +-- , 28 , {37, 31} , {'xL11J', 'xL7J', 'xL27J', 'xL5J', 'xL30J', 'xL24J', 'xL21J', 'xL20J', 'xL2J', 'xL34J'}
+| | | | | | +-- , 37 , set() , {'xL5J', 'xL24J', 'xL16J', 'xL20J', 'xL34J'}
+| | | | | | +-- , 31 , {33} , {'xL11J', 'xL27J', 'xL28J', 'xL5J', 'xL7J', 'xL30J', 'xL21J', 'xL20J', 'xL2J'}
+| | | | | | | +-- , 33 , {35} , {'xL36J', 'xL27J', 'xL7J', 'xL28J', 'xL30J', 'xL21J', 'xL26J', 'xL2J'}
+| | | | | | | | +-- , 35 , set() , {'xL22J', 'xL36J', 'xL27J', 'xL30J', 'xL21J'}
+| | | +-- , 39 , set() , {'xL12J', 'xL15J', 'xL3J'}
+
+
+Max number of edges with non zero Y: 22
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 22.963
+Time spent solving Separator LP: 0.416
+
+LP Solver: GaifmanNormal

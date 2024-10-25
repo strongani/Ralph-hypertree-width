@@ -1,0 +1,12 @@
+2, 0, 1.0, 1
++-- , 0 , {5} , {'X2', 'X3'}
+| +-- , 5 , set() , {'X4', 'X3'}
+
+
+Max number of edges with non zero Y: 2
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.244
+Time spent solving Separator LP: 0.011
+
+LP Solver: gammaPlusFractionalCoverHeuristic

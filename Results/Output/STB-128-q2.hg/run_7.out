@@ -1,0 +1,13 @@
+3, 0, 1.0, 1
++-- , 0 , {5, 7} , {'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'oven_vp_28_nl0_ce1_extend_vp_28_nl0_ae0JoinAttrRef', 'oven_vp_28_nl0_ce1_work_vp_28_nl0_ae1'}
+| +-- , 5 , set() , {'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'base_vp_12_nl0_ce1_opinion_vp_12_nl0_ae4', 'base_vp_12_nl0_ce1_prove_vp_12_nl0_ae0JoinAttrRef', 'base_vp_12_nl0_ce1_aim_vp_12_nl0_ae3'}
+| +-- , 7 , set() , {'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'talk_vp_15_nl0_ce1_branch_vp_15_nl0_ae4', 'talk_vp_15_nl0_ce1_safe_vp_15_nl0_ae0JoinAttrRef', 'talk_vp_15_nl0_ce1_stem_vp_15_nl0_ae3'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.083
+Time spent solving Separator LP: 0.008
+
+LP Solver: gammaPlusFractionalCoverHeuristic

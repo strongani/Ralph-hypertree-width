@@ -1,0 +1,35 @@
+23, 0, 5.5, 6
++-- , 0 , {33, 3, 37, 41, 45, 49, 17, 53, 23, 57, 29} , {'xL9J', 'xL10J', 'xL7J', 'xL8J', 'xL6J', 'xL1J', 'xL5J', 'xL0J', 'xL2J', 'xL4J', 'xL3J'}
+| +-- , 33 , {35} , {'yL25J', 'xL5J'}
+| | +-- , 35 , set() , {'yL25J', 'yL27J', 'yL29J', 'yL26J', 'yL28J'}
+| +-- , 3 , {5} , {'xL1J', 'yL5J'}
+| | +-- , 5 , set() , {'yL6J', 'yL5J', 'yL8J', 'yL7J', 'yL9J'}
+| +-- , 37 , {39} , {'xL8J', 'yL40J'}
+| | +-- , 39 , set() , {'yL42J', 'yL43J', 'yL44J', 'yL40J', 'yL41J'}
+| +-- , 41 , {43} , {'yL50J', 'xL10J'}
+| | +-- , 43 , set() , {'yL52J', 'yL54J', 'yL53J', 'yL51J', 'yL50J'}
+| +-- , 45 , {47} , {'xL4J', 'yL20J'}
+| | +-- , 47 , set() , {'yL21J', 'yL23J', 'yL24J', 'yL22J', 'yL20J'}
+| +-- , 49 , {51} , {'xL2J', 'yL10J'}
+| | +-- , 51 , set() , {'yL12J', 'yL13J', 'yL11J', 'yL14J', 'yL10J'}
+| +-- , 17 , {19} , {'xL6J', 'yL30J'}
+| | +-- , 19 , set() , {'yL32J', 'yL33J', 'yL34J', 'yL31J', 'yL30J'}
+| +-- , 53 , {55} , {'xL0J', 'yL0J'}
+| | +-- , 55 , set() , {'yL1J', 'yL4J', 'yL0J', 'yL2J', 'yL3J'}
+| +-- , 23 , {25} , {'yL45J', 'xL9J'}
+| | +-- , 25 , set() , {'yL45J', 'yL47J', 'yL46J', 'yL48J', 'yL49J'}
+| +-- , 57 , {59} , {'xL7J', 'yL35J'}
+| | +-- , 59 , set() , {'yL38J', 'yL36J', 'yL39J', 'yL37J', 'yL35J'}
+| +-- , 29 , {31} , {'yL15J', 'xL3J'}
+| | +-- , 31 , set() , {'yL19J', 'yL18J', 'yL15J', 'yL17J', 'yL16J'}
+
+
+Max number of edges with non zero Y: 20
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 30.920
+Time spent solving Separator LP: 0.191
+Total time spent solving: 37.665
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'xL9J', 'yL53J', 'xL10J', 'yL21J', 'yL36J', 'yL13J', 'xL8J', 'yL5J', 'yL8J', 'yL14J', 'yL46J', 'yL3J', 'yL16J', 'yL49J', 'yL20J', 'yL45J', 'yL18J', 'yL6J', 'yL0J', 'yL33J', 'yL44J', 'yL34J', 'yL51J', 'yL2J', 'yL41J', 'yL17J', 'yL22J', 'yL31J', 'xL4J', 'yL30J', 'yL48J', 'yL9J', 'yL38J', 'yL54J', 'yL1J', 'xL7J', 'yL4J', 'yL42J', 'yL11J', 'yL15J', 'yL37J', 'yL47J', 'yL27J', 'yL35J', 'yL24J', 'xL1J', 'xL5J', 'yL50J', 'yL52J', 'yL12J', 'yL19J', 'yL32J', 'yL25J', 'yL39J', 'xL6J', 'yL43J', 'yL40J', 'yL23J', 'yL26J', 'yL29J', 'yL7J', 'yL10J', 'yL28J', 'xL0J', 'xL2J', 'xL3J'}, {'yL38J', 'yL18J', 'yL1J', 'yL5J', 'xL0J'})

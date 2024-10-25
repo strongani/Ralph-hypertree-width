@@ -1,0 +1,13 @@
+3, 0.6428571428571426, 1.0, 1
++-- , 0 , {5, 7} , {'X3', 'X0', 'X2'}
+| +-- , 5 , set() , {'X5', 'X6', 'X0'}
+| +-- , 7 , set() , {'X0', 'X8', 'X9'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.086
+Time spent solving Separator LP: 0.010
+
+LP Solver: GaifmanBoosted

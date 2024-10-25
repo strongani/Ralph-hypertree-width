@@ -1,0 +1,75 @@
+63, 0, 9.0, 9
++-- , 0 , {3, 99, 101, 111, 113, 115, 117, 87, 121, 95} , {'xL5J', 'xL8J', 'zL6J', 'xL3J', 'zL77J', 'zL32J', 'zL57J', 'xL0J', 'xL1J', 'zL69J', 'w22', 'xL4J', 'zL79J', 'zL56J', 'xL6J', 'zL5J', 'zL70J', 'xL2J'}
+| +-- , 3 , {5, 71, 77, 15, 83, 21, 85, 31, 33, 39, 41, 43, 45, 53, 55, 59, 61} , {'xL5J', 'xL8J', 'zL67J', 'xL3J', 'w6', 'zL76J', 'zL77J', 'zL32J', 'zL57J', 'zL34J', 'xL0J', 'xL1J', 'xL9J', 'xL7J', 'xL6J', 'zL5J', 'zL33J', 'zL70J', 'zL71J', 'zL66J', 'zL15J', 'xL2J'}
+| | +-- , 5 , {7} , {'xL3J', 'xL7J', 'xL6J', 'yL11J', 'zL44J', 'xL0J', 'xL2J'}
+| | | +-- , 7 , {9} , {'xL3J', 'xL7J', 'zL45J', 'zL44J', 'xL0J', 'xL2J'}
+| | | | +-- , 9 , {11} , {'zL45J', 'zL46J', 'xL0J', 'xL7J', 'xL2J'}
+| | | | | +-- , 11 , {13} , {'zL46J', 'zL47J', 'xL7J', 'xL2J'}
+| | | | | | +-- , 13 , set() , {'zL47J', 'w14', 'xL2J'}
+| | +-- , 71 , {73} , {'xL8J', 'yL13J', 'xL6J', 'zL52J', 'zL54J', 'xL0J', 'xL1J', 'zL53J', 'xL9J'}
+| | | +-- , 73 , {75} , {'xL6J', 'xL8J', 'zL54J', 'zL55J'}
+| | | | +-- , 75 , set() , {'xL8J', 'zL55J', 'w16'}
+| | +-- , 77 , {79} , {'xL3J', 'xL7J', 'xL6J', 'zL14J', 'zL15J', 'xL9J'}
+| | | +-- , 79 , {81} , {'zL13J', 'zL12J', 'zL14J', 'xL3J', 'xL7J', 'xL9J'}
+| | | | +-- , 81 , set() , {'xL7J', 'zL12J', 'yL3J'}
+| | +-- , 15 , {17} , {'zL58J', 'xL3J', 'xL7J', 'zL57J', 'xL2J'}
+| | | +-- , 17 , {19} , {'zL59J', 'zL58J', 'xL3J', 'xL2J'}
+| | | | +-- , 19 , set() , {'zL59J', 'w17', 'xL2J'}
+| | +-- , 83 , set() , {'xL5J', 'w19', 'zL67J'}
+| | +-- , 21 , {23} , {'xL5J', 'xL8J', 'w5', 'xL2J', 'xL7J', 'zL11J', 'xL9J'}
+| | | +-- , 23 , {25} , {'xL5J', 'xL8J', 'xL7J', 'zL10J', 'zL11J', 'xL9J'}
+| | | | +-- , 25 , {27} , {'xL8J', 'zL9J', 'xL7J', 'zL10J', 'xL9J'}
+| | | | | +-- , 27 , {29} , {'xL8J', 'zL8J', 'zL9J', 'xL9J'}
+| | | | | | +-- , 29 , set() , {'xL8J', 'yL2J', 'zL8J'}
+| | +-- , 85 , set() , {'xL5J', 'w20', 'zL71J'}
+| | +-- , 31 , set() , {'xL5J', 'zL72J', 'xL3J', 'xL7J', 'w21', 'zL75J', 'xL6J', 'zL74J', 'xL1J', 'yL18J', 'zL73J'}
+| | +-- , 33 , {35} , {'xL6J', 'zL65J', 'xL1J', 'zL66J', 'xL9J'}
+| | | +-- , 35 , {37} , {'xL6J', 'zL64J', 'xL1J', 'zL65J'}
+| | | | +-- , 37 , set() , {'xL6J', 'yL16J', 'zL64J'}
+| | +-- , 39 , set() , {'xL5J', 'xL8J', 'xL2J', 'zL63J', 'zL60J', 'zL62J', 'yL15J', 'zL61J', 'xL1J', 'w18', 'xL9J'}
+| | +-- , 41 , set() , {'zL19J', 'xL9J', 'yL4J', 'xL3J', 'zL16J', 'zL17J', 'w7', 'xL6J', 'xL1J', 'zL18J', 'xL2J'}
+| | +-- , 43 , set() , {'w11', 'xL3J', 'zL35J', 'zL34J', 'xL9J'}
+| | +-- , 45 , {47} , {'xL2J', 'xL7J', 'zL24J', 'xL6J', 'yL6J', 'xL0J', 'xL9J'}
+| | | +-- , 47 , {49} , {'zL25J', 'xL2J', 'xL7J', 'zL24J', 'xL6J', 'xL9J'}
+| | | | +-- , 49 , {51} , {'xL9J', 'zL25J', 'xL7J', 'zL26J', 'xL2J'}
+| | | | | +-- , 51 , set() , {'w9', 'zL27J', 'xL2J', 'zL26J', 'xL9J'}
+| | +-- , 53 , set() , {'xL5J', 'yL12J', 'zL49J', 'xL3J', 'w15', 'xL7J', 'zL48J', 'xL0J', 'xL1J', 'zL50J', 'zL51J'}
+| | +-- , 55 , {57} , {'zL5J', 'xL1J', 'zL4J', 'xL9J'}
+| | | +-- , 57 , set() , {'yL1J', 'zL4J', 'xL9J'}
+| | +-- , 59 , set() , {'xL9J', 'yL19J', 'zL76J'}
+| | +-- , 61 , {63} , {'xL5J', 'xL7J', 'zL23J', 'xL6J', 'w8', 'xL0J', 'xL1J'}
+| | | +-- , 63 , {65} , {'xL5J', 'xL7J', 'zL22J', 'zL23J', 'xL6J', 'xL0J'}
+| | | | +-- , 65 , {67} , {'xL5J', 'xL6J', 'zL21J', 'xL7J', 'zL22J'}
+| | | | | +-- , 67 , {69} , {'xL5J', 'zL21J', 'xL6J', 'zL20J'}
+| | | | | | +-- , 69 , set() , {'xL6J', 'zL20J', 'yL5J'}
+| +-- , 99 , set() , {'xL8J', 'zL1J', 'xL4J', 'yL0J', 'zL0J', 'xL6J', 'zL3J', 'zL2J', 'w3', 'xL0J', 'xL1J'}
+| +-- , 101 , {105, 103} , {'xL5J', 'zL42J', 'xL4J', 'zL43J', 'xL6J', 'xL1J', 'xL2J'}
+| | +-- , 105 , {107} , {'xL5J', 'zL42J', 'xL6J', 'zL41J', 'xL1J'}
+| | | +-- , 107 , {109} , {'xL5J', 'zL40J', 'zL41J', 'xL1J'}
+| | | | +-- , 109 , set() , {'xL1J', 'zL40J', 'yL10J'}
+| | +-- , 103 , set() , {'w13', 'xL4J', 'zL43J'}
+| +-- , 111 , set() , {'zL56J', 'xL4J', 'yL14J'}
+| +-- , 113 , set() , {'zL32J', 'yL8J', 'xL4J'}
+| +-- , 115 , set() , {'xL4J', 'zL77J', 'zL79J', 'xL1J', 'zL78J'}
+| +-- , 117 , {119} , {'xL8J', 'zL68J', 'xL3J', 'zL69J'}
+| | +-- , 119 , set() , {'xL8J', 'yL17J', 'zL68J'}
+| +-- , 87 , {89, 91} , {'xL8J', 'zL39J', 'zL36J', 'zL37J', 'xL6J', 'xL0J', 'xL1J', 'zL38J', 'xL2J'}
+| | +-- , 89 , set() , {'xL8J', 'zL36J', 'yL9J'}
+| | +-- , 91 , set() , {'xL6J', 'zL39J', 'w12'}
+| +-- , 121 , {123} , {'xL5J', 'xL8J', 'xL3J', 'yL7J', 'xL6J', 'xL0J', 'zL28J'}
+| | +-- , 123 , {125} , {'xL8J', 'zL30J', 'xL3J', 'zL29J', 'xL6J', 'xL0J', 'zL28J'}
+| | | +-- , 125 , {127} , {'xL6J', 'zL30J', 'xL8J', 'zL31J'}
+| | | | +-- , 127 , set() , {'xL6J', 'w10', 'zL31J'}
+| +-- , 95 , {97} , {'xL4J', 'zL6J', 'zL7J', 'xL2J'}
+| | +-- , 97 , set() , {'w4', 'zL7J', 'xL2J'}
+
+
+Max number of edges with non zero Y: 62
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 5.309
+Time spent solving Separator LP: 0.039
+Total time spent solving: 12.415
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'zL67J', 'w5', 'zL35J', 'yL13J', 'xL0J', 'zL52J', 'zL1J', 'zL25J', 'w15', 'zL60J', 'yL11J', 'w8', 'zL71J', 'yL16J', 'zL51J', 'zL66J', 'yL19J', 'zL18J', 'w16', 'zL19J', 'zL77J', 'zL23J', 'zL24J', 'zL45J', 'zL48J', 'zL74J', 'zL10J', 'zL68J', 'zL11J', 'zL31J', 'yL4J', 'zL36J', 'zL7J', 'w3', 'yL10J', 'zL40J', 'zL78J', 'zL42J', 'w6', 'yL2J', 'zL8J', 'zL69J', 'zL14J', 'zL38J', 'yL14J', 'zL56J', 'zL29J', 'w4', 'zL21J', 'zL65J', 'xL8J', 'zL59J', 'zL6J', 'yL8J', 'zL0J', 'w21', 'zL46J', 'zL2J', 'zL54J', 'zL61J', 'xL1J', 'zL28J', 'zL12J', 'zL17J', 'zL43J', 'zL73J', 'zL37J', 'zL41J', 'zL16J', 'yL17J', 'zL13J', 'yL15J', 'zL50J', 'zL4J', 'xL9J', 'xL7J', 'yL3J', 'w13', 'yL12J', 'yL0J', 'zL76J', 'yL7J', 'zL32J', 'zL20J', 'w18', 'w10', 'yL9J', 'xL4J', 'zL79J', 'zL75J', 'zL63J', 'zL5J', 'w14', 'zL55J', 'zL33J', 'zL15J', 'xL5J', 'w11', 'zL72J', 'xL3J', 'zL57J', 'zL34J', 'zL64J', 'w12', 'w9', 'zL30J', 'zL58J', 'zL49J', 'xL6J', 'zL3J', 'w19', 'zL53J', 'xL2J', 'w20', 'w7', 'w17', 'yL5J', 'yL6J', 'w22', 'zL27J', 'zL9J', 'zL22J', 'zL26J', 'zL62J', 'zL47J', 'zL44J', 'zL70J', 'zL39J', 'yL1J', 'yL18J'}, {'zL19J', 'yL8J', 'zL9J', 'zL56J', 'zL68J'})

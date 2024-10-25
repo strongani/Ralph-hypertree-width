@@ -1,0 +1,13 @@
+1, 0, 2.4, 3
++-- , 0 , set() , {'xL0J', 'xL2J', 'xL5J', 'xL8J', 'xL1J', 'xL9J', 'xL10J', 'xL4J', 'xL3J', 'xL6J', 'xL11J', 'xL7J'}
+
+
+Max number of edges with non zero Y: 19
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 3.384
+Time spent solving Separator LP: 0.022
+Total time spent solving: 4.189
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'xL1J', 'xL0J', 'xL9J', 'xL10J', 'xL4J', 'xL2J', 'xL5J', 'xL3J', 'xL8J', 'xL6J', 'xL11J', 'xL7J'}, {'xL6J', 'xL1J', 'xL0J', 'xL3J'})

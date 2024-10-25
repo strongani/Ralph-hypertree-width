@@ -1,0 +1,15 @@
+5, 1.0, 1.0, 1
++-- , 0 , {5, 7, 10} , {'38', '35', '42'}
+| +-- , 5 , set() , {'44', '42', '8'}
+| +-- , 7 , {9} , {'31', '38', '26'}
+| | +-- , 9 , set() , {'39', '20', '26'}
+| +-- , 10 , set() , {'18', '36', '30'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.019
+
+LP Solver: GaifmanNormalILP

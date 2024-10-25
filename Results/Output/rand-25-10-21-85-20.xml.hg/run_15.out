@@ -1,0 +1,25 @@
+13, 1.7712115666666668, 6.5, 7
++-- , 0 , {3} , {'xL6J', 'xL4J', 'xL23J', 'xL18J', 'xL2J', 'xL0J', 'xL7J', 'xL9J', 'xL11J', 'xL13J', 'xL5J', 'xL24J'}
+| +-- , 3 , {6} , {'xL6J', 'xL4J', 'xL10J', 'xL23J', 'xL2J', 'xL0J', 'xL7J', 'xL9J', 'xL16J', 'xL11J', 'xL5J', 'xL24J'}
+| | +-- , 6 , {8} , {'xL6J', 'xL4J', 'xL10J', 'xL23J', 'xL2J', 'xL19J', 'xL0J', 'xL7J', 'xL9J', 'xL16J', 'xL5J', 'xL24J'}
+| | | +-- , 8 , {10} , {'xL6J', 'xL4J', 'xL10J', 'xL15J', 'xL23J', 'xL2J', 'xL19J', 'xL0J', 'xL7J', 'xL16J', 'xL5J', 'xL24J'}
+| | | | +-- , 10 , {26, 12} , {'xL6J', 'xL4J', 'xL10J', 'xL15J', 'xL23J', 'xL14J', 'xL2J', 'xL0J', 'xL7J', 'xL16J', 'xL5J', 'xL24J'}
+| | | | | +-- , 26 , set() , {'xL7J', 'xL2J', 'xL14J', 'xL17J'}
+| | | | | +-- , 12 , {24, 14} , {'xL22J', 'xL6J', 'xL4J', 'xL0J', 'xL7J', 'xL16J', 'xL10J', 'xL15J', 'xL5J', 'xL23J', 'xL24J', 'xL14J'}
+| | | | | | +-- , 24 , set() , {'xL15J', 'xL22J', 'xL21J'}
+| | | | | | +-- , 14 , {16} , {'xL22J', 'xL6J', 'xL4J', 'xL10J', 'xL15J', 'xL23J', 'xL0J', 'xL8J', 'xL7J', 'xL16J', 'xL5J', 'xL24J'}
+| | | | | | | +-- , 16 , {18} , {'xL22J', 'xL6J', 'xL4J', 'xL10J', 'xL15J', 'xL23J', 'xL0J', 'xL8J', 'xL3J', 'xL16J', 'xL5J', 'xL24J'}
+| | | | | | | | +-- , 18 , {20, 22} , {'xL6J', 'xL0J', 'xL12J', 'xL8J', 'xL3J', 'xL16J', 'xL10J', 'xL5J', 'xL23J', 'xL24J'}
+| | | | | | | | | +-- , 20 , set() , {'xL6J', 'xL12J', 'xL1J', 'xL5J', 'xL24J'}
+| | | | | | | | | +-- , 22 , set() , {'xL6J', 'xL12J', 'xL3J', 'xL16J', 'xL20J', 'xL10J', 'xL23J'}
+
+
+Max number of edges with non zero Y: 15
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 18.662
+Time spent solving Separator LP: 0.334
+Total time spent solving: 21.653
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'xL12J', 'xL20J', 'xL10J', 'xL15J', 'xL23J', 'xL14J', 'xL2J', 'xL8J', 'xL7J', 'xL3J', 'xL1J', 'xL5J', 'xL24J', 'xL22J', 'xL6J', 'xL4J', 'xL17J', 'xL21J', 'xL0J', 'xL16J'}, {'xL2J', 'xL6J', 'xL4J', 'xL0J', 'xL7J', 'xL16J', 'xL10J', 'xL15J', 'xL5J', 'xL23J', 'xL24J'})

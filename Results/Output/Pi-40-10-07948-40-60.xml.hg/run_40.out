@@ -1,0 +1,25 @@
+15, 2.9030239833159537, 10.5, 11
++-- , 0 , {36, 6, 40, 13} , {'xL22J', 'xL29J', 'xL39J', 'xL0J', 'xL4J', 'xL37J', 'xL10J', 'xL33J', 'xL3J', 'xL2J', 'xL20J', 'xL9J', 'xL38J', 'xL8J', 'xL7J', 'xL11J', 'xL12J', 'xL1J', 'xL18J', 'xL6J'}
+| +-- , 36 , {38} , {'xL4J', 'xL25J', 'xL22J', 'xL38J', 'xL23J', 'xL39J', 'xL33J', 'xL3J'}
+| | +-- , 38 , set() , {'xL33J', 'xL36J', 'xL23J'}
+| +-- , 6 , set() , {'xL18J', 'xL20J', 'xL21J'}
+| +-- , 40 , set() , {'xL33J', 'xL1J', 'xL30J'}
+| +-- , 13 , {16} , {'xL22J', 'xL32J', 'xL29J', 'xL39J', 'xL0J', 'xL4J', 'xL37J', 'xL10J', 'xL33J', 'xL3J', 'xL2J', 'xL20J', 'xL9J', 'xL38J', 'xL8J', 'xL7J', 'xL11J', 'xL12J', 'xL17J', 'xL26J', 'xL6J'}
+| | +-- , 16 , {34, 20, 22} , {'xL20J', 'xL34J', 'xL9J', 'xL22J', 'xL38J', 'xL32J', 'xL8J', 'xL29J', 'xL7J', 'xL39J', 'xL0J', 'xL11J', 'xL12J', 'xL17J', 'xL26J', 'xL4J', 'xL27J', 'xL6J', 'xL37J', 'xL33J', 'xL2J'}
+| | | +-- , 34 , set() , {'xL16J', 'xL11J', 'xL34J'}
+| | | +-- , 20 , set() , {'xL26J', 'xL27J', 'xL4J', 'xL24J', 'xL6J', 'xL29J'}
+| | | +-- , 22 , {24} , {'xL20J', 'xL35J', 'xL34J', 'xL9J', 'xL38J', 'xL32J', 'xL8J', 'xL29J', 'xL7J', 'xL0J', 'xL11J', 'xL17J', 'xL14J', 'xL27J', 'xL6J', 'xL37J', 'xL33J', 'xL2J'}
+| | | | +-- , 24 , {26} , {'xL35J', 'xL34J', 'xL32J', 'xL29J', 'xL28J', 'xL7J', 'xL0J', 'xL11J', 'xL17J', 'xL14J', 'xL27J', 'xL6J', 'xL37J', 'xL33J', 'xL2J'}
+| | | | | +-- , 26 , {28} , {'xL35J', 'xL34J', 'xL32J', 'xL29J', 'xL28J', 'xL7J', 'xL0J', 'xL11J', 'xL17J', 'xL14J', 'xL27J', 'xL15J', 'xL6J', 'xL33J', 'xL2J'}
+| | | | | | +-- , 28 , {30} , {'xL17J', 'xL14J', 'xL35J', 'xL15J', 'xL5J', 'xL6J', 'xL29J', 'xL28J', 'xL7J', 'xL0J', 'xL19J', 'xL11J'}
+| | | | | | | +-- , 30 , {32} , {'xL31J', 'xL15J', 'xL19J', 'xL11J'}
+| | | | | | | | +-- , 32 , set() , {'xL31J', 'xL13J', 'xL19J', 'xL15J'}
+
+
+Max number of edges with non zero Y: 39
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 41.117
+Time spent solving Separator LP: 1.280
+
+LP Solver: GaifmanBoosted

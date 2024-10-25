@@ -1,0 +1,13 @@
+3, 1.0, 1.0, 1
++-- , 0 , {3} , {'doctor_spec', 'doctor_hospital', 'doctor_doctor', 'doctor_conf', 'doctor_npi'}
+| +-- , 3 , {5} , {'doctor_spec', 'targethospital_npi', 'PNTR98657', 'targethospital_conf', 'targethospital_doctor'}
+| | +-- , 5 , set() , {'prescription_id', 'targethospital_npi', 'prescription_conf', 'prescription_patient'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.010
+
+LP Solver: GaifmanNormalILP

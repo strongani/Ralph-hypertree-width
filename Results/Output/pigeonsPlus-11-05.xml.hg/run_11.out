@@ -1,0 +1,34 @@
+22, 1.6552232985074629, 6.0, 6
++-- , 0 , {32, 36, 7, 40, 44, 48, 26, 28} , {'xL9J', 'xL10J', 'xL7J', 'xL8J', 'xL6J', 'yL5J', 'xL1J', 'xL0J'}
+| +-- , 32 , {34} , {'yL45J', 'xL9J'}
+| | +-- , 34 , set() , {'yL45J', 'yL47J', 'yL46J', 'yL48J', 'yL49J'}
+| +-- , 36 , {38} , {'xL6J', 'yL30J'}
+| | +-- , 38 , set() , {'yL32J', 'yL33J', 'yL34J', 'yL31J', 'yL30J'}
+| +-- , 7 , {20, 24, 11} , {'xL9J', 'xL10J', 'xL7J', 'yL15J', 'xL8J', 'yL27J', 'xL1J', 'yL25J', 'xL6J', 'yL26J', 'yL29J', 'yL28J', 'xL0J', 'xL4J'}
+| | +-- , 20 , {22} , {'xL4J', 'yL20J'}
+| | | +-- , 22 , set() , {'yL21J', 'yL23J', 'yL24J', 'yL22J', 'yL20J'}
+| | +-- , 24 , set() , {'yL19J', 'yL18J', 'yL15J', 'yL17J', 'yL16J'}
+| | +-- , 11 , {13} , {'xL9J', 'xL10J', 'xL7J', 'yL15J', 'xL8J', 'xL1J', 'yL25J', 'xL6J', 'xL0J', 'xL4J', 'xL3J'}
+| | | +-- , 13 , {15} , {'xL9J', 'xL10J', 'xL7J', 'xL8J', 'xL5J', 'xL1J', 'yL25J', 'xL6J', 'xL0J', 'xL4J', 'xL3J'}
+| | | | +-- , 15 , {18} , {'xL9J', 'xL10J', 'xL7J', 'yL13J', 'xL8J', 'yL11J', 'yL14J', 'xL5J', 'xL1J', 'yL12J', 'xL6J', 'yL10J', 'xL0J', 'xL4J', 'xL3J'}
+| | | | | +-- , 18 , set() , {'xL9J', 'xL10J', 'xL7J', 'xL6J', 'xL8J', 'xL5J', 'xL1J', 'yL10J', 'xL0J', 'xL2J', 'xL4J', 'xL3J'}
+| +-- , 40 , {42} , {'xL0J', 'yL0J'}
+| | +-- , 42 , set() , {'yL1J', 'yL4J', 'yL0J', 'yL2J', 'yL3J'}
+| +-- , 44 , {46} , {'xL7J', 'yL35J'}
+| | +-- , 46 , set() , {'yL38J', 'yL36J', 'yL39J', 'yL37J', 'yL35J'}
+| +-- , 48 , {50} , {'yL50J', 'xL10J'}
+| | +-- , 50 , set() , {'yL52J', 'yL54J', 'yL53J', 'yL51J', 'yL50J'}
+| +-- , 26 , set() , {'yL6J', 'yL5J', 'yL8J', 'yL7J', 'yL9J'}
+| +-- , 28 , {30} , {'xL8J', 'yL40J'}
+| | +-- , 30 , set() , {'yL42J', 'yL43J', 'yL44J', 'yL40J', 'yL41J'}
+
+
+Max number of edges with non zero Y: 8
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 20.832
+Time spent solving Separator LP: 1.442
+Total time spent solving: 26.720
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'xL9J', 'yL12J', 'xL10J', 'xL7J', 'yL11J', 'yL13J', 'xL6J', 'xL8J', 'yL14J', 'xL5J', 'xL1J', 'yL10J', 'xL0J', 'xL2J', 'xL4J', 'xL3J'}, {'xL9J', 'xL10J', 'xL7J', 'xL6J', 'xL8J', 'xL5J', 'xL1J', 'xL0J', 'xL4J', 'xL3J'})

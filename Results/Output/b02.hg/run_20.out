@@ -1,0 +1,24 @@
+14, 1.3820806877632599, 4.0, 4
++-- , 0 , {16, 3, 24, 28} , {'STATO_REG_0_', 'U49', 'U51', 'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U34', 'U35'}
+| +-- , 16 , {18, 22} , {'STATO_REG_0_', 'U49', 'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U42', 'U39', 'U35', 'U50'}
+| | +-- , 18 , {20} , {'STATO_REG_0_', 'U41', 'STATO_REG_2_', 'LINEA', 'U42', 'U33'}
+| | | +-- , 20 , set() , {'STATO_REG_0_', 'U41', 'STATO_REG_2_', 'U40', 'LINEA'}
+| | +-- , 22 , set() , {'STATO_REG_2_', 'U36', 'U50', 'LINEA'}
+| +-- , 3 , {8, 6} , {'STATO_REG_0_', 'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U47', 'U34', 'U48', 'U35'}
+| | +-- , 8 , {10, 14} , {'STATO_REG_0_', 'U37', 'STATO_REG_2_', 'LINEA', 'U46', 'STATO_REG_1_', 'U34', 'U48', 'U35'}
+| | | +-- , 10 , {12} , {'U37', 'U31', 'STATO_REG_2_', 'U35'}
+| | | | +-- , 12 , set() , {'U31', 'U_REG'}
+| | | +-- , 14 , set() , {'STATO_REG_0_', 'U45', 'LINEA', 'U34', 'U46'}
+| | +-- , 6 , set() , {'U32', 'U48', 'U47', 'STATO_REG_0_'}
+| +-- , 24 , {26} , {'STATO_REG_0_', 'U51', 'U44', 'LINEA', 'STATO_REG_1_', 'U34'}
+| | +-- , 26 , set() , {'U44', 'LINEA', 'STATO_REG_1_', 'U34', 'U43'}
+| +-- , 28 , set() , {'U52', 'U51', 'U38', 'STATO_REG_1_', 'U34', 'U35'}
+
+
+Max number of edges with non zero Y: 11
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 3.754
+Time spent solving Separator LP: 0.077
+
+LP Solver: GaifmanNormal

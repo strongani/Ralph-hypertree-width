@@ -1,0 +1,22 @@
+12, 0.9802624736842105, 3.5, 4
++-- , 0 , {3, 22, 26} , {'xL3J', 'yL6J', 'yL1J', 'yL0J', 'yL7J', 'yL3J', 'yL4J', 'yL2J', 'xL5J', 'yL5J'}
+| +-- , 3 , {5} , {'xL3J', 'xL0J', 'yL0J', 'xL5J'}
+| | +-- , 5 , {9, 20} , {'xL3J', 'yL32J', 'xL0J', 'xL4J', 'xL5J'}
+| | | +-- , 9 , {12} , {'xL3J', 'xL5J', 'yL23J', 'yL18J', 'yL21J', 'yL19J', 'xL0J', 'xL4J', 'yL20J', 'yL22J', 'yL17J', 'yL16J'}
+| | | | +-- , 12 , {14} , {'xL3J', 'xL2J', 'xL0J', 'xL4J', 'xL5J', 'yL16J'}
+| | | | | +-- , 14 , {18} , {'xL3J', 'xL1J', 'xL2J', 'xL0J', 'xL4J', 'yL8J', 'xL5J'}
+| | | | | | +-- , 18 , set() , {'yL12J', 'yL10J', 'yL9J', 'yL13J', 'yL14J', 'yL8J', 'yL11J', 'yL15J'}
+| | | +-- , 20 , set() , {'yL37J', 'yL38J', 'yL32J', 'yL33J', 'yL34J', 'yL36J', 'yL35J', 'yL39J'}
+| +-- , 22 , {24} , {'xL3J', 'yL24J'}
+| | +-- , 24 , set() , {'yL24J', 'yL27J', 'yL31J', 'yL29J', 'yL25J', 'yL30J', 'yL28J', 'yL26J'}
+| +-- , 26 , {28} , {'xL5J', 'yL40J'}
+| | +-- , 28 , set() , {'yL42J', 'yL45J', 'yL47J', 'yL44J', 'yL41J', 'yL43J', 'yL40J', 'yL46J'}
+
+
+Max number of edges with non zero Y: 6
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 6.724
+Time spent solving Separator LP: 0.332
+
+LP Solver: GaifmanNormal

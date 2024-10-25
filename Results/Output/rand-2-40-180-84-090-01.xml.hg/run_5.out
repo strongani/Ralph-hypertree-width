@@ -1,0 +1,29 @@
+19, 0, 8.0, 8
++-- , 0 , {3, 38, 40} , {'xL20J', 'xL28J', 'xL38J', 'xL18J', 'xL19J', 'xL29J', 'xL16J', 'xL8J', 'xL9J', 'xL10J', 'xL36J', 'xL14J', 'xL39J'}
+| +-- , 3 , {5} , {'xL18J', 'xL33J', 'xL19J', 'xL8J', 'xL9J', 'xL39J', 'xL12J', 'xL21J', 'xL20J', 'xL28J', 'xL29J', 'xL16J', 'xL14J'}
+| | +-- , 5 , {7} , {'xL34J', 'xL33J', 'xL19J', 'xL8J', 'xL39J', 'xL12J', 'xL21J', 'xL20J', 'xL28J', 'xL29J', 'xL16J', 'xL14J'}
+| | | +-- , 7 , {32, 10} , {'xL34J', 'xL31J', 'xL33J', 'xL19J', 'xL8J', 'xL1J', 'xL12J', 'xL21J', 'xL20J', 'xL28J', 'xL29J', 'xL16J', 'xL14J', 'xL37J'}
+| | | | +-- , 32 , {34} , {'xL34J', 'xL20J', 'xL2J', 'xL31J', 'xL33J', 'xL8J'}
+| | | | | +-- , 34 , set() , {'xL2J', 'xL20J', 'xL7J', 'xL33J'}
+| | | | +-- , 10 , {26, 28, 12} , {'xL34J', 'xL31J', 'xL19J', 'xL8J', 'xL12J', 'xL21J', 'xL28J', 'xL22J', 'xL16J', 'xL24J', 'xL14J', 'xL37J'}
+| | | | | +-- , 26 , set() , {'xL4J', 'xL24J'}
+| | | | | +-- , 28 , {30} , {'xL22J', 'xL34J', 'xL24J', 'xL11J', 'xL37J', 'xL32J'}
+| | | | | | +-- , 30 , set() , {'xL11J', 'xL26J'}
+| | | | | +-- , 12 , {24, 14} , {'xL34J', 'xL28J', 'xL37J', 'xL31J', 'xL19J', 'xL21J', 'xL22J', 'xL16J', 'xL8J', 'xL0J', 'xL12J', 'xL25J'}
+| | | | | | +-- , 24 , set() , {'xL13J', 'xL12J', 'xL25J'}
+| | | | | | +-- , 14 , {16, 18} , {'xL34J', 'xL28J', 'xL0J', 'xL6J', 'xL19J', 'xL22J', 'xL8J', 'xL12J', 'xL37J', 'xL21J', 'xL25J'}
+| | | | | | | +-- , 16 , set() , {'xL34J', 'xL6J', 'xL21J', 'xL3J', 'xL22J', 'xL8J', 'xL35J'}
+| | | | | | | +-- , 18 , {20, 22} , {'xL28J', 'xL6J', 'xL19J', 'xL17J', 'xL37J', 'xL12J', 'xL23J', 'xL25J'}
+| | | | | | | | +-- , 20 , set() , {'xL30J', 'xL19J', 'xL23J', 'xL25J'}
+| | | | | | | | +-- , 22 , set() , {'xL37J', 'xL27J', 'xL23J'}
+| +-- , 38 , set() , {'xL20J', 'xL28J', 'xL18J', 'xL19J', 'xL16J', 'xL8J', 'xL36J', 'xL14J', 'xL15J', 'xL39J'}
+| +-- , 40 , set() , {'xL14J', 'xL5J', 'xL29J'}
+
+
+Max number of edges with non zero Y: 23
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 1.618
+Time spent solving Separator LP: 0.019
+
+LP Solver: gammaPlusFractionalCoverHeuristic

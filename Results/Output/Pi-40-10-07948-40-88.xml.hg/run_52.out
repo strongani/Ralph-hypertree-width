@@ -1,0 +1,28 @@
+18, 4.999999188871046, 9.5, 10
++-- , 0 , {5, 39, 43} , {'xL34J', 'xL9J', 'xL8J', 'xL19J', 'xL23J', 'xL10J', 'xL5J', 'xL24J', 'xL0J', 'xL39J', 'xL2J'}
+| +-- , 5 , {10} , {'xL9J', 'xL19J', 'xL10J', 'xL22J', 'xL39J', 'xL21J', 'xL8J', 'xL37J', 'xL23J', 'xL24J', 'xL38J', 'xL5J', 'xL0J', 'xL2J'}
+| | +-- , 10 , {13} , {'xL9J', 'xL35J', 'xL19J', 'xL10J', 'xL22J', 'xL39J', 'xL21J', 'xL37J', 'xL33J', 'xL23J', 'xL24J', 'xL38J', 'xL5J', 'xL0J', 'xL2J'}
+| | | +-- , 13 , {33, 17, 35, 37, 19, 27} , {'xL9J', 'xL32J', 'xL15J', 'xL35J', 'xL19J', 'xL10J', 'xL22J', 'xL3J', 'xL39J', 'xL21J', 'xL7J', 'xL37J', 'xL27J', 'xL33J', 'xL23J', 'xL24J', 'xL38J', 'xL0J', 'xL2J'}
+| | | | +-- , 33 , set() , {'xL32J', 'xL7J', 'xL19J', 'xL28J', 'xL22J'}
+| | | | +-- , 17 , set() , {'xL32J', 'xL7J', 'xL15J', 'xL20J', 'xL31J', 'xL22J', 'xL3J'}
+| | | | +-- , 35 , set() , {'xL6J', 'xL15J', 'xL10J'}
+| | | | +-- , 37 , set() , {'xL22J', 'xL16J', 'xL27J'}
+| | | | +-- , 19 , {21, 23} , {'xL32J', 'xL7J', 'xL37J', 'xL15J', 'xL33J', 'xL1J', 'xL23J', 'xL24J', 'xL38J', 'xL3J'}
+| | | | | +-- , 21 , set() , {'xL4J', 'xL1J'}
+| | | | | +-- , 23 , {25} , {'xL32J', 'xL7J', 'xL37J', 'xL33J', 'xL12J', 'xL1J', 'xL24J', 'xL38J', 'xL3J'}
+| | | | | | +-- , 25 , set() , {'xL30J', 'xL12J', 'xL32J', 'xL24J'}
+| | | | +-- , 27 , {29} , {'xL35J', 'xL13J', 'xL3J', 'xL39J', 'xL21J', 'xL7J', 'xL27J', 'xL33J', 'xL23J', 'xL38J', 'xL0J'}
+| | | | | +-- , 29 , {31} , {'xL35J', 'xL13J', 'xL3J', 'xL39J', 'xL7J', 'xL27J', 'xL33J', 'xL36J', 'xL23J', 'xL38J'}
+| | | | | | +-- , 31 , set() , {'xL7J', 'xL18J', 'xL27J', 'xL33J', 'xL35J', 'xL36J', 'xL23J', 'xL11J', 'xL38J', 'xL14J', 'xL3J', 'xL39J'}
+| +-- , 39 , {41} , {'xL34J', 'xL9J', 'xL17J', 'xL39J', 'xL19J', 'xL10J', 'xL5J', 'xL26J', 'xL2J'}
+| | +-- , 41 , set() , {'xL26J', 'xL5J', 'xL25J'}
+| +-- , 43 , set() , {'xL29J', 'xL23J', 'xL5J', 'xL2J'}
+
+
+Max number of edges with non zero Y: 6
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 7.841
+
+LP Solver: GaifmanNormalILP

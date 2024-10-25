@@ -1,0 +1,24 @@
+14, 0, 10.5, 11
++-- , 0 , {32, 34, 5} , {'xL20J', 'xL26J', 'xL7J', 'xL2J', 'xL22J', 'xL23J', 'xL24J', 'xL4J', 'xL13J', 'xL18J', 'xL16J', 'xL31J', 'xL32J', 'xL19J', 'xL27J'}
+| +-- , 32 , set() , {'xL35J', 'xL23J', 'xL27J', 'xL4J'}
+| +-- , 34 , set() , {'xL13J', 'xL20J', 'xL30J'}
+| +-- , 5 , {10} , {'xL20J', 'xL3J', 'xL2J', 'xL33J', 'xL22J', 'xL4J', 'xL13J', 'xL31J', 'xL32J', 'xL1J', 'xL19J', 'xL26J', 'xL5J', 'xL7J', 'xL23J', 'xL24J', 'xL16J'}
+| | +-- , 10 , {14} , {'xL38J', 'xL13J', 'xL26J', 'xL23J', 'xL10J', 'xL20J', 'xL3J', 'xL33J', 'xL2J', 'xL22J', 'xL4J', 'xL15J', 'xL31J', 'xL1J', 'xL32J', 'xL5J', 'xL7J', 'xL11J', 'xL37J', 'xL24J', 'xL16J'}
+| | | +-- , 14 , {16, 26, 30} , {'xL38J', 'xL28J', 'xL13J', 'xL26J', 'xL0J', 'xL23J', 'xL10J', 'xL20J', 'xL3J', 'xL33J', 'xL22J', 'xL15J', 'xL31J', 'xL1J', 'xL32J', 'xL5J', 'xL7J', 'xL11J', 'xL37J', 'xL24J', 'xL16J'}
+| | | | +-- , 16 , {24, 18} , {'xL20J', 'xL39J', 'xL38J', 'xL22J', 'xL28J', 'xL13J', 'xL15J', 'xL31J', 'xL1J', 'xL14J', 'xL26J', 'xL5J', 'xL7J', 'xL11J', 'xL37J', 'xL23J', 'xL24J', 'xL21J', 'xL16J', 'xL10J'}
+| | | | | +-- , 24 , set() , {'xL26J', 'xL5J', 'xL39J', 'xL11J', 'xL23J', 'xL28J', 'xL21J', 'xL6J', 'xL16J', 'xL10J'}
+| | | | | +-- , 18 , {20} , {'xL20J', 'xL28J', 'xL15J', 'xL31J', 'xL1J', 'xL26J', 'xL5J', 'xL37J', 'xL11J', 'xL23J', 'xL24J', 'xL21J', 'xL29J', 'xL10J'}
+| | | | | | +-- , 20 , {22} , {'xL26J', 'xL31J', 'xL5J', 'xL36J', 'xL11J', 'xL34J', 'xL23J', 'xL28J', 'xL21J', 'xL29J', 'xL15J', 'xL17J', 'xL1J', 'xL10J'}
+| | | | | | | +-- , 22 , set() , {'xL36J', 'xL26J', 'xL11J', 'xL12J'}
+| | | | +-- , 26 , {28} , {'xL20J', 'xL3J', 'xL28J', 'xL13J', 'xL1J', 'xL8J'}
+| | | | | +-- , 28 , set() , {'xL8J', 'xL28J', 'xL1J', 'xL9J'}
+| | | | +-- , 30 , set() , {'xL7J', 'xL37J', 'xL25J', 'xL28J', 'xL31J', 'xL32J'}
+
+
+Max number of edges with non zero Y: 27
+Max number of iterations of outer rounding loop: 11
+Max number of candidate sets: 2
+Time spent rounding: 44.141
+Time spent solving Separator LP: 0.068
+
+LP Solver: gammaPlusFractionalCoverHeuristic

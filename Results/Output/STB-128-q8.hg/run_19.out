@@ -1,0 +1,16 @@
+4, 0.49999966666666673, 1.0, 1
++-- , 0 , {3, 5, 7} , {'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_stick_hp_2_nl0_ae2', 'past_su_1_nl0_ce0_affect_su_1_nl0_ae0ke0', 'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_indicate_hp_2_nl0_ae0'}
+| +-- , 3 , set() , {'past_su_1_nl0_ce0_tail_su_1_nl0_ae3', 'past_su_1_nl0_ce0_affect_su_1_nl0_ae0ke0', 'past_su_1_nl0_ce0_society_su_1_nl0_ae1', 'past_su_1_nl0_ce0_wheel_su_1_nl0_ae6IDindep', 'past_su_1_nl0_ce0_work_su_1_nl0_ae7IDOnFirst', 'past_su_1_nl0_ce0_red_su_1_nl0_ae4', 'past_su_1_nl0_ce0_wrong_su_1_nl0_ae5', 'past_su_1_nl0_ce0_warn_su_1_nl0_ae2'}
+| +-- , 5 , set() , {'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_stick_hp_2_nl0_ae2', 'pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999_indicate_hp_2_nl0_ae0', 'pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999_thank_hp_2_nl0_ae1'}
+| +-- , 7 , set() , {'try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999_driving_hp_18_nl0_ae2', 'past_su_1_nl0_ce0_affect_su_1_nl0_ae0ke0', 'try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999_complex_hp_18_nl0_ae0'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.733
+Time spent solving Separator LP: 0.022
+Total time spent solving: 1.110
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_stick_hp_2_nl0_ae2', 'pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999_indicate_hp_2_nl0_ae0', 'past_su_1_nl0_ce0_tail_su_1_nl0_ae3', 'try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999_complex_hp_18_nl0_ae0', 'try_hp_18_nl0_ce0__HP18FR0_from_0_to_4999_driving_hp_18_nl0_ae2', 'past_su_1_nl0_ce0_affect_su_1_nl0_ae0ke0', 'past_su_1_nl0_ce0_society_su_1_nl0_ae1', 'past_su_1_nl0_ce0_wheel_su_1_nl0_ae6IDindep', 'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_indicate_hp_2_nl0_ae0', 'past_su_1_nl0_ce0_work_su_1_nl0_ae7IDOnFirst', 'past_su_1_nl0_ce0_red_su_1_nl0_ae4', 'past_su_1_nl0_ce0_wrong_su_1_nl0_ae5', 'past_su_1_nl0_ce0_warn_su_1_nl0_ae2', 'pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999_thank_hp_2_nl0_ae1'}, {'pipe_hp_2_nl0_ce0__HP2FR1_from_5000_to_9999_indicate_hp_2_nl0_ae0', 'past_su_1_nl0_ce0_wheel_su_1_nl0_ae6IDindep', 'past_su_1_nl0_ce0_red_su_1_nl0_ae4', 'past_su_1_nl0_ce0_warn_su_1_nl0_ae2', 'pipe_hp_2_nl0_ce0__HP2FR0_from_0_to_4999_thank_hp_2_nl0_ae1'})

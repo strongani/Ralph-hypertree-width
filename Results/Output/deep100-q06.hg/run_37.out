@@ -1,0 +1,13 @@
+3, 0.6428571428571426, 1.0, 1
++-- , 0 , {5, 7} , {'m55004_c0', 'm55004_c2', 'm55004_c1', 'm55004_c3'}
+| +-- , 5 , set() , {'m55004_c0', 'm10004_c2', 'm10004_c3', 'm10004_c1'}
+| +-- , 7 , set() , {'m55004_c0', 'm33004_c1', 'm33004_c3', 'm33004_c2'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.023
+Time spent solving Separator LP: 0.010
+
+LP Solver: GaifmanBoosted
