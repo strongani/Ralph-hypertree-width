@@ -1,0 +1,31 @@
+21, 2.3713451270369106, 8.0, 8
++-- , 0 , {32, 34, 5, 36, 38, 42, 44} , {'xL21J', 'xL39J', 'xL12J', 'xL36J', 'xL15J', 'xL8J', 'xL35J', 'xL32J', 'xL19J', 'xL4J', 'xL27J', 'xL25J', 'xL26J', 'xL11J', 'xL18J', 'xL33J'}
+| +-- , 32 , set() , {'xL4J', 'xL22J'}
+| +-- , 34 , set() , {'xL21J', 'xL39J', 'xL31J', 'xL11J', 'xL36J', 'xL9J'}
+| +-- , 5 , {7} , {'xL39J', 'xL12J', 'xL15J', 'xL35J', 'xL8J', 'xL32J', 'xL19J', 'xL4J', 'xL30J', 'xL27J', 'xL25J', 'xL26J', 'xL11J', 'xL18J', 'xL33J'}
+| | +-- , 7 , {9} , {'xL39J', 'xL12J', 'xL15J', 'xL24J', 'xL35J', 'xL8J', 'xL32J', 'xL19J', 'xL30J', 'xL4J', 'xL25J', 'xL26J', 'xL11J', 'xL18J', 'xL33J'}
+| | | +-- , 9 , {16, 20, 14, 12, 30} , {'xL16J', 'xL20J', 'xL12J', 'xL15J', 'xL24J', 'xL35J', 'xL8J', 'xL32J', 'xL19J', 'xL30J', 'xL4J', 'xL25J', 'xL26J', 'xL11J', 'xL18J', 'xL33J'}
+| | | | +-- , 16 , {18} , {'xL35J', 'xL16J', 'xL15J', 'xL25J', 'xL11J', 'xL38J', 'xL18J', 'xL23J'}
+| | | | | +-- , 18 , set() , {'xL23J', 'xL15J', 'xL13J'}
+| | | | +-- , 20 , {22} , {'xL24J', 'xL14J', 'xL8J', 'xL16J', 'xL32J', 'xL30J', 'xL4J', 'xL26J', 'xL11J', 'xL33J'}
+| | | | | +-- , 22 , {24} , {'xL14J', 'xL16J', 'xL32J', 'xL11J', 'xL17J', 'xL33J'}
+| | | | | | +-- , 24 , {26} , {'xL14J', 'xL16J', 'xL32J', 'xL11J', 'xL17J', 'xL5J'}
+| | | | | | | +-- , 26 , {28} , {'xL14J', 'xL11J', 'xL5J', 'xL3J'}
+| | | | | | | | +-- , 28 , set() , {'xL14J', 'xL10J', 'xL3J'}
+| | | | +-- , 14 , set() , {'xL28J', 'xL16J'}
+| | | | +-- , 12 , set() , {'xL24J', 'xL0J', 'xL16J', 'xL20J', 'xL7J', 'xL12J'}
+| | | | +-- , 30 , set() , {'xL29J', 'xL16J'}
+| +-- , 36 , set() , {'xL36J', 'xL33J', 'xL25J', 'xL2J'}
+| +-- , 38 , {40} , {'xL18J', 'xL37J', 'xL32J', 'xL36J', 'xL15J', 'xL12J'}
+| | +-- , 40 , set() , {'xL18J', 'xL37J', 'xL1J'}
+| +-- , 42 , set() , {'xL4J', 'xL15J', 'xL6J', 'xL32J'}
+| +-- , 44 , set() , {'xL11J', 'xL34J'}
+
+
+Max number of edges with non zero Y: 21
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 26.982
+Time spent solving Separator LP: 0.941
+
+LP Solver: GaifmanNormal

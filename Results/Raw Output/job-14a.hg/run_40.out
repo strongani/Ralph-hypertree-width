@@ -1,0 +1,19 @@
+7, 0.6666666666666667, 1.5, 2
++-- , 0 , {3, 11, 13} , {'X29', 'X22', 'X44', 'X24', 'X40', 'X31', 'X27', 'X36', 'X26'}
+| +-- , 3 , {5} , {'X43', 'X12', 'X3', 'X44', 'X2', 'X8', 'X5', 'X9', 'X4', 'X11', 'X6', 'X10'}
+| | +-- , 5 , {9, 7} , {'X43', 'X44', 'X39'}
+| | | +-- , 9 , set() , {'X44', 'X33', 'X39'}
+| | | +-- , 7 , set() , {'X43', 'X39', 'X21', 'X17', 'X19'}
+| +-- , 11 , set() , {'X14', 'X36'}
+| +-- , 13 , set() , {'X40', 'X16'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.857
+Time spent solving Separator LP: 0.063
+Total time spent solving: 2.918
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'X33', 'X43', 'X44', 'X39', 'X21', 'X17', 'X19'}, {'X44', 'X43'})

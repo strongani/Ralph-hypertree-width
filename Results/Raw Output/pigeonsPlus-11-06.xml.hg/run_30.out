@@ -1,0 +1,34 @@
+22, 1.6060606060606062, 6.0, 6
++-- , 0 , {35, 6, 39, 43, 47, 51, 31} , {'xL9J', 'xL7J', 'yL60J', 'xL6J', 'yL64J', 'yL61J', 'xL4J', 'yL63J', 'yL62J', 'xL8J', 'xL3J', 'yL65J'}
+| +-- , 35 , {37} , {'yL18J', 'xL3J'}
+| | +-- , 37 , set() , {'yL20J', 'yL19J', 'yL18J', 'yL23J', 'yL22J', 'yL21J'}
+| +-- , 6 , {8} , {'xL9J', 'xL7J', 'yL60J', 'xL10J', 'xL6J', 'xL4J', 'xL8J', 'xL3J'}
+| | +-- , 8 , {27, 13} , {'xL9J', 'xL7J', 'xL10J', 'yL10J', 'yL11J', 'xL0J', 'xL8J', 'yL7J', 'xL6J', 'xL4J', 'yL6J', 'yL9J', 'xL3J', 'yL8J'}
+| | | +-- , 27 , {29} , {'xL0J', 'yL0J'}
+| | | | +-- , 29 , set() , {'yL2J', 'yL1J', 'yL0J', 'yL5J', 'yL3J', 'yL4J'}
+| | | +-- , 13 , {15} , {'xL9J', 'xL7J', 'xL10J', 'xL8J', 'xL0J', 'xL6J', 'xL1J', 'xL4J', 'xL3J', 'yL6J'}
+| | | | +-- , 15 , {19, 25} , {'xL9J', 'xL7J', 'xL10J', 'yL30J', 'xL8J', 'xL0J', 'xL6J', 'xL1J', 'xL4J', 'xL3J', 'xL5J'}
+| | | | | +-- , 19 , {23} , {'xL9J', 'xL7J', 'xL10J', 'xL8J', 'xL2J', 'xL6J', 'yL12J', 'xL4J', 'xL3J', 'xL0J', 'xL1J', 'xL5J'}
+| | | | | | +-- , 23 , set() , {'yL16J', 'yL12J', 'yL17J', 'yL15J', 'yL13J', 'yL14J'}
+| | | | | +-- , 25 , set() , {'yL31J', 'yL34J', 'yL30J', 'yL35J', 'yL33J', 'yL32J'}
+| +-- , 39 , {41} , {'xL9J', 'yL54J'}
+| | +-- , 41 , set() , {'yL54J', 'yL58J', 'yL56J', 'yL55J', 'yL57J', 'yL59J'}
+| +-- , 43 , {45} , {'yL24J', 'xL4J'}
+| | +-- , 45 , set() , {'yL28J', 'yL27J', 'yL24J', 'yL29J', 'yL26J', 'yL25J'}
+| +-- , 47 , {49} , {'yL36J', 'xL6J'}
+| | +-- , 49 , set() , {'yL36J', 'yL39J', 'yL41J', 'yL38J', 'yL37J', 'yL40J'}
+| +-- , 51 , {53} , {'xL7J', 'yL42J'}
+| | +-- , 53 , set() , {'yL42J', 'yL46J', 'yL43J', 'yL45J', 'yL47J', 'yL44J'}
+| +-- , 31 , {33} , {'yL48J', 'xL8J'}
+| | +-- , 33 , set() , {'yL53J', 'yL52J', 'yL49J', 'yL50J', 'yL48J', 'yL51J'}
+
+
+Max number of edges with non zero Y: 13
+Max number of iterations of outer rounding loop: 4
+Max number of candidate sets: 2
+Time spent rounding: 43.775
+Time spent solving Separator LP: 3.258
+Total time spent solving: 53.291
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL9J', 'xL7J', 'xL8J', 'xL10J', 'xL2J', 'yL16J', 'xL6J', 'yL12J', 'yL17J', 'xL4J', 'xL3J', 'yL15J', 'yL14J', 'xL0J', 'xL1J', 'yL13J', 'xL5J'}, {'xL9J', 'xL7J', 'xL8J', 'xL10J', 'xL6J', 'xL4J', 'xL3J', 'xL0J', 'xL1J', 'xL5J'})

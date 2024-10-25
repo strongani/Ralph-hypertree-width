@@ -1,0 +1,18 @@
+6, 0.6666666666666665, 1.0, 1
++-- , 0 , {2, 3, 8, 9} , {'79', '64', '51'}
+| +-- , 2 , set() , {'62', '26', '52'}
+| +-- , 3 , {7} , {'24', '74', '61'}
+| | +-- , 7 , set() , {'24', '75', '63'}
+| +-- , 8 , set() , {'22', '71', '28'}
+| +-- , 9 , set() , {'21', '19', '2'}
+
+
+Max number of edges with non zero Y: 2
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.972
+Time spent solving Separator LP: 0.027
+Total time spent solving: 2.718
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'24', '61', '74', '63', '75'}, {'75', '74', '63'})

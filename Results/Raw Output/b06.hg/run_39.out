@@ -1,0 +1,33 @@
+23, 2.140631134570183, 5.5, 6
++-- , 0 , {3, 23, 45} , {'U54', 'U64', 'U65', 'U82', 'U66', 'U55', 'U92', 'U67', 'STATE_REG_0_', 'STATE_REG_2_', 'U56', 'U68', 'EQL', 'U78', 'U69', 'U81', 'U91'}
+| +-- , 3 , {5, 13} , {'U72', 'U64', 'U65', 'U82', 'U66', 'U67', 'STATE_REG_0_', 'STATE_REG_2_', 'U56', 'U68', 'U70', 'U78', 'U81'}
+| | +-- , 5 , {7} , {'STATE_REG_2_', 'U65', 'U70', 'U74', 'U78'}
+| | | +-- , 7 , {9} , {'STATE_REG_2_', 'U74', 'U78', 'U65', 'U79'}
+| | | | +-- , 9 , {11} , {'U80', 'U78', 'STATE_REG_2_', 'U79'}
+| | | | | +-- , 11 , set() , {'U80', 'U57', 'U79', 'STATE_REG_2_'}
+| | +-- , 13 , {19, 15} , {'STATE_REG_2_', 'U72', 'U85', 'U68', 'U70', 'U71', 'U86', 'U78', 'U59', 'U66'}
+| | | +-- , 19 , set() , {'CC_MUX_REG_2_', 'U59'}
+| | | +-- , 15 , {17} , {'U71', 'U75', 'U72', 'STATE_REG_2_', 'U61'}
+| | | | +-- , 17 , set() , {'U61', 'USCITE_REG_2_'}
+| +-- , 23 , {39, 27, 25, 43} , {'U54', 'U64', 'U65', 'U82', 'U92', 'STATE_REG_0_', 'STATE_REG_2_', 'STATE_REG_1_', 'U56', 'U68', 'EQL', 'U78', 'U69', 'U66'}
+| | +-- , 39 , {41} , {'U54', 'STATE_REG_2_', 'U76', 'STATE_REG_1_', 'EQL', 'U60'}
+| | | +-- , 41 , set() , {'U60', 'USCITE_REG_1_'}
+| | +-- , 27 , {37, 29} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'U64', 'U65', 'U82', 'U69', 'U73', 'STATE_REG_0_'}
+| | | +-- , 37 , set() , {'U54', 'STATE_REG_1_', 'U64', 'U90', 'U89', 'U73', 'STATE_REG_0_'}
+| | | +-- , 29 , {31} , {'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U83', 'U63', 'U73', 'STATE_REG_0_'}
+| | | | +-- , 31 , {33, 35} , {'CONT_EQL', 'U84', 'U63', 'U83', 'U62'}
+| | | | | +-- , 33 , set() , {'U62', 'ENABLE_COUNT_REG'}
+| | | | | +-- , 35 , set() , {'U62', 'ACKOUT_REG'}
+| | +-- , 25 , set() , {'U87', 'STATE_REG_1_', 'U68', 'EQL', 'U92'}
+| | +-- , 43 , set() , {'STATE_REG_1_', 'U65', 'U77', 'U78', 'STATE_REG_0_'}
+| +-- , 45 , {47} , {'U88', 'STATE_REG_2_', 'U92', 'U58', 'U91', 'U69', 'STATE_REG_0_'}
+| | +-- , 47 , set() , {'CC_MUX_REG_1_', 'U58'}
+
+
+Max number of edges with non zero Y: 14
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 6.093
+Time spent solving Separator LP: 0.535
+
+LP Solver: GaifmanBoosted

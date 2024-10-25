@@ -1,0 +1,35 @@
+25, 3.0, 4.0, 4
++-- , 0 , {36, 6, 8, 44} , {'U72', 'U64', 'U65', 'U82', 'U66', 'U73', 'U67', 'STATE_REG_0_', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'EQL', 'U81'}
+| +-- , 36 , {38} , {'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U83', 'U63', 'U73', 'STATE_REG_0_'}
+| | +-- , 38 , {40, 42} , {'CONT_EQL', 'U84', 'U63', 'U83', 'U62'}
+| | | +-- , 40 , set() , {'U62', 'ENABLE_COUNT_REG'}
+| | | +-- , 42 , set() , {'U62', 'ACKOUT_REG'}
+| +-- , 6 , set() , {'U72', 'U81', 'STATE_REG_1_', 'U56', 'U82', 'U66'}
+| +-- , 8 , {10} , {'U72', 'U64', 'U65', 'U66', 'U67', 'STATE_REG_0_', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'EQL', 'U70', 'U89', 'U73'}
+| | +-- , 10 , {32, 12} , {'U54', 'STATE_REG_2_', 'U72', 'STATE_REG_1_', 'U68', 'EQL', 'U65', 'U70', 'U90', 'U89', 'U66', 'STATE_REG_0_'}
+| | | +-- , 32 , {34} , {'U54', 'STATE_REG_2_', 'U76', 'STATE_REG_1_', 'EQL', 'U60'}
+| | | | +-- , 34 , set() , {'U60', 'USCITE_REG_1_'}
+| | | +-- , 12 , {22, 14, 30} , {'U54', 'STATE_REG_2_', 'U72', 'STATE_REG_1_', 'U68', 'U65', 'U70', 'U55', 'U78', 'U66', 'STATE_REG_0_'}
+| | | | +-- , 22 , {24, 28} , {'STATE_REG_2_', 'U72', 'U85', 'U68', 'U70', 'U71', 'U86', 'U78', 'U59', 'U66'}
+| | | | | +-- , 24 , {26} , {'U71', 'U75', 'U72', 'STATE_REG_2_', 'U61'}
+| | | | | | +-- , 26 , set() , {'U61', 'USCITE_REG_2_'}
+| | | | | +-- , 28 , set() , {'CC_MUX_REG_2_', 'U59'}
+| | | | +-- , 14 , {16} , {'STATE_REG_2_', 'U65', 'U70', 'U74', 'U78'}
+| | | | | +-- , 16 , {18} , {'STATE_REG_2_', 'U74', 'U78', 'U65', 'U79'}
+| | | | | | +-- , 18 , {20} , {'U80', 'U78', 'STATE_REG_2_', 'U79'}
+| | | | | | | +-- , 20 , set() , {'U80', 'U57', 'U79', 'STATE_REG_2_'}
+| | | | +-- , 30 , set() , {'STATE_REG_1_', 'U65', 'U77', 'U78', 'STATE_REG_0_'}
+| +-- , 44 , {46} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'U68', 'EQL', 'U73', 'STATE_REG_0_'}
+| | +-- , 46 , {48} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'EQL', 'U69', 'U73', 'STATE_REG_0_'}
+| | | +-- , 48 , {50} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'EQL', 'U92', 'U91', 'U69', 'STATE_REG_0_'}
+| | | | +-- , 50 , {52} , {'U88', 'STATE_REG_2_', 'U92', 'U58', 'U91', 'U69', 'STATE_REG_0_'}
+| | | | | +-- , 52 , set() , {'CC_MUX_REG_1_', 'U58'}
+
+
+Max number of edges with non zero Y: 6
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 4.293
+
+LP Solver: GaifmanNormalILP

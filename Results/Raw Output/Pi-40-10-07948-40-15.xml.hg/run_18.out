@@ -1,0 +1,30 @@
+20, 2.9593866918701908, 8.0, 8
++-- , 0 , {34, 3, 36, 9, 40} , {'xL31J', 'xL13J', 'xL8J', 'xL30J', 'xL6J', 'xL35J', 'xL32J', 'xL0J', 'xL18J', 'xL3J', 'xL21J', 'xL9J'}
+| +-- , 34 , set() , {'xL32J', 'xL6J', 'xL9J', 'xL23J'}
+| +-- , 3 , {5, 7} , {'xL31J', 'xL13J', 'xL8J', 'xL20J', 'xL12J', 'xL0J', 'xL18J', 'xL3J', 'xL21J', 'xL37J', 'xL30J', 'xL6J', 'xL11J', 'xL35J'}
+| | +-- , 5 , set() , {'xL25J', 'xL12J', 'xL30J', 'xL18J'}
+| | +-- , 7 , set() , {'xL11J', 'xL3J', 'xL16J'}
+| +-- , 36 , {38} , {'xL13J', 'xL32J', 'xL0J', 'xL14J', 'xL3J', 'xL21J'}
+| | +-- , 38 , set() , {'xL14J', 'xL0J', 'xL24J', 'xL32J'}
+| +-- , 9 , {32, 11} , {'xL31J', 'xL2J', 'xL13J', 'xL8J', 'xL32J', 'xL0J', 'xL18J', 'xL10J', 'xL3J', 'xL21J', 'xL30J', 'xL6J', 'xL35J', 'xL36J'}
+| | +-- , 32 , set() , {'xL2J', 'xL27J', 'xL18J', 'xL36J'}
+| | +-- , 11 , {16, 30, 14} , {'xL31J', 'xL1J', 'xL13J', 'xL8J', 'xL30J', 'xL6J', 'xL35J', 'xL15J', 'xL32J', 'xL0J', 'xL18J', 'xL10J', 'xL3J', 'xL21J', 'xL36J'}
+| | | +-- , 16 , {18, 20, 24, 28} , {'xL31J', 'xL1J', 'xL13J', 'xL8J', 'xL30J', 'xL6J', 'xL35J', 'xL15J', 'xL29J', 'xL32J', 'xL0J', 'xL18J', 'xL10J', 'xL3J', 'xL21J', 'xL26J'}
+| | | | +-- , 18 , set() , {'xL29J', 'xL10J', 'xL7J', 'xL6J', 'xL26J'}
+| | | | +-- , 20 , {22} , {'xL31J', 'xL1J', 'xL32J', 'xL18J', 'xL3J', 'xL19J', 'xL26J'}
+| | | | | +-- , 22 , set() , {'xL18J', 'xL22J', 'xL3J', 'xL19J', 'xL26J'}
+| | | | +-- , 24 , {26} , {'xL31J', 'xL1J', 'xL26J', 'xL13J', 'xL18J', 'xL17J', 'xL5J', 'xL38J', 'xL6J', 'xL35J', 'xL29J'}
+| | | | | +-- , 26 , set() , {'xL5J', 'xL17J', 'xL39J'}
+| | | | +-- , 28 , set() , {'xL26J', 'xL33J', 'xL0J', 'xL35J', 'xL29J'}
+| | | +-- , 30 , set() , {'xL1J', 'xL3J', 'xL34J'}
+| | | +-- , 14 , set() , {'xL31J', 'xL4J', 'xL36J', 'xL1J'}
+| +-- , 40 , set() , {'xL6J', 'xL8J', 'xL28J'}
+
+
+Max number of edges with non zero Y: 30
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 17.684
+Time spent solving Separator LP: 0.481
+
+LP Solver: GaifmanNormal

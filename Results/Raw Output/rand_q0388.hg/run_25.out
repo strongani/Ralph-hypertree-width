@@ -1,0 +1,15 @@
+3, 0.666666, 1.0, 1
++-- , 0 , {5, 6} , {'14', '26', '1', '33', '34'}
+| +-- , 5 , set() , {'24', '14', '26', '23', '9', '32', '33'}
+| +-- , 6 , set() , {'5', '7', '11', '18', '25', '30', '22'}
+
+
+Max number of edges with non zero Y: 2
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.250
+Time spent solving Separator LP: 0.020
+Total time spent solving: 1.793
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'24', '34', '14', '26', '1', '23', '9', '32', '33'}, {'34', '14', '26', '32', '33'})

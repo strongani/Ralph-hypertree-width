@@ -1,0 +1,32 @@
+22, 0, 8.0, 8
++-- , 0 , {49, 3, 51, 39} , {'xL30J', 'xL22J', 'xL23J', 'xL38J', 'xL4J', 'xL32J', 'xL15J', 'xL25J', 'xL33J', 'xL19J', 'xL8J', 'xL36J', 'xL11J', 'xL6J'}
+| +-- , 49 , set() , {'xL15J', 'xL4J', 'xL12J'}
+| +-- , 3 , {33, 35, 11} , {'xL30J', 'xL22J', 'xL0J', 'xL38J', 'xL4J', 'xL32J', 'xL9J', 'xL15J', 'xL16J', 'xL1J', 'xL34J', 'xL25J', 'xL19J', 'xL8J', 'xL36J', 'xL11J'}
+| | +-- , 33 , set() , {'xL18J', 'xL0J'}
+| | +-- , 35 , set() , {'xL3J', 'xL22J', 'xL9J'}
+| | +-- , 11 , {23, 31, 13, 15} , {'xL30J', 'xL22J', 'xL16J', 'xL1J', 'xL0J', 'xL34J', 'xL25J', 'xL11J', 'xL37J', 'xL8J', 'xL36J', 'xL32J', 'xL9J', 'xL15J', 'xL4J'}
+| | | +-- , 23 , {25} , {'xL16J', 'xL1J', 'xL34J', 'xL24J', 'xL0J', 'xL22J', 'xL37J', 'xL36J', 'xL9J', 'xL15J', 'xL4J'}
+| | | | +-- , 25 , {27} , {'xL24J', 'xL1J', 'xL34J', 'xL0J', 'xL37J', 'xL26J', 'xL15J', 'xL4J'}
+| | | | | +-- , 27 , {29} , {'xL37J', 'xL24J', 'xL34J', 'xL26J', 'xL29J', 'xL15J'}
+| | | | | | +-- , 29 , set() , {'xL29J', 'xL5J', 'xL34J'}
+| | | +-- , 31 , set() , {'xL13J', 'xL37J', 'xL8J'}
+| | | +-- , 13 , set() , {'xL34J', 'xL20J', 'xL25J', 'xL37J', 'xL32J'}
+| | | +-- , 15 , {17, 19} , {'xL30J', 'xL22J', 'xL34J', 'xL0J', 'xL21J', 'xL37J', 'xL15J'}
+| | | | +-- , 17 , set() , {'xL21J', 'xL14J', 'xL22J'}
+| | | | +-- , 19 , {21} , {'xL21J', 'xL37J', 'xL7J', 'xL34J', 'xL15J'}
+| | | | | +-- , 21 , set() , {'xL39J', 'xL37J', 'xL7J'}
+| +-- , 51 , set() , {'xL10J', 'xL19J'}
+| +-- , 39 , {41, 47} , {'xL30J', 'xL22J', 'xL23J', 'xL38J', 'xL4J', 'xL32J', 'xL15J', 'xL35J', 'xL19J', 'xL8J', 'xL36J', 'xL11J', 'xL6J', 'xL31J'}
+| | +-- , 41 , {43} , {'xL35J', 'xL38J', 'xL2J', 'xL32J', 'xL31J'}
+| | | +-- , 43 , {45} , {'xL35J', 'xL2J', 'xL17J', 'xL31J'}
+| | | | +-- , 45 , set() , {'xL17J', 'xL28J'}
+| | +-- , 47 , set() , {'xL35J', 'xL22J', 'xL27J', 'xL4J', 'xL32J', 'xL11J'}
+
+
+Max number of edges with non zero Y: 24
+Max number of iterations of outer rounding loop: 11
+Max number of candidate sets: 2
+Time spent rounding: 36.553
+Time spent solving Separator LP: 0.056
+
+LP Solver: gammaPlusFractionalCoverHeuristic

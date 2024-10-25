@@ -1,0 +1,28 @@
+16, 2.9882156330035783, 9.5, 11
++-- , 0 , {34, 36, 38, 9} , {'xL21J', 'xL23J', 'xL35J', 'xL14J', 'xL7J', 'xL29J', 'xL32J', 'xL13J', 'xL26J', 'xL10J', 'xL18J', 'xL8J', 'xL22J', 'xL15J', 'xL28J', 'xL33J', 'xL12J', 'xL31J', 'xL30J'}
+| +-- , 34 , set() , {'xL23J', 'xL17J', 'xL33J', 'xL32J', 'xL30J'}
+| +-- , 36 , set() , {'xL23J', 'xL11J', 'xL18J'}
+| +-- , 38 , set() , {'xL10J', 'xL35J', 'xL8J', 'xL39J', 'xL13J'}
+| +-- , 9 , {11} , {'xL21J', 'xL23J', 'xL35J', 'xL7J', 'xL14J', 'xL29J', 'xL32J', 'xL13J', 'xL26J', 'xL10J', 'xL8J', 'xL34J', 'xL22J', 'xL15J', 'xL28J', 'xL33J', 'xL12J', 'xL31J', 'xL30J'}
+| | +-- , 11 , {13} , {'xL21J', 'xL23J', 'xL7J', 'xL14J', 'xL16J', 'xL29J', 'xL32J', 'xL13J', 'xL26J', 'xL10J', 'xL8J', 'xL34J', 'xL22J', 'xL15J', 'xL28J', 'xL33J', 'xL12J', 'xL31J', 'xL30J'}
+| | | +-- , 13 , {16, 32} , {'xL21J', 'xL23J', 'xL14J', 'xL7J', 'xL16J', 'xL29J', 'xL32J', 'xL13J', 'xL26J', 'xL38J', 'xL10J', 'xL8J', 'xL34J', 'xL22J', 'xL15J', 'xL28J', 'xL33J', 'xL5J'}
+| | | | +-- , 16 , {18, 20, 26} , {'xL21J', 'xL23J', 'xL14J', 'xL7J', 'xL32J', 'xL13J', 'xL26J', 'xL38J', 'xL10J', 'xL8J', 'xL34J', 'xL22J', 'xL15J', 'xL28J', 'xL6J', 'xL33J', 'xL5J'}
+| | | | | +-- , 18 , set() , {'xL38J', 'xL21J', 'xL7J', 'xL3J', 'xL6J', 'xL25J'}
+| | | | | +-- , 20 , {24, 22} , {'xL36J', 'xL23J', 'xL10J', 'xL8J', 'xL9J', 'xL0J', 'xL22J', 'xL6J', 'xL5J', 'xL32J', 'xL37J'}
+| | | | | | +-- , 24 , set() , {'xL9J', 'xL0J', 'xL4J'}
+| | | | | | +-- , 22 , set() , {'xL37J', 'xL24J'}
+| | | | | +-- , 26 , {28, 30} , {'xL34J', 'xL14J', 'xL28J', 'xL6J', 'xL5J', 'xL26J', 'xL1J'}
+| | | | | | +-- , 28 , set() , {'xL1J', 'xL5J', 'xL2J'}
+| | | | | | +-- , 30 , set() , {'xL26J', 'xL1J', 'xL19J'}
+| | | | +-- , 32 , set() , {'xL5J', 'xL27J', 'xL16J'}
+
+
+Max number of edges with non zero Y: 35
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 47.558
+Time spent solving Separator LP: 3.210
+Total time spent solving: 55.434
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL19J', 'xL7J', 'xL39J', 'xL29J', 'xL32J', 'xL13J', 'xL26J', 'xL38J', 'xL3J', 'xL17J', 'xL18J', 'xL8J', 'xL34J', 'xL15J', 'xL4J', 'xL5J', 'xL12J', 'xL11J', 'xL30J', 'xL1J', 'xL37J', 'xL21J', 'xL36J', 'xL23J', 'xL35J', 'xL14J', 'xL16J', 'xL2J', 'xL24J', 'xL25J', 'xL10J', 'xL9J', 'xL0J', 'xL22J', 'xL28J', 'xL6J', 'xL33J', 'xL27J', 'xL31J'}, {'xL19J', 'xL7J', 'xL29J', 'xL32J', 'xL13J', 'xL18J', 'xL8J', 'xL34J', 'xL15J', 'xL4J', 'xL5J', 'xL12J', 'xL11J', 'xL30J', 'xL1J', 'xL21J', 'xL23J', 'xL35J', 'xL14J', 'xL2J', 'xL24J', 'xL10J', 'xL0J', 'xL22J', 'xL27J'})

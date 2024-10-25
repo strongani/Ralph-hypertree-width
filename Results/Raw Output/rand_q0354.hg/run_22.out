@@ -1,0 +1,18 @@
+6, 1.2701607338709677, 3.8, 4
++-- , 0 , {17, 9, 15} , {'3', '11', '12', '14', '10', '8', '5', '7', '6', '9'}
+| +-- , 17 , set() , {'2', '11', '5'}
+| +-- , 9 , {11} , {'3', '11', '12', '4', '14', '7', '5', '10', '6', '9'}
+| | +-- , 11 , {13} , {'3', '11', '12', '13', '4', '14', '10', '6', '7', '9'}
+| | | +-- , 13 , set() , {'1', '3', '13', '14', '6'}
+| +-- , 15 , set() , {'3', '11', '12', '6', '7', '5', '0'}
+
+
+Max number of edges with non zero Y: 10
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 5.591
+Time spent solving Separator LP: 0.138
+Total time spent solving: 7.332
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'1', '3', '11', '12', '13', '4', '14', '10', '6', '7', '5', '9'}, {'3', '11', '12', '14', '10', '6', '7', '5', '9'})

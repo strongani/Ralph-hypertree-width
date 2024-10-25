@@ -1,0 +1,183 @@
+171, 0.9333327333333334, 5.0, 5
++-- , 0 , {3, 355, 206} , {'PRESSUREATP2_N5___15_', 'PRESSUREATP1_TT1___61_', 'PRESSUREATP3_TT1___61_', 'FLOWOUTATP2_N5___15_', 'PRESSUREATP2_TT1___61_'}
+| +-- , 3 , {204, 6} , {'PRESSUREATP1A_LV1___60_', 'PRESSUREATP2_N5___15_', 'FLOWINATP1_TT1___61_', 'TT1_S_LV1__67_', 'PRESSUREATP2_TT1___61_', 'PRESSUREATP1_TT1___61_', 'FLOWOUTATP1A_LV1___60_', 'FLOWOUTATP2_N5___15_'}
+| | +-- , 204 , set() , {'FLOWOUTATP1_TT1___61_', 'FLOWINATP1_TT1___61_'}
+| | +-- , 6 , {194, 8, 202} , {'PRESSUREATP1A_LV1___60_', 'R2ATINTERN_TT1___61_', 'PRESSUREATP2_N5___15_', 'FLOWINATP2_TT1___61_', 'FLOWOUTATP2_N5___15_', 'PRESSUREATP2_TT1___61_', 'PRESSUREATP1_TT1___61_', 'FLOWOUTATP1A_LV1___60_', 'FLOWINATP1_TT1___61_'}
+| | | +-- , 194 , {196} , {'R2ATINTERN_TT1___61_', 'FLOWINATP2_TT1___61_', 'R1ATINTERN_TT1___61_', 'PRESSUREATP1_TT1___61_', 'FLOWINATP1_TT1___61_'}
+| | | | +-- , 196 , {200, 198} , {'R2ATINTERN_TT1___61_', 'R1ATINTERN_TT1___61_', 'FLOWINATP2_TT1___61_', 'FLOWINATP1_TT1___61_', 'BOTHFLOWSPRESENTATINTERN_TT1___61_'}
+| | | | | +-- , 200 , set() , {'R2ATINTERN_TT1___61_', 'BOTHFLOWSPRESENTATINTERN_TT1___61_', 'INTRES2CONST_TT1___61_'}
+| | | | | +-- , 198 , set() , {'BOTHFLOWSPRESENTATINTERN_TT1___61_', 'INTRES1CONST_TT1___61_', 'R1ATINTERN_TT1___61_'}
+| | | +-- , 8 , {10} , {'PRESSUREATP1A_LV1___60_', 'FLOWOUTATP1B_LV1___60_', 'TT1_S_LV1__55_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1B_LV1___60_', 'FLOWINATP2_TT1___61_', 'PRESSUREATP2_TT1___61_', 'FLOWOUTATP1A_LV1___60_', 'FLOWOUTATP2_N5___15_'}
+| | | | +-- , 10 , {12} , {'PRESSUREATP1A_LV1___60_', 'FLOWOUTATP1B_LV1___60_', 'PRESSUREATP1B_LV1___60_', 'PRESSUREATP2_N5___15_', 'FLOWINATP1A_LV1___60_', 'FLOWOUTATP1A_LV1___60_', 'FLOWOUTATP2_N5___15_'}
+| | | | | +-- , 12 , {192, 14, 188, 190} , {'RESISTANCEATINTERN_LV1___60_', 'PRESSUREATP1A_LV1___60_', 'FLOWOUTATP1B_LV1___60_', 'POSITIONATINTERN_LV1___60_', 'PRESSUREATP2A_LV1___60_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1B_LV1___60_', 'FLOWINATP1A_LV1___60_', 'FLOWOUTATP2A_LV1___60_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | +-- , 192 , set() , {'RESISTANCEATINTERN_LV1___60_', 'RESINTCONST_LV1___60_', 'POSITIONATINTERN_LV1___60_'}
+| | | | | | +-- , 14 , {16, 184, 186} , {'RESISTANCEATINTERN_LV1___60_', 'FLOWOUTATP1B_LV1___60_', 'POSITIONATINTERN_LV1___60_', 'PRESSUREATP2A_LV1___60_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1B_LV1___60_', 'FLOWOUTATP2_N5___15_', 'FLOWOUTATP2A_LV1___60_', 'PRESSUREATP2B_LV1___60_', 'FLOWOUTATP2B_LV1___60_'}
+| | | | | | | +-- , 16 , {18} , {'PRESSUREATP2A_LV1___60_', 'PRESSUREATP2_N5___15_', 'FLOWINATP2_PROF1___50_', 'FLOWOUTATP2_N5___15_', 'PROF1_S_LV1__54_', 'PRESSUREATP2_PROF1___50_', 'FLOWOUTATP2A_LV1___60_', 'PRESSUREATP2B_LV1___60_', 'FLOWOUTATP2B_LV1___60_'}
+| | | | | | | | +-- , 18 , {20, 180, 182} , {'PRESSUREATP2A_LV1___60_', 'PRESSUREATP2_N5___15_', 'FLOWINATP2_PROF1___50_', 'FLOWOUTATP2_PROF2___59_', 'PRESSUREATP2_PROF1___50_', 'PRESSUREATP2_PROF2___59_', 'FLOWOUTATP2A_LV1___60_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | +-- , 20 , {172, 22} , {'PRESSUREATP2_N5___15_', 'FLOWINATP2_PROF1___50_', 'FLOWOUTATP1_N3___9_', 'FLOWOUTATP2_PROF2___59_', 'PRESSUREATP2_PROF1___50_', 'PRESSUREATP2_PROF2___59_', 'PRESSUREATP1_N3___9_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | +-- , 172 , {178, 174} , {'PRESSUREATP1_PROF2___59_', 'PROF2_S_N3__51_', 'FLOWOUTATP1_N3___9_', 'FLOWOUTATP2_PROF2___59_', 'PRESSUREATP2_PROF2___59_', 'PRESSUREATP1_N3___9_', 'FLOWINATP1_PROF2___59_'}
+| | | | | | | | | | | +-- , 178 , set() , {'FLOWINATP1_PROF2___59_', 'FLOWOUTATP1_PROF2___59_'}
+| | | | | | | | | | | +-- , 174 , {176} , {'FLOWINATP1_PROF2___59_', 'PRESSUREATP2_PROF2___59_', 'RESISTANCEATINTERN_PROF2___59_', 'PRESSUREATP1_PROF2___59_'}
+| | | | | | | | | | | | +-- , 176 , set() , {'RESINTCONST_PROF2___59_', 'RESISTANCEATINTERN_PROF2___59_', 'PROF2__59_'}
+| | | | | | | | | | +-- , 22 , {67, 24, 170} , {'FLOWINATP1_N2___8_', 'PRESSUREATP2_N5___15_', 'FLOWINATP2_PROF1___50_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP2_PROF1___50_', 'PRESSUREATP1_N3___9_', 'FLOWOUTATP2_N5___15_', 'PRESSUREATP1_N2___8_'}
+| | | | | | | | | | | +-- , 67 , {168, 69} , {'FLOWINATP1_N2___8_', 'PRESSUREATP2_N5___15_', 'FLOWINATP2_PROF1___50_', 'N2_S_PF01__3_', 'FLOWOUTATP2_PF01___13_', 'PRESSUREATP2_PROF1___50_', 'PRESSUREATP2_PF01___13_', 'FLOWOUTATP2_N5___15_', 'PRESSUREATP1_N2___8_'}
+| | | | | | | | | | | | +-- , 168 , set() , {'FLOWINATP2_PF01___13_', 'FLOWOUTATP2_PF01___13_'}
+| | | | | | | | | | | | +-- , 69 , {158, 71} , {'FLOWOUTATP1_N11___37_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1_N11___37_', 'FLOWINATP2_PROF1___50_', 'FLOWOUTATP2_PF01___13_', 'PRESSUREATP2_PROF1___50_', 'PRESSUREATP2_PF01___13_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | | | | +-- , 158 , {160, 164, 166} , {'FLOWOUTATP1_N11___37_', 'FLOWINATP1_PROF1___50_', 'PRESSUREATP1_N11___37_', 'FLOWINATP2_PROF1___50_', 'PRESSUREATP1_PROF1___50_', 'PRESSUREATP2_PROF1___50_', 'PROF1_S_N11__53_'}
+| | | | | | | | | | | | | | +-- , 160 , {162} , {'PRESSUREATP2_PROF1___50_', 'FLOWINATP1_PROF1___50_', 'PRESSUREATP1_PROF1___50_', 'RESISTANCEATINTERN_PROF1___50_'}
+| | | | | | | | | | | | | | | +-- , 162 , set() , {'RESISTANCEATINTERN_PROF1___50_', 'RESINTCONST_PROF1___50_', 'PROF1__50_'}
+| | | | | | | | | | | | | | +-- , 164 , set() , {'FLOWINATP1_PROF1___50_', 'FLOWOUTATP1_PROF1___50_'}
+| | | | | | | | | | | | | | +-- , 166 , set() , {'FLOWOUTATP2_PROF1___50_', 'FLOWINATP1_PROF1___50_', 'FLOWINATP2_PROF1___50_'}
+| | | | | | | | | | | | | +-- , 71 , {73, 156, 126} , {'FLOWOUTATP1_N11___37_', 'FLOWINATP1_PF02___30_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1_PF02___30_', 'PRESSUREATP1_N11___37_', 'FLOWOUTATP2_PF01___13_', 'PRESSUREATP2_PF01___13_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | | | | | +-- , 73 , {75, 124} , {'FLOWINATP1_PF02___30_', 'FLOWOUTATP1_N11___37_', 'RESISTANCEATINTERN_PF02___30_', 'PRESSUREATP1_PF02___30_', 'PRESSUREATP1_N11___37_', 'PRESSUREATP2_PF02___30_'}
+| | | | | | | | | | | | | | | +-- , 75 , {118, 122, 77} , {'FLOWINATP1_PF02___30_', 'FLOWOUTATP1_N11___37_', 'PRESSUREATP1_N11___37_', 'FLOWINATP1_N13___39_', 'PRESSUREATP1_N13___39_', 'PRESSUREATP2_PF02___30_'}
+| | | | | | | | | | | | | | | | +-- , 118 , {120} , {'FLOWOUTATP2_PF02___30_', 'FLOWINATP1_PF02___30_', 'N13_S_PF02__4_', 'PRESSUREATP1_N13___39_', 'FLOWINATP1_N13___39_', 'PRESSUREATP2_PF02___30_'}
+| | | | | | | | | | | | | | | | | +-- , 120 , set() , {'FLOWOUTATP2_PF02___30_', 'FLOWINATP2_PF02___30_'}
+| | | | | | | | | | | | | | | | +-- , 122 , set() , {'FLOWOUTATP1_N13___39_', 'FLOWINATP1_N13___39_'}
+| | | | | | | | | | | | | | | | +-- , 77 , {80, 116} , {'FLOWOUTATP1_N11___37_', 'N13_S_LV204__40_', 'FLOWINATP1_LV204___35_', 'PRESSUREATP1_N11___37_', 'PRESSUREATP1_LV204___35_', 'FLOWINATP1_N13___39_', 'FLOWOUTATP3_N13___39_', 'PRESSUREATP1_N13___39_', 'PRESSUREATP3_N13___39_'}
+| | | | | | | | | | | | | | | | | +-- , 80 , {104, 108, 110, 112, 114, 84, 86} , {'FLOWOUTATP2_LV304___36_', 'FLOWOUTATP1_N11___37_', 'PRESSUREATP2_LV304___36_', 'RESISTANCEATINTERN_LV304___36_', 'FLOWOUTATP3_N13___39_', 'FLOWINATP1_LV304___36_', 'PRESSUREATP1_N13___39_', 'FLOWINATP1_LV204___35_', 'PRESSUREATP1_LV304___36_', 'POSITIONATINTERN_LV304___36_', 'PRESSUREATP1_N11___37_', 'PRESSUREATP1_LV204___35_', 'FLOWINATP1_N13___39_', 'PRESSUREATP3_N13___39_'}
+| | | | | | | | | | | | | | | | | | +-- , 104 , {106} , {'PRESSUREATP1_LV304___36_', 'FLOWOUTATP2_N13___39_', 'FLOWINATP1_LV304___36_', 'PRESSUREATP2_N13___39_', 'N13_S_LV304__34_', 'FLOWINATP1_N13___39_', 'FLOWOUTATP3_N13___39_', 'PRESSUREATP1_N13___39_', 'PRESSUREATP3_N13___39_'}
+| | | | | | | | | | | | | | | | | | | +-- , 106 , set() , {'FLOWINATP3_N13___39_', 'FLOWOUTATP2_N13___39_', 'FLOWINATP1_N13___39_', 'FLOWOUTATP3_N13___39_', 'FLOWINATP2_N13___39_'}
+| | | | | | | | | | | | | | | | | | +-- , 108 , set() , {'FLOWINATP1_LV304___36_', 'FLOWOUTATP1_LV304___36_'}
+| | | | | | | | | | | | | | | | | | +-- , 110 , set() , {'RESINTCONST_LV304___36_', 'RESISTANCEATINTERN_LV304___36_', 'POSITIONATINTERN_LV304___36_'}
+| | | | | | | | | | | | | | | | | | +-- , 112 , set() , {'POSITIONATINTERN_LV304___36_', 'MEASUREDPOSITIONATINTERN_LV304___36_'}
+| | | | | | | | | | | | | | | | | | +-- , 114 , set() , {'POSITIONATINTERN_LV304___36_', 'COMMANDATP3_LV304___36_', 'LV304__36_'}
+| | | | | | | | | | | | | | | | | | +-- , 84 , set() , {'FLOWOUTATP2_LV304___36_', 'FLOWINATP2_LV304___36_'}
+| | | | | | | | | | | | | | | | | | +-- , 86 , {98, 100, 102, 88, 90, 92} , {'FLOWOUTATP2_LV304___36_', 'FLOWOUTATP1_N11___37_', 'LV304_S_N11__38_', 'PRESSUREATP2_LV304___36_', 'FLOWINATP3_N11___37_', 'RESISTANCEATINTERN_LV204___35_', 'POSITIONATINTERN_LV204___35_', 'FLOWINATP1_LV204___35_', 'PRESSUREATP1_N11___37_', 'PRESSUREATP1_LV204___35_', 'PRESSUREATP3_N11___37_', 'PRESSUREATP2_LV204___35_', 'FLOWOUTATP2_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | +-- , 98 , set() , {'MEASUREDPOSITIONATINTERN_LV204___35_', 'POSITIONATINTERN_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | +-- , 100 , set() , {'RESISTANCEATINTERN_LV204___35_', 'RESINTCONST_LV204___35_', 'POSITIONATINTERN_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | +-- , 102 , set() , {'FLOWOUTATP3_N11___37_', 'FLOWINATP3_N11___37_'}
+| | | | | | | | | | | | | | | | | | | +-- , 88 , set() , {'LV204__35_', 'COMMANDATP3_LV204___35_', 'POSITIONATINTERN_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | +-- , 90 , set() , {'FLOWINATP2_LV204___35_', 'FLOWOUTATP2_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | +-- , 92 , {96, 94} , {'FLOWOUTATP1_N11___37_', 'LV204_S_N11__41_', 'PRESSUREATP1_N11___37_', 'PRESSUREATP2_N11___37_', 'FLOWINATP3_N11___37_', 'FLOWINATP2_N11___37_', 'PRESSUREATP3_N11___37_', 'PRESSUREATP2_LV204___35_', 'FLOWOUTATP2_LV204___35_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 96 , set() , {'FLOWINATP2_N11___37_', 'FLOWOUTATP2_N11___37_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 94 , set() , {'FLOWOUTATP1_N11___37_', 'FLOWINATP2_N11___37_', 'FLOWINATP1_N11___37_', 'FLOWINATP3_N11___37_'}
+| | | | | | | | | | | | | | | | | +-- , 116 , set() , {'FLOWOUTATP1_LV204___35_', 'FLOWINATP1_LV204___35_'}
+| | | | | | | | | | | | | | | +-- , 124 , set() , {'RESISTANCEATINTERN_PF02___30_', 'RESINTCONST_PF02___30_', 'PF02__30_'}
+| | | | | | | | | | | | | | +-- , 156 , set() , {'FLOWOUTATP1_PF02___30_', 'FLOWINATP1_PF02___30_'}
+| | | | | | | | | | | | | | +-- , 126 , {128, 154} , {'MON74_S_PF02__33_', 'FLOWINATP1_PF02___30_', 'PRESSUREATP2_N5___15_', 'PRESSUREATP1_PF02___30_', 'FLOWOUTATP2_PF01___13_', 'FLOWOUTATPOUT_MON74___2_', 'PRESSUREATPOUT_MON74___2_', 'PRESSUREATP2_PF01___13_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | | | | | | +-- , 128 , {130, 148, 150, 138} , {'PRESSUREATPOUT_MON52___1_', 'PRESSUREATP2_N5___15_', 'FLOWOUTATP3_N5___15_', 'FLOWOUTATP2_PF01___13_', 'PRESSUREATP3_N5___15_', 'FLOWOUTATPOUT_MON74___2_', 'FLOWOUTATPOUT_MON52___1_', 'PRESSUREATPOUT_MON74___2_', 'PRESSUREATP2_PF01___13_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | | | | | | | +-- , 130 , {136, 132} , {'PRESSUREATPOUT_MON52___1_', 'MON52_S_PF01__32_', 'FLOWINATP1_PF01___13_', 'FLOWOUTATPOUT_MON52___1_', 'PRESSUREATP2_PF01___13_', 'PRESSUREATP1_PF01___13_', 'FLOWOUTATP2_PF01___13_'}
+| | | | | | | | | | | | | | | | | +-- , 136 , set() , {'FLOWINATP1_PF01___13_', 'FLOWOUTATP1_PF01___13_'}
+| | | | | | | | | | | | | | | | | +-- , 132 , {134} , {'RESISTANCEATINTERN_PF01___13_', 'FLOWINATP1_PF01___13_', 'PRESSUREATP2_PF01___13_', 'PRESSUREATP1_PF01___13_'}
+| | | | | | | | | | | | | | | | | | +-- , 134 , set() , {'RESISTANCEATINTERN_PF01___13_', 'RESINTCONST_PF01___13_', 'PF01__13_'}
+| | | | | | | | | | | | | | | | +-- , 148 , set() , {'FLOWINATPOUT_MON52___1_', 'FLOWOUTATPOUT_MON52___1_'}
+| | | | | | | | | | | | | | | | +-- , 150 , {152} , {'PRESSUREATPIN_MON74___2_', 'PRESSUREATP3_N5___15_', 'FLOWINATPIN_MON74___2_', 'FLOWOUTATPOUT_MON74___2_', 'N5_S_MON74__58_', 'PRESSUREATPOUT_MON74___2_', 'FLOWOUTATP3_N5___15_'}
+| | | | | | | | | | | | | | | | | +-- , 152 , set() , {'FLOWINATPIN_MON74___2_', 'FLOWOUTATPIN_MON74___2_'}
+| | | | | | | | | | | | | | | | +-- , 138 , {144, 140} , {'PRESSUREATPOUT_MON52___1_', 'FLOWOUTATP1_N5___15_', 'PRESSUREATP2_N5___15_', 'FLOWOUTATP3_N5___15_', 'PRESSUREATP3_N5___15_', 'FLOWOUTATPOUT_MON52___1_', 'FLOWOUTATP2_N5___15_'}
+| | | | | | | | | | | | | | | | | +-- , 144 , {146} , {'PRESSUREATPOUT_MON52___1_', 'PRESSUREATP1_N5___15_', 'FLOWOUTATP1_N5___15_', 'PRESSUREATP2_N5___15_', 'FLOWINATPIN_MON52___1_', 'PRESSUREATP3_N5___15_', 'FLOWOUTATPOUT_MON52___1_', 'PRESSUREATPIN_MON52___1_', 'N5_S_MON52__57_'}
+| | | | | | | | | | | | | | | | | | +-- , 146 , set() , {'FLOWINATPIN_MON52___1_', 'FLOWOUTATPIN_MON52___1_'}
+| | | | | | | | | | | | | | | | | +-- , 140 , {142} , {'FLOWOUTATP1_N5___15_', 'FLOWINATP2_N5___15_', 'FLOWOUTATP2_N5___15_', 'FLOWINATP1_N5___15_', 'FLOWOUTATP3_N5___15_'}
+| | | | | | | | | | | | | | | | | | +-- , 142 , set() , {'FLOWINATP2_N5___15_', 'FLOWINATP1_N5___15_', 'FLOWOUTATP3_N5___15_', 'FLOWINATP3_N5___15_'}
+| | | | | | | | | | | | | | | +-- , 154 , set() , {'FLOWOUTATPOUT_MON74___2_', 'FLOWINATPOUT_MON74___2_'}
+| | | | | | | | | | | +-- , 24 , {65, 27} , {'N2_S_LV203__63_', 'FLOWINATP1_N2___8_', 'FLOWINATP1_LV203___5_', 'FLOWOUTATP3_N2___8_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP3_N2___8_', 'PRESSUREATP1_LV203___5_', 'PRESSUREATP1_N3___9_', 'PRESSUREATP1_N2___8_'}
+| | | | | | | | | | | | +-- , 65 , set() , {'FLOWOUTATP1_LV203___5_', 'FLOWINATP1_LV203___5_'}
+| | | | | | | | | | | | +-- , 27 , {49, 63, 55, 57, 59, 61, 31} , {'RESISTANCEATINTERN_LV403___6_', 'FLOWINATP1_N2___8_', 'POSITIONATINTERN_LV403___6_', 'FLOWINATP1_LV203___5_', 'FLOWOUTATP2_LV403___6_', 'PRESSUREATP1_LV403___6_', 'FLOWOUTATP3_N2___8_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP3_N2___8_', 'FLOWINATP1_LV403___6_', 'PRESSUREATP2_LV403___6_', 'PRESSUREATP1_LV203___5_', 'PRESSUREATP1_N3___9_', 'PRESSUREATP1_N2___8_'}
+| | | | | | | | | | | | | +-- , 49 , {51} , {'PRESSUREATP2_N2___8_', 'FLOWINATP1_N2___8_', 'FLOWOUTATP2_N2___8_', 'PRESSUREATP1_LV403___6_', 'FLOWOUTATP3_N2___8_', 'N2_S_LV403__66_', 'PRESSUREATP3_N2___8_', 'FLOWINATP1_LV403___6_', 'PRESSUREATP1_N2___8_'}
+| | | | | | | | | | | | | | +-- , 51 , {53} , {'FLOWINATP1_N2___8_', 'FLOWOUTATP2_N2___8_', 'FLOWOUTATP3_N2___8_', 'FLOWINATP3_N2___8_'}
+| | | | | | | | | | | | | | | +-- , 53 , set() , {'FLOWINATP3_N2___8_', 'FLOWINATP1_N2___8_', 'FLOWINATP2_N2___8_', 'FLOWOUTATP2_N2___8_'}
+| | | | | | | | | | | | | +-- , 63 , set() , {'FLOWINATP1_LV403___6_', 'FLOWOUTATP1_LV403___6_'}
+| | | | | | | | | | | | | +-- , 55 , set() , {'POSITIONATINTERN_LV403___6_', 'MEASUREDPOSITIONATINTERN_LV403___6_'}
+| | | | | | | | | | | | | +-- , 57 , set() , {'RESISTANCEATINTERN_LV403___6_', 'POSITIONATINTERN_LV403___6_', 'RESINTCONST_LV403___6_'}
+| | | | | | | | | | | | | +-- , 59 , set() , {'FLOWINATP2_LV403___6_', 'FLOWOUTATP2_LV403___6_'}
+| | | | | | | | | | | | | +-- , 61 , set() , {'COMMANDATP3_LV403___6_', 'POSITIONATINTERN_LV403___6_', 'LV403__6_'}
+| | | | | | | | | | | | | +-- , 31 , {33, 41, 43, 45, 47} , {'POSITIONATINTERN_LV203___5_', 'FLOWOUTATP2_LV203___5_', 'FLOWINATP1_LV203___5_', 'FLOWOUTATP2_LV403___6_', 'RESISTANCEATINTERN_LV203___5_', 'PRESSUREATP2_LV203___5_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP2_LV403___6_', 'PRESSUREATP1_LV203___5_', 'PRESSUREATP1_N3___9_'}
+| | | | | | | | | | | | | | +-- , 33 , {35, 37, 39} , {'FLOWOUTATP2_LV203___5_', 'FLOWOUTATP2_LV403___6_', 'PRESSUREATP3_N3___9_', 'PRESSUREATP2_LV203___5_', 'FLOWOUTATP1_N3___9_', 'FLOWINATP3_N3___9_', 'FLOWINATP2_N3___9_', 'PRESSUREATP2_N3___9_', 'LV403_S_N3__65_', 'PRESSUREATP2_LV403___6_', 'LV203_S_N3__64_', 'PRESSUREATP1_N3___9_'}
+| | | | | | | | | | | | | | | +-- , 35 , set() , {'FLOWOUTATP3_N3___9_', 'FLOWINATP3_N3___9_'}
+| | | | | | | | | | | | | | | +-- , 37 , set() , {'FLOWOUTATP2_N3___9_', 'FLOWINATP2_N3___9_'}
+| | | | | | | | | | | | | | | +-- , 39 , set() , {'FLOWOUTATP1_N3___9_', 'FLOWINATP3_N3___9_', 'FLOWINATP2_N3___9_', 'FLOWINATP1_N3___9_'}
+| | | | | | | | | | | | | | +-- , 41 , set() , {'POSITIONATINTERN_LV203___5_', 'MEASUREDPOSITIONATINTERN_LV203___5_'}
+| | | | | | | | | | | | | | +-- , 43 , set() , {'LV203__5_', 'POSITIONATINTERN_LV203___5_', 'COMMANDATP3_LV203___5_'}
+| | | | | | | | | | | | | | +-- , 45 , set() , {'FLOWINATP2_LV203___5_', 'FLOWOUTATP2_LV203___5_'}
+| | | | | | | | | | | | | | +-- , 47 , set() , {'RESINTCONST_LV203___5_', 'POSITIONATINTERN_LV203___5_', 'RESISTANCEATINTERN_LV203___5_'}
+| | | | | | | | | | | +-- , 170 , set() , {'FLOWINATP1_N2___8_', 'FLOWOUTATP1_N2___8_'}
+| | | | | | | | | +-- , 180 , set() , {'FLOWOUTATP2_PROF2___59_', 'FLOWINATP2_PROF2___59_'}
+| | | | | | | | | +-- , 182 , set() , {'PRESSUREATP2A_LV1___60_', 'LV1_S_PROF2__62_', 'FLOWINATP2A_LV1___60_', 'FLOWOUTATP2_PROF2___59_', 'PRESSUREATP2_PROF2___59_', 'FLOWOUTATP2A_LV1___60_'}
+| | | | | | | +-- , 184 , set() , {'RESISTANCEATINTERN_LV1___60_', 'FLOWOUTATP1B_LV1___60_', 'POSITIONATINTERN_LV1___60_', 'PRESSUREATP1B_LV1___60_', 'PRESSUREATP2B_LV1___60_', 'FLOWOUTATP2B_LV1___60_', 'FLOWINATP1B_LV1___60_'}
+| | | | | | | +-- , 186 , set() , {'FLOWINATP2B_LV1___60_', 'FLOWOUTATP2B_LV1___60_'}
+| | | | | | +-- , 188 , set() , {'POSITIONATINTERN_LV1___60_', 'LV1__60_', 'COMMANDATP3_LV1___60_'}
+| | | | | | +-- , 190 , set() , {'POSITIONATINTERN_LV1___60_', 'MEASUREDPOSITIONATINTERN_LV1___60_'}
+| | | +-- , 202 , set() , {'FLOWOUTATP2_TT1___61_', 'FLOWINATP2_TT1___61_'}
+| +-- , 355 , set() , {'PRESSUREATP3_TT1___61_', 'TEMPERATUREATP4_TT1___61_'}
+| +-- , 206 , {208, 353} , {'N7_S_N5__7_', 'PRESSUREATP1_N7___18_', 'PRESSUREATP2_N5___15_', 'FLOWINATP1_N7___18_', 'FLOWOUTATP2_N5___15_'}
+| | +-- , 208 , {211, 349, 351} , {'PRESSUREATP1_N7___18_', 'LV402_S_N7__56_', 'PRESSUREATP3_N7___18_', 'PRESSUREATP2_LV402___28_', 'FLOWINATP1_N7___18_', 'FLOWOUTATP2_LV402___28_', 'FLOWINATP3_N7___18_'}
+| | | +-- , 211 , {214, 345, 347} , {'PRESSUREATP2_LV202___27_', 'FLOWOUTATP2_LV202___27_', 'PRESSUREATP2_LV402___28_', 'FLOWINATP1_N7___18_', 'LV202_S_N7__52_', 'PRESSUREATP1_N7___18_', 'PRESSUREATP3_N7___18_', 'FLOWINATP2_N7___18_', 'PRESSUREATP2_N7___18_', 'FLOWINATP3_N7___18_', 'FLOWOUTATP2_LV402___28_'}
+| | | | +-- , 214 , {329, 331, 333, 335, 337, 339, 341, 216, 343} , {'PRESSUREATP2_LV202___27_', 'RESISTANCEATINTERN_LV202___27_', 'RESISTANCEATINTERN_LV402___28_', 'FLOWINATP1_LV402___28_', 'FLOWINATP1_LV202___27_', 'POSITIONATINTERN_LV402___28_', 'POSITIONATINTERN_LV202___27_', 'FLOWOUTATP2_LV202___27_', 'PRESSUREATP2_LV402___28_', 'PRESSUREATP1_LV402___28_', 'PRESSUREATP1_LV202___27_', 'FLOWOUTATP2_LV402___28_'}
+| | | | | +-- , 329 , set() , {'MEASUREDPOSITIONATINTERN_LV402___28_', 'POSITIONATINTERN_LV402___28_'}
+| | | | | +-- , 331 , set() , {'COMMANDATP3_LV402___28_', 'LV402__28_', 'POSITIONATINTERN_LV402___28_'}
+| | | | | +-- , 333 , set() , {'COMMANDATP3_LV202___27_', 'LV202__27_', 'POSITIONATINTERN_LV202___27_'}
+| | | | | +-- , 335 , set() , {'MEASUREDPOSITIONATINTERN_LV202___27_', 'POSITIONATINTERN_LV202___27_'}
+| | | | | +-- , 337 , set() , {'FLOWINATP1_LV402___28_', 'FLOWOUTATP1_LV402___28_'}
+| | | | | +-- , 339 , set() , {'RESISTANCEATINTERN_LV202___27_', 'RESINTCONST_LV202___27_', 'POSITIONATINTERN_LV202___27_'}
+| | | | | +-- , 341 , set() , {'FLOWOUTATP1_LV202___27_', 'FLOWINATP1_LV202___27_'}
+| | | | | +-- , 216 , {218, 327} , {'FLOWINATP1_LV202___27_', 'LV202_S_PR2__29_', 'FLOWINATP1_LV402___28_', 'PRESSUREATP2_PR2___22_', 'PRESSUREATP1_LV402___28_', 'PRESSUREATP1_LV202___27_', 'FLOWOUTATP2_PR2___22_'}
+| | | | | | +-- , 218 , {220, 325} , {'FLOWINATP1_LV402___28_', 'REGULATEDPRESSURECONST_PR2___22_', 'PRESSUREATP1_PR2___22_', 'PRESSUREATP1_LV402___28_', 'FLOWOUTATP2_PR1___14_', 'PR2__22_', 'PRESSUREATP2_PR1___14_', 'LV402_S_PR1__26_', 'PRESSUREATP2_PR2___22_', 'DEGRADEDPRESSURECONST_PR2___22_'}
+| | | | | | | +-- , 220 , {321, 323, 222} , {'PRESSUREATP2_LV101___23_', 'REGULATEDPRESSURECONST_PR1___14_', 'PR2_S_LV101__31_', 'PRESSUREATP1_PR2___22_', 'PRESSUREATP2_PR1___14_', 'PRESSUREATP1_PR1___14_', 'DEGRADEDPRESSURECONST_PR1___14_', 'PR1__14_', 'FLOWINATP1_PR2___22_', 'FLOWOUTATP2_LV101___23_'}
+| | | | | | | | +-- , 321 , set() , {'FLOWOUTATP2_LV101___23_', 'FLOWINATP2_LV101___23_'}
+| | | | | | | | +-- , 323 , set() , {'FLOWOUTATP1_PR2___22_', 'FLOWINATP1_PR2___22_'}
+| | | | | | | | +-- , 222 , {224, 319, 317} , {'PRESSUREATP2_LV101___23_', 'PRESSUREATP1_PR1___14_', 'FLOWINATP1_PR1___14_', 'PRESSUREATP2_LV301___24_', 'PR1_S_LV301__25_', 'FLOWOUTATP2_LV101___23_', 'FLOWOUTATP2_LV301___24_'}
+| | | | | | | | | +-- , 224 , {226, 309, 311, 313, 315} , {'POSITIONATINTERN_LV101___23_', 'PRESSUREATP1_LV101___23_', 'PRESSUREATP2_LV101___23_', 'FLOWINATP1_LV101___23_', 'PRESSUREATP2_LV301___24_', 'FLOWOUTATP2_LV101___23_', 'FLOWOUTATP2_LV301___24_', 'RESISTANCEATINTERN_LV101___23_'}
+| | | | | | | | | | +-- , 226 , {228} , {'FLOWOUTATP3_N6___17_', 'PRESSUREATP1_LV101___23_', 'PRESSUREATP3_N6___17_', 'FLOWINATP1_LV101___23_', 'PRESSUREATP2_LV301___24_', 'N6_S_LV101__48_', 'FLOWOUTATP2_LV301___24_'}
+| | | | | | | | | | | +-- , 228 , {230, 301, 303, 305, 307} , {'RESISTANCEATINTERN_LV301___24_', 'FLOWINATP1_LV301___24_', 'FLOWOUTATP3_N6___17_', 'POSITIONATINTERN_LV301___24_', 'PRESSUREATP3_N6___17_', 'PRESSUREATP2_LV301___24_', 'FLOWOUTATP2_LV301___24_', 'PRESSUREATP1_LV301___24_'}
+| | | | | | | | | | | | +-- , 230 , {232} , {'FLOWOUTATP3_N6___17_', 'FLOWINATP1_LV301___24_', 'PRESSUREATP3_N6___17_', 'FLOWOUTATP2_N6___17_', 'N6_S_LV301__49_', 'PRESSUREATP2_N6___17_', 'PRESSUREATP1_LV301___24_'}
+| | | | | | | | | | | | | +-- , 232 , {234} , {'FLOWOUTATP2_N6___17_', 'FLOWOUTATP3_N6___17_', 'PRESSUREATP1_N6___17_', 'PRESSUREATP3_N6___17_', 'PRESSUREATP2_N6___17_'}
+| | | | | | | | | | | | | | +-- , 234 , {299, 295, 297, 236} , {'FLOWOUTATP3_N6___17_', 'PRESSUREATP1_N6___17_', 'FLOWOUTATP2_HF01___16_', 'FLOWOUTATP2_N6___17_', 'PRESSUREATP2_HF01___16_', 'FLOWINATP1_N6___17_', 'HF01_S_N6__47_'}
+| | | | | | | | | | | | | | | +-- , 299 , set() , {'FLOWINATP1_N6___17_', 'FLOWOUTATP1_N6___17_'}
+| | | | | | | | | | | | | | | +-- , 295 , set() , {'FLOWOUTATP3_N6___17_', 'FLOWINATP3_N6___17_', 'FLOWOUTATP2_N6___17_', 'FLOWINATP2_N6___17_', 'FLOWINATP1_N6___17_'}
+| | | | | | | | | | | | | | | +-- , 297 , set() , {'FLOWOUTATP2_HF01___16_', 'FLOWINATP2_HF01___16_'}
+| | | | | | | | | | | | | | | +-- , 236 , {293, 239} , {'RESISTANCEATINTERN_PV2___12_', 'FLOWOUTATP2_HF01___16_', 'POSITIONATINTERN_PV2___12_', 'PRESSUREATP2_HF01___16_', 'RESINTCONST_PV2___12_'}
+| | | | | | | | | | | | | | | | +-- , 293 , set() , {'PV2__12_', 'COMMANDATCMD_PV2___12_', 'POSITIONATINTERN_PV2___12_'}
+| | | | | | | | | | | | | | | | +-- , 239 , {241} , {'FLOWINATP1_PV2___12_', 'RESISTANCEATINTERN_PV2___12_', 'PRESSUREATP1_PV2___12_', 'FLOWOUTATP2_HF01___16_', 'FLOWOUTATP2_PV2___12_', 'POSITIONATINTERN_PV2___12_', 'PRESSUREATP2_PV2___12_', 'PRESSUREATP2_HF01___16_'}
+| | | | | | | | | | | | | | | | | +-- , 241 , {243, 285} , {'FLOWINATP1_PV2___12_', 'PRESSUREATP1_PV2___12_', 'FLOWOUTATP2_HF01___16_', 'FLOWOUTATP2_PV2___12_', 'PRESSUREATP1_N9___20_', 'PRESSUREATP2_PV2___12_', 'PRESSUREATP2_HF01___16_', 'FLOWOUTATP1_N9___20_'}
+| | | | | | | | | | | | | | | | | | +-- , 243 , {283, 247} , {'FLOWINATP1_PV2___12_', 'PRESSUREATP1_PV2___12_', 'FLOWOUTATP2_PV2___12_', 'PRESSUREATP1_N9___20_', 'PRESSUREATP2_PV2___12_', 'PRESSUREATP3_N9___20_', 'FLOWINATP3_N9___20_', 'PV2_S_N9__44_', 'FLOWOUTATP1_PV2___12_', 'FLOWOUTATP1_N9___20_'}
+| | | | | | | | | | | | | | | | | | | +-- , 283 , set() , {'FLOWOUTATP3_N9___20_', 'FLOWINATP3_N9___20_'}
+| | | | | | | | | | | | | | | | | | | +-- , 247 , {281, 249, 279} , {'PRESSUREATP2_N9___20_', 'FLOWOUTATP2_PV2___12_', 'PRESSUREATP1_N9___20_', 'PRESSUREATP2_PV2___12_', 'PRESSUREATP3_N9___20_', 'FLOWINATP3_N9___20_', 'FLOWINATP2_N9___20_', 'FLOWOUTATP1_N9___20_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 281 , set() , {'FLOWINATP2_N9___20_', 'FLOWOUTATP2_N9___20_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 249 , {251} , {'PV1_S_N9__45_', 'PRESSUREATP2_N9___20_', 'FLOWOUTATP2_PV2___12_', 'PRESSUREATP2_PV2___12_', 'FLOWOUTATP1_PV1___21_', 'FLOWINATP2_N9___20_', 'PRESSUREATP1_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | +-- , 251 , {253, 277} , {'FLOWOUTATP2_PV2___12_', 'FLOWOUTATP2_N8___19_', 'PRESSUREATP2_PV2___12_', 'FLOWOUTATP1_PV1___21_', 'PRESSUREATP2_N8___19_', 'PRESSUREATP1_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | | +-- , 253 , {269, 255} , {'FLOWINATP2_PV1___21_', 'PRESSUREATP2_PV1___21_', 'FLOWOUTATP2_N8___19_', 'FLOWOUTATP1_PV1___21_', 'PRESSUREATP2_N8___19_', 'PRESSUREATP1_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | | | +-- , 269 , {273, 275} , {'FLOWINATP2_PV1___21_', 'FLOWOUTATP2_PV1___21_', 'RESISTANCEATINTERN_PV1___21_', 'PRESSUREATP2_PV1___21_', 'FLOWINATP1_PV1___21_', 'FLOWOUTATP1_PV1___21_', 'PRESSUREATP1_PV1___21_', 'POSITIONATINTERN_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | | | | +-- , 273 , set() , {'RESISTANCEATINTERN_PV1___21_', 'POSITIONATINTERN_PV1___21_', 'RESINTCONST_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | | | | +-- , 275 , set() , {'COMMANDATCMD_PV1___21_', 'PV1__21_', 'POSITIONATINTERN_PV1___21_'}
+| | | | | | | | | | | | | | | | | | | | | | | +-- , 255 , {257} , {'FLOWINATP2_PV1___21_', 'PRESSUREATP2_PV1___21_', 'FLOWOUTATP2_N8___19_', 'N8_S_PV1__42_', 'FLOWOUTATP3_N8___19_', 'PRESSUREATP2_N8___19_', 'PRESSUREATP3_N8___19_'}
+| | | | | | | | | | | | | | | | | | | | | | | | +-- , 257 , {259, 261, 267} , {'FLOWINATP1_N8___19_', 'PRESSUREATP2_N8___19_', 'PRESSUREATP1_N8___19_', 'FLOWOUTATP3_N8___19_', 'FLOWOUTATP2_N8___19_', 'PRESSUREATP3_N8___19_'}
+| | | | | | | | | | | | | | | | | | | | | | | | | +-- , 259 , set() , {'FLOWINATP2_N8___19_', 'FLOWINATP1_N8___19_', 'FLOWINATP3_N8___19_', 'FLOWOUTATP2_N8___19_', 'FLOWOUTATP3_N8___19_'}
+| | | | | | | | | | | | | | | | | | | | | | | | | +-- , 261 , {265, 263} , {'FLOWOUTATP1_HELIUM1___11_', 'N8_S_HELIUM1__10_', 'FLOWINATP1_N8___19_', 'PRESSUREATP1_N8___19_', 'PRESSUREATP1_HELIUM1___11_'}
+| | | | | | | | | | | | | | | | | | | | | | | | | | +-- , 265 , set() , {'FLOWOUTATP1_HELIUM1___11_', 'FLOWINATP1_HELIUM1___11_'}
+| | | | | | | | | | | | | | | | | | | | | | | | | | +-- , 263 , set() , {'LOADPRESCONST_HELIUM1___11_', 'PRESSUREATP1_HELIUM1___11_'}
+| | | | | | | | | | | | | | | | | | | | | | | | | +-- , 267 , set() , {'FLOWINATP1_N8___19_', 'FLOWOUTATP1_N8___19_'}
+| | | | | | | | | | | | | | | | | | | | | | +-- , 277 , set() , {'FLOWINATP2_PV2___12_', 'FLOWOUTATP2_PV2___12_', 'FLOWOUTATP2_N8___19_', 'PRESSUREATP2_PV2___12_', 'N8_S_PV2__43_', 'PRESSUREATP2_N8___19_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 279 , set() , {'FLOWINATP2_N9___20_', 'FLOWINATP1_N9___20_', 'FLOWINATP3_N9___20_', 'FLOWOUTATP1_N9___20_'}
+| | | | | | | | | | | | | | | | | | +-- , 285 , {291, 287} , {'N9_S_HF01__46_', 'FLOWOUTATP2_HF01___16_', 'PRESSUREATP1_N9___20_', 'PRESSUREATP2_HF01___16_', 'FLOWINATP1_HF01___16_', 'PRESSUREATP1_HF01___16_', 'FLOWOUTATP1_N9___20_'}
+| | | | | | | | | | | | | | | | | | | +-- , 291 , set() , {'FLOWOUTATP1_HF01___16_', 'FLOWINATP1_HF01___16_'}
+| | | | | | | | | | | | | | | | | | | +-- , 287 , {289} , {'PRESSUREATP2_HF01___16_', 'RESISTANCEATINTERN_HF01___16_', 'FLOWINATP1_HF01___16_', 'PRESSUREATP1_HF01___16_'}
+| | | | | | | | | | | | | | | | | | | | +-- , 289 , set() , {'RESISTANCEATINTERN_HF01___16_', 'HF01__16_', 'RESINTCONST_HF01___16_'}
+| | | | | | | | | | | | +-- , 301 , set() , {'MEASUREDPOSITIONATINTERN_LV301___24_', 'POSITIONATINTERN_LV301___24_'}
+| | | | | | | | | | | | +-- , 303 , set() , {'LV301__24_', 'COMMANDATP3_LV301___24_', 'POSITIONATINTERN_LV301___24_'}
+| | | | | | | | | | | | +-- , 305 , set() , {'FLOWOUTATP1_LV301___24_', 'FLOWINATP1_LV301___24_'}
+| | | | | | | | | | | | +-- , 307 , set() , {'RESISTANCEATINTERN_LV301___24_', 'RESINTCONST_LV301___24_', 'POSITIONATINTERN_LV301___24_'}
+| | | | | | | | | | +-- , 309 , set() , {'POSITIONATINTERN_LV101___23_', 'LV101__23_', 'COMMANDATP3_LV101___23_'}
+| | | | | | | | | | +-- , 311 , set() , {'POSITIONATINTERN_LV101___23_', 'RESISTANCEATINTERN_LV101___23_', 'RESINTCONST_LV101___23_'}
+| | | | | | | | | | +-- , 313 , set() , {'POSITIONATINTERN_LV101___23_', 'MEASUREDPOSITIONATINTERN_LV101___23_'}
+| | | | | | | | | | +-- , 315 , set() , {'FLOWINATP1_LV101___23_', 'FLOWOUTATP1_LV101___23_'}
+| | | | | | | | | +-- , 319 , set() , {'FLOWINATP2_LV301___24_', 'FLOWOUTATP2_LV301___24_'}
+| | | | | | | | | +-- , 317 , set() , {'FLOWINATP1_PR1___14_', 'FLOWOUTATP1_PR1___14_'}
+| | | | | | | +-- , 325 , set() , {'FLOWOUTATP2_PR1___14_', 'FLOWINATP2_PR1___14_'}
+| | | | | | +-- , 327 , set() , {'FLOWINATP2_PR2___22_', 'FLOWOUTATP2_PR2___22_'}
+| | | | | +-- , 343 , set() , {'RESISTANCEATINTERN_LV402___28_', 'RESINTCONST_LV402___28_', 'POSITIONATINTERN_LV402___28_'}
+| | | | +-- , 345 , set() , {'FLOWINATP2_LV202___27_', 'FLOWOUTATP2_LV202___27_'}
+| | | | +-- , 347 , set() , {'FLOWINATP2_N7___18_', 'FLOWOUTATP2_N7___18_'}
+| | | +-- , 349 , set() , {'FLOWINATP2_LV402___28_', 'FLOWOUTATP2_LV402___28_'}
+| | | +-- , 351 , set() , {'FLOWOUTATP3_N7___18_', 'FLOWINATP3_N7___18_'}
+| | +-- , 353 , set() , {'FLOWINATP1_N7___18_', 'FLOWOUTATP1_N7___18_'}
+
+
+Max number of edges with non zero Y: 5
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 41.226
+Time spent solving Separator LP: 4.156
+Total time spent solving: 61.710
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'RESINTCONST_LV403___6_', 'FLOWOUTATP2_LV203___5_', 'FLOWINATP1_LV203___5_', 'FLOWINATP3_N2___8_', 'N2_S_LV403__66_', 'LV403_S_N3__65_', 'LV203_S_N3__64_', 'PRESSUREATP1_LV203___5_', 'FLOWINATP1_N3___9_', 'PRESSUREATP1_N2___8_', 'RESINTCONST_LV203___5_', 'FLOWOUTATP2_LV403___6_', 'FLOWOUTATP3_N2___8_', 'PRESSUREATP3_N3___9_', 'RESISTANCEATINTERN_LV203___5_', 'FLOWINATP3_N3___9_', 'MEASUREDPOSITIONATINTERN_LV203___5_', 'FLOWOUTATP2_N3___9_', 'PRESSUREATP1_N3___9_', 'FLOWOUTATP1_LV403___6_', 'FLOWOUTATP3_N3___9_', 'PRESSUREATP2_N2___8_', 'POSITIONATINTERN_LV403___6_', 'FLOWINATP1_N2___8_', 'FLOWOUTATP2_N2___8_', 'LV203__5_', 'MEASUREDPOSITIONATINTERN_LV403___6_', 'FLOWINATP2_LV403___6_', 'PRESSUREATP2_LV203___5_', 'FLOWINATP2_N3___9_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP3_N2___8_', 'PRESSUREATP2_LV403___6_', 'FLOWINATP1_LV403___6_', 'RESISTANCEATINTERN_LV403___6_', 'POSITIONATINTERN_LV203___5_', 'PRESSUREATP1_LV403___6_', 'FLOWINATP2_LV203___5_', 'COMMANDATP3_LV403___6_', 'LV403__6_', 'PRESSUREATP2_N3___9_', 'FLOWINATP2_N2___8_', 'COMMANDATP3_LV203___5_'}, {'FLOWINATP1_N2___8_', 'FLOWINATP1_LV203___5_', 'FLOWOUTATP3_N2___8_', 'FLOWOUTATP1_N3___9_', 'PRESSUREATP3_N2___8_', 'PRESSUREATP1_LV203___5_', 'PRESSUREATP1_N3___9_', 'PRESSUREATP1_N2___8_'})

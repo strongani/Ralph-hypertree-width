@@ -1,0 +1,30 @@
+20, 2.3773600988895107, 8.5, 9
++-- , 0 , {37, 39, 41, 10, 43, 45, 47} , {'xL24J', 'xL20J', 'xL0J', 'xL37J', 'xL17J', 'xL29J', 'xL5J', 'xL9J', 'xL15J', 'xL35J', 'xL16J', 'xL34J', 'xL2J', 'xL25J', 'xL7J', 'xL8J', 'xL31J'}
+| +-- , 37 , set() , {'xL18J', 'xL0J'}
+| +-- , 39 , set() , {'xL17J', 'xL28J'}
+| +-- , 41 , set() , {'xL39J', 'xL37J', 'xL7J'}
+| +-- , 10 , {13} , {'xL24J', 'xL0J', 'xL20J', 'xL38J', 'xL37J', 'xL32J', 'xL29J', 'xL9J', 'xL15J', 'xL35J', 'xL16J', 'xL34J', 'xL2J', 'xL25J', 'xL7J', 'xL8J', 'xL31J'}
+| | +-- , 13 , {17, 31, 15} , {'xL22J', 'xL24J', 'xL0J', 'xL38J', 'xL37J', 'xL32J', 'xL29J', 'xL9J', 'xL15J', 'xL35J', 'xL16J', 'xL34J', 'xL25J', 'xL7J', 'xL8J', 'xL31J'}
+| | | +-- , 17 , {19} , {'xL22J', 'xL24J', 'xL0J', 'xL38J', 'xL37J', 'xL32J', 'xL29J', 'xL15J', 'xL35J', 'xL16J', 'xL27J'}
+| | | | +-- , 19 , {21} , {'xL22J', 'xL24J', 'xL0J', 'xL38J', 'xL37J', 'xL29J', 'xL15J', 'xL35J', 'xL16J', 'xL27J', 'xL1J'}
+| | | | | +-- , 21 , {23, 25, 29} , {'xL35J', 'xL16J', 'xL27J', 'xL1J', 'xL22J', 'xL0J', 'xL37J', 'xL26J', 'xL29J', 'xL15J', 'xL4J'}
+| | | | | | +-- , 23 , set() , {'xL15J', 'xL4J', 'xL12J'}
+| | | | | | +-- , 25 , {27} , {'xL35J', 'xL16J', 'xL1J', 'xL19J', 'xL4J'}
+| | | | | | | +-- , 27 , set() , {'xL10J', 'xL19J'}
+| | | | | | +-- , 29 , set() , {'xL22J', 'xL27J', 'xL1J', 'xL37J', 'xL4J', 'xL11J'}
+| | | +-- , 31 , {33, 35} , {'xL22J', 'xL0J', 'xL25J', 'xL21J', 'xL7J', 'xL8J', 'xL31J'}
+| | | | +-- , 33 , set() , {'xL21J', 'xL14J', 'xL22J'}
+| | | | +-- , 35 , set() , {'xL30J', 'xL25J', 'xL21J', 'xL8J', 'xL31J'}
+| | | +-- , 15 , set() , {'xL3J', 'xL22J', 'xL9J'}
+| +-- , 43 , set() , {'xL35J', 'xL24J', 'xL25J', 'xL33J', 'xL8J', 'xL36J', 'xL15J', 'xL6J', 'xL31J'}
+| +-- , 45 , set() , {'xL25J', 'xL23J', 'xL31J'}
+| +-- , 47 , set() , {'xL13J', 'xL37J', 'xL8J'}
+
+
+Max number of edges with non zero Y: 23
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 40.236
+Time spent solving Separator LP: 0.834
+
+LP Solver: GaifmanNormal

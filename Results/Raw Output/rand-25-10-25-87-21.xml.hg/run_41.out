@@ -1,0 +1,23 @@
+11, 2.2257671220901187, 7.5, 8
++-- , 0 , {26, 6} , {'xL3J', 'xL17J', 'xL22J', 'xL19J', 'xL5J', 'xL7J', 'xL23J', 'xL2J', 'xL20J', 'xL24J', 'xL10J', 'xL13J', 'xL16J'}
+| +-- , 26 , set() , {'xL3J', 'xL22J', 'xL14J', 'xL20J', 'xL16J'}
+| +-- , 6 , {8} , {'xL3J', 'xL17J', 'xL22J', 'xL8J', 'xL5J', 'xL7J', 'xL23J', 'xL2J', 'xL20J', 'xL24J', 'xL10J', 'xL13J', 'xL16J'}
+| | +-- , 8 , {11} , {'xL3J', 'xL17J', 'xL22J', 'xL6J', 'xL11J', 'xL8J', 'xL5J', 'xL7J', 'xL23J', 'xL2J', 'xL24J', 'xL10J', 'xL13J', 'xL16J'}
+| | | +-- , 11 , {14} , {'xL17J', 'xL22J', 'xL6J', 'xL9J', 'xL11J', 'xL4J', 'xL8J', 'xL5J', 'xL7J', 'xL23J', 'xL2J', 'xL24J', 'xL10J', 'xL13J', 'xL16J'}
+| | | | +-- , 14 , {16} , {'xL17J', 'xL6J', 'xL1J', 'xL9J', 'xL11J', 'xL4J', 'xL8J', 'xL5J', 'xL23J', 'xL2J', 'xL24J', 'xL13J', 'xL16J'}
+| | | | | +-- , 16 , {18} , {'xL17J', 'xL6J', 'xL1J', 'xL11J', 'xL0J', 'xL4J', 'xL8J', 'xL5J', 'xL23J', 'xL2J', 'xL24J', 'xL13J', 'xL16J'}
+| | | | | | +-- , 18 , {20} , {'xL17J', 'xL6J', 'xL1J', 'xL11J', 'xL0J', 'xL4J', 'xL8J', 'xL5J', 'xL21J', 'xL24J', 'xL13J', 'xL16J'}
+| | | | | | | +-- , 20 , {24, 22} , {'xL8J', 'xL21J', 'xL1J', 'xL11J', 'xL0J', 'xL24J', 'xL4J', 'xL15J', 'xL13J', 'xL16J'}
+| | | | | | | | +-- , 24 , set() , {'xL1J', 'xL11J', 'xL12J', 'xL0J', 'xL24J', 'xL4J', 'xL15J', 'xL8J'}
+| | | | | | | | +-- , 22 , set() , {'xL18J', 'xL24J', 'xL4J', 'xL15J', 'xL13J', 'xL16J'}
+
+
+Max number of edges with non zero Y: 27
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 45.456
+Time spent solving Separator LP: 1.597
+Total time spent solving: 52.500
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL3J', 'xL9J', 'xL14J', 'xL4J', 'xL8J', 'xL5J', 'xL21J', 'xL15J', 'xL10J', 'xL13J', 'xL16J', 'xL17J', 'xL22J', 'xL6J', 'xL1J', 'xL19J', 'xL11J', 'xL12J', 'xL0J', 'xL18J', 'xL7J', 'xL23J', 'xL2J', 'xL20J', 'xL24J'}, {'xL17J', 'xL7J', 'xL22J', 'xL23J', 'xL6J', 'xL1J', 'xL9J', 'xL14J', 'xL12J', 'xL2J', 'xL19J', 'xL20J', 'xL24J', 'xL4J', 'xL10J', 'xL13J', 'xL16J'})

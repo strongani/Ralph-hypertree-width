@@ -1,0 +1,33 @@
+23, 1.6321388719805752, 4.0, 4
++-- , 0 , {5, 23, 45} , {'U54', 'STATE_REG_2_', 'U72', 'U64', 'STATE_REG_1_', 'U56', 'U68', 'U65', 'U82', 'EQL', 'U66', 'U81', 'STATE_REG_0_'}
+| +-- , 5 , {21, 7} , {'U54', 'U72', 'U64', 'U65', 'U55', 'U67', 'STATE_REG_0_', 'STATE_REG_2_', 'U81', 'STATE_REG_1_', 'U68', 'EQL', 'U78', 'U66'}
+| | +-- , 21 , set() , {'STATE_REG_1_', 'U65', 'U77', 'U78', 'STATE_REG_0_'}
+| | +-- , 7 , {9, 11, 15} , {'U80', 'U72', 'STATE_REG_2_', 'U64', 'U68', 'U65', 'U70', 'U71', 'U78', 'U67', 'U66', 'STATE_REG_0_'}
+| | | +-- , 9 , set() , {'U80', 'U57', 'STATE_REG_2_', 'U65', 'U70', 'U74', 'U79'}
+| | | +-- , 11 , {13} , {'U71', 'U75', 'U72', 'STATE_REG_2_', 'U61'}
+| | | | +-- , 13 , set() , {'U61', 'USCITE_REG_2_'}
+| | | +-- , 15 , {17} , {'STATE_REG_2_', 'U85', 'U68', 'U70', 'U71', 'U78'}
+| | | | +-- , 17 , {19} , {'STATE_REG_2_', 'U86', 'U78', 'U85', 'U59', 'U70'}
+| | | | | +-- , 19 , set() , {'CC_MUX_REG_2_', 'U59'}
+| +-- , 23 , {33, 25, 43} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'U64', 'U68', 'EQL', 'U65', 'U82', 'U73', 'STATE_REG_0_'}
+| | +-- , 33 , {35} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'U68', 'EQL', 'U73', 'STATE_REG_0_'}
+| | | +-- , 35 , {37} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'EQL', 'U69', 'U73', 'STATE_REG_0_'}
+| | | | +-- , 37 , {39} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'EQL', 'U92', 'U91', 'U69', 'STATE_REG_0_'}
+| | | | | +-- , 39 , {41} , {'U88', 'STATE_REG_2_', 'U92', 'U58', 'U91', 'U69', 'STATE_REG_0_'}
+| | | | | | +-- , 41 , set() , {'CC_MUX_REG_1_', 'U58'}
+| | +-- , 25 , {27} , {'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U83', 'U63', 'U73', 'STATE_REG_0_'}
+| | | +-- , 27 , {29, 31} , {'CONT_EQL', 'U84', 'U63', 'U83', 'U62'}
+| | | | +-- , 29 , set() , {'U62', 'ENABLE_COUNT_REG'}
+| | | | +-- , 31 , set() , {'U62', 'ACKOUT_REG'}
+| | +-- , 43 , set() , {'U54', 'STATE_REG_1_', 'U64', 'U90', 'U89', 'U73', 'STATE_REG_0_'}
+| +-- , 45 , {47} , {'U54', 'STATE_REG_2_', 'U76', 'STATE_REG_1_', 'EQL', 'U60'}
+| | +-- , 47 , set() , {'U60', 'USCITE_REG_1_'}
+
+
+Max number of edges with non zero Y: 13
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 4.683
+Time spent solving Separator LP: 0.410
+
+LP Solver: GaifmanNormal

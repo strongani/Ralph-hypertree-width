@@ -1,0 +1,21 @@
+11, 0.666666, 1.5, 2
++-- , 0 , {3, 19, 21, 11, 13} , {'X47', 'X79', 'X65', 'X44', 'X78'}
+| +-- , 3 , {5} , {'X68', 'X36', 'X33', 'X34', 'X41', 'X42', 'X39', 'X37', 'X79', 'X35', 'X43', 'X40'}
+| | +-- , 5 , {9, 7} , {'X68', 'X79', 'X72'}
+| | | +-- , 9 , set() , {'X55', 'X72', 'X79'}
+| | | +-- , 7 , set() , {'X18', 'X68', 'X20', 'X9', 'X72'}
+| +-- , 19 , set() , {'X11', 'X78', 'X12', 'X16', 'X17', 'X14', 'X13'}
+| +-- , 21 , set() , {'X28', 'X65'}
+| +-- , 11 , set() , {'X3', 'X26', 'X30', 'X67', 'X66', 'X79'}
+| +-- , 13 , {17, 15} , {'X21', 'X51', 'X23', 'X49', 'X25', 'X53', 'X64', 'X63', 'X79'}
+| | +-- , 17 , set() , {'X63', 'X8'}
+| | +-- , 15 , set() , {'X6', 'X64'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.700
+Time spent solving Separator LP: 0.075
+
+LP Solver: GaifmanNormal

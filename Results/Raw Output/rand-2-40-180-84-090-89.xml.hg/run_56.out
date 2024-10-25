@@ -1,0 +1,31 @@
+21, 4.9999994999999995, 8.0, 8
++-- , 0 , {3, 41, 10, 43, 45, 47} , {'xL11J', 'xL16J', 'xL9J', 'xL8J', 'xL34J', 'xL39J', 'xL4J', 'xL7J', 'xL24J', 'xL27J', 'xL29J'}
+| +-- , 3 , {5} , {'xL4J', 'xL23J', 'xL24J'}
+| | +-- , 5 , set() , {'xL23J', 'xL4J', 'xL32J'}
+| +-- , 41 , set() , {'xL21J', 'xL8J'}
+| +-- , 10 , {12, 39} , {'xL17J', 'xL11J', 'xL16J', 'xL9J', 'xL34J', 'xL37J', 'xL39J', 'xL4J', 'xL7J', 'xL24J', 'xL27J', 'xL29J'}
+| | +-- , 12 , {37, 14} , {'xL17J', 'xL27J', 'xL16J', 'xL39J', 'xL4J', 'xL33J', 'xL29J', 'xL11J', 'xL9J', 'xL37J', 'xL24J'}
+| | | +-- , 37 , set() , {'xL28J', 'xL33J'}
+| | | +-- , 14 , {35, 18} , {'xL17J', 'xL11J', 'xL16J', 'xL15J', 'xL9J', 'xL22J', 'xL37J', 'xL30J', 'xL39J', 'xL4J', 'xL24J', 'xL36J', 'xL27J', 'xL33J'}
+| | | | +-- , 35 , set() , {'xL14J', 'xL16J', 'xL4J', 'xL30J'}
+| | | | +-- , 18 , {21, 29, 31} , {'xL17J', 'xL26J', 'xL16J', 'xL15J', 'xL39J', 'xL4J', 'xL0J', 'xL22J', 'xL11J', 'xL9J', 'xL37J', 'xL30J', 'xL18J', 'xL13J', 'xL36J', 'xL27J'}
+| | | | | +-- , 21 , {27, 23} , {'xL17J', 'xL26J', 'xL16J', 'xL15J', 'xL20J', 'xL4J', 'xL0J', 'xL9J', 'xL12J', 'xL30J', 'xL18J', 'xL13J'}
+| | | | | | +-- , 27 , set() , {'xL12J', 'xL4J', 'xL3J'}
+| | | | | | +-- , 23 , {25} , {'xL26J', 'xL16J', 'xL15J', 'xL25J', 'xL12J', 'xL20J', 'xL30J', 'xL18J', 'xL4J', 'xL10J'}
+| | | | | | | +-- , 25 , set() , {'xL26J', 'xL16J', 'xL25J', 'xL18J', 'xL6J', 'xL10J'}
+| | | | | +-- , 29 , set() , {'xL13J', 'xL27J', 'xL38J'}
+| | | | | +-- , 31 , {33} , {'xL17J', 'xL11J', 'xL37J', 'xL18J', 'xL36J', 'xL19J'}
+| | | | | | +-- , 33 , set() , {'xL17J', 'xL5J', 'xL18J', 'xL36J', 'xL19J'}
+| | +-- , 39 , set() , {'xL17J', 'xL2J'}
+| +-- , 43 , set() , {'xL1J', 'xL7J', 'xL29J'}
+| +-- , 45 , set() , {'xL27J', 'xL31J', 'xL8J'}
+| +-- , 47 , set() , {'xL27J', 'xL16J', 'xL35J'}
+
+
+Max number of edges with non zero Y: 7
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 15.901
+
+LP Solver: GaifmanNormalILP
