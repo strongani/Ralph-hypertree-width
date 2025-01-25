@@ -1,0 +1,22 @@
+12, 1.0, 1.0, 1
++-- , 0 , {23, 19, 5, 15} , {'X6', 'X86', 'X12', 'X14', 'X3', 'X8', 'X13', 'X5', 'X11', 'X10', 'X7', 'X4'}
+| +-- , 23 , {25} , {'X48', 'X86', 'X46', 'X76', 'X50'}
+| | +-- , 25 , set() , {'X42', 'X76'}
+| +-- , 19 , {21} , {'X82', 'X86', 'X24', 'X25', 'X22'}
+| | +-- , 21 , set() , {'X34', 'X82', 'X39', 'X37', 'X35', 'X40', 'X36'}
+| +-- , 5 , {7, 9, 11, 13} , {'X88', 'X75', 'X84', 'X86', 'X17', 'X15', 'X19'}
+| | +-- , 7 , set() , {'X88', 'X64', 'X70', 'X63', 'X69', 'X65', 'X62', 'X66', 'X67'}
+| | +-- , 9 , set() , {'X75', 'X1'}
+| | +-- , 11 , set() , {'X84', 'X27', 'X29', 'X30', 'X33', 'X31', 'X28'}
+| | +-- , 13 , set() , {'X88', 'X54', 'X51', 'X57', 'X52', 'X53', 'X55', 'X56'}
+| +-- , 15 , {17} , {'X77', 'X60', 'X86'}
+| | +-- , 17 , set() , {'X77', 'X43', 'X45'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.097
+
+LP Solver: GaifmanNormalILP

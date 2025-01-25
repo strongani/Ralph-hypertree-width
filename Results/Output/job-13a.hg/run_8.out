@@ -1,0 +1,17 @@
+7, 0, 1.0, 1
++-- , 0 , {3, 8, 14} , {'X53', 'X19', 'X18', 'X9', 'X12', 'X15', 'X49', 'X10', 'X11', 'X16', 'X17', 'X13'}
+| +-- , 3 , {6} , {'X47', 'X42', 'X53', 'X40', 'X3', 'X38', 'X1', 'X5', 'X44'}
+| | +-- , 6 , set() , {'X37', 'X47', 'X21', 'X44'}
+| +-- , 8 , {10, 12} , {'X43', 'X46', 'X22', 'X25', 'X53'}
+| | +-- , 10 , set() , {'X35', 'X29', 'X30', 'X31', 'X43', 'X34', 'X32'}
+| | +-- , 12 , set() , {'X6', 'X46'}
+| +-- , 14 , set() , {'X27', 'X49'}
+
+
+Max number of edges with non zero Y: 7
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 2.439
+Time spent solving Separator LP: 0.020
+
+LP Solver: gammaPlusFractionalCoverHeuristic

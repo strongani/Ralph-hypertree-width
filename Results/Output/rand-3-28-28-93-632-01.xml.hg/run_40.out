@@ -1,0 +1,19 @@
+7, 2.549848800570343, 7.333333333333333, 9
++-- , 0 , {3} , {'xL27J', 'xL7J', 'xL1J', 'xL16J', 'xL8J', 'xL9J', 'xL20J', 'xL13J', 'xL26J'}
+| +-- , 3 , {17} , {'xL4J', 'xL8J', 'xL21J', 'xL26J', 'xL11J', 'xL17J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL12J', 'xL13J', 'xL1J', 'xL27J', 'xL16J', 'xL9J', 'xL20J', 'xL10J'}
+| | +-- , 17 , {19} , {'xL4J', 'xL8J', 'xL21J', 'xL26J', 'xL11J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL12J', 'xL13J', 'xL1J', 'xL2J', 'xL27J', 'xL16J', 'xL9J', 'xL20J', 'xL10J'}
+| | | +-- , 19 , {22} , {'xL4J', 'xL8J', 'xL21J', 'xL26J', 'xL11J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL12J', 'xL13J', 'xL1J', 'xL24J', 'xL2J', 'xL27J', 'xL16J', 'xL14J', 'xL20J', 'xL10J'}
+| | | | +-- , 22 , {24} , {'xL4J', 'xL8J', 'xL21J', 'xL11J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL19J', 'xL12J', 'xL13J', 'xL1J', 'xL24J', 'xL2J', 'xL27J', 'xL16J', 'xL14J', 'xL20J', 'xL10J'}
+| | | | | +-- , 24 , {26} , {'xL24J', 'xL23J', 'xL4J', 'xL2J', 'xL8J', 'xL21J', 'xL11J', 'xL27J', 'xL22J', 'xL6J', 'xL3J', 'xL16J', 'xL18J', 'xL25J', 'xL14J', 'xL5J', 'xL19J', 'xL12J', 'xL13J', 'xL10J'}
+| | | | | | +-- , 26 , set() , {'xL11J', 'xL27J', 'xL24J', 'xL22J', 'xL6J', 'xL3J', 'xL16J', 'xL18J', 'xL15J', 'xL23J', 'xL2J', 'xL4J', 'xL25J', 'xL19J', 'xL13J', 'xL10J'}
+
+
+Max number of edges with non zero Y: 61
+Max number of iterations of outer rounding loop: 10
+Max number of candidate sets: 2
+Time spent rounding: 96.071
+Time spent solving Separator LP: 13.594
+Total time spent solving: 118.158
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL4J', 'xL8J', 'xL21J', 'xL26J', 'xL11J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL19J', 'xL12J', 'xL13J', 'xL1J', 'xL24J', 'xL23J', 'xL15J', 'xL2J', 'xL27J', 'xL16J', 'xL14J', 'xL20J', 'xL10J'}, {'xL4J', 'xL8J', 'xL21J', 'xL26J', 'xL11J', 'xL22J', 'xL6J', 'xL3J', 'xL18J', 'xL0J', 'xL25J', 'xL5J', 'xL12J', 'xL13J', 'xL1J', 'xL2J', 'xL27J', 'xL16J', 'xL14J', 'xL20J', 'xL10J'})

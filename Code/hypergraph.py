@@ -233,7 +233,20 @@ class hypergraph:
     # returns the open neighborhood of S. 
     def openNeighborhood(self, S):
         return self.closedNeighborhood(S) - S
-  
+    
+    #new as of 12/6/2024. 
+    #returns the sub-hypergraph of H induced by the inclusion-maximal hyperedges
+    def trimmedHypergraph(self):
+        neset = set()
+        for e in self.E:
+            #print("trimming ", self.eName[e])
+            incV = self.verticesOf[e]
+            neighborEdges = self.incidentHyperedges(incV)
+            #print([self.eName[q] for q in neighborEdges])
+            if not any(self.verticesOf[e] < self.verticesOf[ee] for ee in neighborEdges): 
+            #    print("include ", self.eName[e])
+                neset.add(e)
+        return self.subhypergraph(self.V, neset)
         
     # for output. 
     def __str__(self):

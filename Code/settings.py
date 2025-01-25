@@ -21,10 +21,13 @@ def getSolver():
     #Which solver to use?
     #Note: I had do jerry-rig the PuLP API for HiGHS for the msg=false thing to work. There is also a "callback" thing that 
     #does not work and i had to comment out the offending line in the API. 
-    #solver = pulp.HiGHS(msg=False)
+    # solver = pulp.HiGHS(msg=False)
 
     #Gurobi - not open source.
     solver = pulp.GUROBI(msg=False, timeLimit=3600)
+
+    # solver = pulp.HiGHS(msg=False, timeLimit=3600)
+
 
     #################################
 
@@ -59,14 +62,19 @@ def getSolver():
 #
 # Decide which separator LP to use. 
 availableSeparatorLPs = ["GaifmanNormal", "HypergraphNormal", "GaifmanBoosted", "GaifmanNormalILP", "gammaPlusFractionalCoverHeuristic"]
-useSeparatorLP = availableSeparatorLPs[0]
+useSeparatorLP = availableSeparatorLPs[4]
+doMixedRun = True        # doesn't matter what useSeparatorLP is here, nor -n numRuns passed in fhtw command
+num_heuristic = 10
+num_normal = 20
+num_boosted = 20
+num_ILP = 10
 
 ### Rounding settings ------------
 
 # How many times to round same LP. Only makes sense to be > 1 when candidateSetRoot = randomNonzeroGammaEdge
 # Does not matter for ILP.
 # Set to at least 10 for good results.
-roundingAttempts = 40
+roundingAttempts = 10
 
 # Set to true to use estimator for fractional cover of Z inside current component when rounding. Faster but less accurate.
 useZCoverEstimator = True

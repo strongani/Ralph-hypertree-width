@@ -1,0 +1,31 @@
+21, 4.0, 8.0, 8
++-- , 0 , {5, 39, 47} , {'xL10J', 'xL9J', 'xL3J', 'xL2J', 'xL35J', 'xL22J', 'xL38J', 'xL34J', 'xL5J', 'xL4J'}
+| +-- , 5 , {10, 37} , {'xL6J', 'xL10J', 'xL9J', 'xL14J', 'xL3J', 'xL35J', 'xL22J', 'xL38J', 'xL34J', 'xL5J', 'xL12J', 'xL31J', 'xL4J', 'xL7J'}
+| | +-- , 10 , {33, 35, 13, 31} , {'xL27J', 'xL9J', 'xL35J', 'xL15J', 'xL31J', 'xL4J', 'xL6J', 'xL11J', 'xL10J', 'xL14J', 'xL3J', 'xL38J', 'xL34J', 'xL5J', 'xL12J', 'xL7J'}
+| | | +-- , 33 , set() , {'xL30J', 'xL10J', 'xL4J', 'xL15J'}
+| | | +-- , 35 , set() , {'xL11J', 'xL5J', 'xL16J'}
+| | | +-- , 13 , {29, 15} , {'xL9J', 'xL15J', 'xL31J', 'xL4J', 'xL6J', 'xL11J', 'xL10J', 'xL14J', 'xL3J', 'xL1J', 'xL38J', 'xL5J', 'xL12J', 'xL7J'}
+| | | | +-- , 29 , set() , {'xL14J', 'xL1J', 'xL26J', 'xL5J', 'xL12J', 'xL28J', 'xL7J'}
+| | | | +-- , 15 , {17, 23} , {'xL9J', 'xL37J', 'xL20J', 'xL15J', 'xL31J', 'xL4J', 'xL11J', 'xL10J', 'xL14J', 'xL3J', 'xL1J', 'xL38J', 'xL5J', 'xL12J'}
+| | | | | +-- , 17 , {19, 21} , {'xL11J', 'xL14J', 'xL3J', 'xL9J', 'xL32J', 'xL13J', 'xL5J', 'xL20J', 'xL12J', 'xL31J', 'xL4J'}
+| | | | | | +-- , 19 , set() , {'xL11J', 'xL14J', 'xL32J', 'xL17J', 'xL12J'}
+| | | | | | +-- , 21 , set() , {'xL8J', 'xL3J', 'xL32J'}
+| | | | | +-- , 23 , {25} , {'xL10J', 'xL3J', 'xL1J', 'xL23J', 'xL20J', 'xL15J'}
+| | | | | | +-- , 25 , {27} , {'xL33J', 'xL23J', 'xL25J', 'xL3J', 'xL15J', 'xL1J'}
+| | | | | | | +-- , 27 , set() , {'xL24J', 'xL25J'}
+| | | +-- , 31 , set() , {'xL18J', 'xL34J', 'xL15J', 'xL31J', 'xL7J'}
+| | +-- , 37 , set() , {'xL22J', 'xL31J', 'xL21J', 'xL5J'}
+| +-- , 39 , {41, 45} , {'xL39J', 'xL9J', 'xL3J', 'xL35J', 'xL22J', 'xL34J', 'xL4J'}
+| | +-- , 41 , {43} , {'xL22J', 'xL39J', 'xL19J', 'xL3J'}
+| | | +-- , 43 , set() , {'xL36J', 'xL19J'}
+| | +-- , 45 , set() , {'xL0J', 'xL39J', 'xL9J'}
+| +-- , 47 , set() , {'xL2J', 'xL29J'}
+
+
+Max number of edges with non zero Y: 6
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 8.217
+
+LP Solver: GaifmanNormalILP

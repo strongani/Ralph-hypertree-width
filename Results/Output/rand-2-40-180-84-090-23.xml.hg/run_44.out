@@ -1,0 +1,30 @@
+20, 3.020571073935549, 8.0, 8
++-- , 0 , {34, 7, 40, 42, 44, 30} , {'xL11J', 'xL36J', 'xL1J', 'xL17J', 'xL21J', 'xL6J', 'xL12J', 'xL27J', 'xL28J', 'xL24J', 'xL18J', 'xL5J', 'xL38J', 'xL23J', 'xL25J', 'xL37J'}
+| +-- , 34 , {36} , {'xL2J', 'xL21J', 'xL23J', 'xL28J', 'xL25J'}
+| | +-- , 36 , {38} , {'xL21J', 'xL32J', 'xL28J', 'xL25J', 'xL2J'}
+| | | +-- , 38 , set() , {'xL35J', 'xL32J', 'xL21J', 'xL25J'}
+| +-- , 7 , {9} , {'xL11J', 'xL36J', 'xL1J', 'xL17J', 'xL21J', 'xL6J', 'xL12J', 'xL27J', 'xL25J', 'xL24J', 'xL18J', 'xL5J', 'xL38J', 'xL31J'}
+| | +-- , 9 , {12, 22} , {'xL11J', 'xL26J', 'xL24J', 'xL18J', 'xL36J', 'xL38J', 'xL17J', 'xL21J', 'xL12J', 'xL7J', 'xL27J', 'xL25J', 'xL31J'}
+| | | +-- , 12 , {14} , {'xL36J', 'xL17J', 'xL21J', 'xL12J', 'xL7J', 'xL27J', 'xL31J', 'xL4J', 'xL26J', 'xL24J', 'xL18J', 'xL38J', 'xL25J'}
+| | | | +-- , 14 , {16} , {'xL36J', 'xL17J', 'xL21J', 'xL12J', 'xL7J', 'xL22J', 'xL31J', 'xL4J', 'xL14J', 'xL24J', 'xL18J', 'xL25J'}
+| | | | | +-- , 16 , {18, 20} , {'xL31J', 'xL4J', 'xL30J', 'xL14J', 'xL18J', 'xL36J', 'xL12J', 'xL9J', 'xL7J', 'xL22J'}
+| | | | | | +-- , 18 , set() , {'xL3J', 'xL30J', 'xL18J', 'xL7J', 'xL31J'}
+| | | | | | +-- , 20 , set() , {'xL31J', 'xL30J', 'xL10J', 'xL9J', 'xL22J'}
+| | | +-- , 22 , {24} , {'xL26J', 'xL24J', 'xL39J', 'xL7J', 'xL27J', 'xL31J'}
+| | | | +-- , 24 , {26} , {'xL26J', 'xL39J', 'xL7J', 'xL27J', 'xL31J', 'xL20J'}
+| | | | | +-- , 26 , {28} , {'xL26J', 'xL39J', 'xL15J', 'xL27J', 'xL31J', 'xL20J'}
+| | | | | | +-- , 28 , set() , {'xL26J', 'xL39J', 'xL8J', 'xL15J'}
+| +-- , 40 , set() , {'xL24J', 'xL5J', 'xL21J', 'xL19J', 'xL33J', 'xL37J'}
+| +-- , 42 , set() , {'xL0J', 'xL12J', 'xL37J'}
+| +-- , 44 , set() , {'xL13J', 'xL36J'}
+| +-- , 30 , {32} , {'xL34J', 'xL23J', 'xL5J', 'xL27J', 'xL16J', 'xL17J'}
+| | +-- , 32 , set() , {'xL16J', 'xL29J', 'xL17J'}
+
+
+Max number of edges with non zero Y: 33
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 25.030
+Time spent solving Separator LP: 0.670
+
+LP Solver: GaifmanBoosted

@@ -1,0 +1,30 @@
+20, 3.0603374899086346, 9.0, 10
++-- , 0 , {36, 5, 40, 42, 44} , {'xL32J', 'xL15J', 'xL20J', 'xL12J', 'xL14J', 'xL3J', 'xL26J', 'xL21J', 'xL30J', 'xL37J', 'xL1J', 'xL11J', 'xL24J', 'xL38J', 'xL5J', 'xL0J'}
+| +-- , 36 , {38} , {'xL10J', 'xL24J', 'xL0J', 'xL15J', 'xL3J', 'xL26J'}
+| | +-- , 38 , set() , {'xL6J', 'xL15J', 'xL10J'}
+| +-- , 5 , {7} , {'xL9J', 'xL32J', 'xL15J', 'xL20J', 'xL12J', 'xL14J', 'xL3J', 'xL26J', 'xL21J', 'xL37J', 'xL1J', 'xL11J', 'xL24J', 'xL38J', 'xL5J', 'xL0J'}
+| | +-- , 7 , {10, 34} , {'xL9J', 'xL32J', 'xL20J', 'xL12J', 'xL14J', 'xL22J', 'xL3J', 'xL26J', 'xL21J', 'xL7J', 'xL37J', 'xL1J', 'xL23J', 'xL11J', 'xL24J', 'xL38J', 'xL5J', 'xL0J'}
+| | | +-- , 10 , {12} , {'xL9J', 'xL32J', 'xL14J', 'xL22J', 'xL3J', 'xL26J', 'xL21J', 'xL7J', 'xL8J', 'xL37J', 'xL11J', 'xL23J', 'xL24J', 'xL38J', 'xL5J', 'xL0J'}
+| | | | +-- , 12 , {32, 16, 22, 26, 28} , {'xL32J', 'xL35J', 'xL14J', 'xL22J', 'xL3J', 'xL26J', 'xL21J', 'xL7J', 'xL8J', 'xL37J', 'xL11J', 'xL23J', 'xL24J', 'xL38J', 'xL5J', 'xL0J', 'xL2J'}
+| | | | | +-- , 32 , set() , {'xL29J', 'xL23J', 'xL5J', 'xL2J'}
+| | | | | +-- , 16 , {18, 20} , {'xL32J', 'xL7J', 'xL8J', 'xL35J', 'xL19J', 'xL23J', 'xL24J', 'xL5J', 'xL14J', 'xL22J', 'xL26J', 'xL2J'}
+| | | | | | +-- , 18 , set() , {'xL34J', 'xL17J', 'xL7J', 'xL39J', 'xL19J', 'xL24J', 'xL14J', 'xL26J', 'xL2J'}
+| | | | | | +-- , 20 , set() , {'xL32J', 'xL7J', 'xL19J', 'xL28J', 'xL22J'}
+| | | | | +-- , 22 , {24} , {'xL27J', 'xL38J', 'xL14J', 'xL37J', 'xL22J', 'xL35J'}
+| | | | | | +-- , 24 , set() , {'xL22J', 'xL16J', 'xL27J'}
+| | | | | +-- , 26 , set() , {'xL23J', 'xL18J', 'xL11J', 'xL35J'}
+| | | | | +-- , 28 , {30} , {'xL36J', 'xL14J', 'xL0J', 'xL35J', 'xL21J'}
+| | | | | | +-- , 30 , set() , {'xL0J', 'xL36J', 'xL13J', 'xL21J'}
+| | | +-- , 34 , set() , {'xL31J', 'xL32J', 'xL7J', 'xL20J'}
+| +-- , 40 , set() , {'xL15J', 'xL33J', 'xL12J', 'xL11J', 'xL5J', 'xL38J'}
+| +-- , 42 , set() , {'xL4J', 'xL1J'}
+| +-- , 44 , set() , {'xL26J', 'xL5J', 'xL25J'}
+
+
+Max number of edges with non zero Y: 32
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 24.588
+Time spent solving Separator LP: 0.624
+
+LP Solver: GaifmanNormal

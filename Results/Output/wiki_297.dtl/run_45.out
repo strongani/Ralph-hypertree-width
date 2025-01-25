@@ -1,0 +1,17 @@
+5, 1.0, 2.0, 2
++-- , 0 , {6, 8, 10, 12} , {'2', '6', '4', '0'}
+| +-- , 6 , set() , {'5', '4', '0'}
+| +-- , 8 , set() , {'7', '0'}
+| +-- , 10 , set() , {'1', '0'}
+| +-- , 12 , set() , {'3', '2'}
+
+
+Max number of edges with non zero Y: 2
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 2.236
+Time spent solving Separator LP: 0.022
+Total time spent solving: 3.237
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'5', '6', '0', '2', '4'}, {'2', '0'})

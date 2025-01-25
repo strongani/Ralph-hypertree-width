@@ -1,0 +1,33 @@
+23, 1.6238439205330333, 5.6, 6
++-- , 0 , {3, 35, 43, 27, 45} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'U85', 'U76', 'EQL', 'U65', 'U60', 'U70', 'U86', 'U73', 'STATE_REG_0_'}
+| +-- , 3 , {7, 23} , {'U54', 'U88', 'STATE_REG_2_', 'STATE_REG_1_', 'U85', 'EQL', 'U65', 'U70', 'U92', 'U91', 'U69', 'U73', 'STATE_REG_0_'}
+| | +-- , 7 , {9, 21} , {'U54', 'STATE_REG_2_', 'U64', 'U85', 'STATE_REG_1_', 'EQL', 'U65', 'U70', 'U92', 'U67', 'U91', 'U73', 'STATE_REG_0_'}
+| | | +-- , 9 , {11, 19} , {'STATE_REG_2_', 'U64', 'U85', 'STATE_REG_1_', 'U68', 'U65', 'EQL', 'U71', 'U92', 'U73', 'U67', 'U81', 'STATE_REG_0_'}
+| | | | +-- , 11 , {13, 15} , {'STATE_REG_2_', 'U72', 'STATE_REG_1_', 'U64', 'U68', 'EQL', 'U65', 'U71', 'U73', 'U81'}
+| | | | | +-- , 13 , set() , {'U72', 'U81', 'STATE_REG_1_', 'U56', 'EQL', 'U82', 'U71', 'U73', 'U66'}
+| | | | | +-- , 15 , {17} , {'U71', 'U75', 'U72', 'STATE_REG_2_', 'U61'}
+| | | | | | +-- , 17 , set() , {'U61', 'USCITE_REG_2_'}
+| | | | +-- , 19 , set() , {'U87', 'STATE_REG_1_', 'U68', 'EQL', 'U92'}
+| | | +-- , 21 , set() , {'U54', 'STATE_REG_1_', 'U64', 'U90', 'U89', 'U73', 'STATE_REG_0_'}
+| | +-- , 23 , {25} , {'U88', 'U92', 'U58', 'U69', 'U91'}
+| | | +-- , 25 , set() , {'CC_MUX_REG_1_', 'U58'}
+| +-- , 35 , {37} , {'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U83', 'U63', 'U73', 'STATE_REG_0_'}
+| | +-- , 37 , {41, 39} , {'CONT_EQL', 'U84', 'U63', 'U83', 'U62'}
+| | | +-- , 41 , set() , {'U62', 'ACKOUT_REG'}
+| | | +-- , 39 , set() , {'U62', 'ENABLE_COUNT_REG'}
+| +-- , 43 , set() , {'U60', 'USCITE_REG_1_'}
+| +-- , 27 , {33, 29} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U70', 'U55', 'U74', 'U78', 'U86', 'U79', 'STATE_REG_0_'}
+| | +-- , 33 , set() , {'STATE_REG_1_', 'U65', 'U77', 'U78', 'STATE_REG_0_'}
+| | +-- , 29 , {31} , {'U80', 'U78', 'STATE_REG_2_', 'U79'}
+| | | +-- , 31 , set() , {'U80', 'U57', 'U79', 'STATE_REG_2_'}
+| +-- , 45 , {47} , {'U86', 'U85', 'U59', 'U70'}
+| | +-- , 47 , set() , {'CC_MUX_REG_2_', 'U59'}
+
+
+Max number of edges with non zero Y: 16
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 16.139
+Time spent solving Separator LP: 1.230
+
+LP Solver: GaifmanNormal

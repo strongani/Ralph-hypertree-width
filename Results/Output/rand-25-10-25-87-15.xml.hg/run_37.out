@@ -1,0 +1,25 @@
+13, 2.004247281403471, 6.5, 8
++-- , 0 , {5} , {'xL24J', 'xL23J', 'xL10J', 'xL4J', 'xL21J', 'xL2J', 'xL19J', 'xL16J', 'xL5J', 'xL18J', 'xL3J'}
+| +-- , 5 , {7} , {'xL22J', 'xL24J', 'xL23J', 'xL10J', 'xL4J', 'xL21J', 'xL2J', 'xL19J', 'xL16J', 'xL18J', 'xL3J'}
+| | +-- , 7 , {10} , {'xL22J', 'xL24J', 'xL23J', 'xL10J', 'xL9J', 'xL21J', 'xL2J', 'xL19J', 'xL16J', 'xL6J', 'xL18J', 'xL3J', 'xL8J'}
+| | | +-- , 10 , {12} , {'xL22J', 'xL24J', 'xL10J', 'xL9J', 'xL21J', 'xL19J', 'xL16J', 'xL6J', 'xL0J', 'xL18J', 'xL3J', 'xL8J'}
+| | | | +-- , 12 , {14} , {'xL22J', 'xL24J', 'xL9J', 'xL21J', 'xL14J', 'xL19J', 'xL16J', 'xL6J', 'xL0J', 'xL18J', 'xL3J', 'xL8J'}
+| | | | | +-- , 14 , {24, 16} , {'xL20J', 'xL22J', 'xL24J', 'xL21J', 'xL14J', 'xL19J', 'xL16J', 'xL6J', 'xL0J', 'xL18J', 'xL3J', 'xL8J'}
+| | | | | | +-- , 24 , {26} , {'xL20J', 'xL6J', 'xL22J', 'xL24J', 'xL0J', 'xL18J', 'xL3J', 'xL8J', 'xL19J', 'xL15J'}
+| | | | | | | +-- , 26 , {28} , {'xL6J', 'xL22J', 'xL24J', 'xL0J', 'xL18J', 'xL3J', 'xL1J', 'xL19J', 'xL15J'}
+| | | | | | | | +-- , 28 , set() , {'xL17J', 'xL6J', 'xL22J', 'xL24J', 'xL0J', 'xL18J', 'xL1J', 'xL15J'}
+| | | | | | +-- , 16 , {18, 22} , {'xL20J', 'xL16J', 'xL6J', 'xL22J', 'xL0J', 'xL11J', 'xL3J', 'xL8J', 'xL21J', 'xL14J'}
+| | | | | | | +-- , 18 , {20} , {'xL20J', 'xL16J', 'xL12J', 'xL6J', 'xL11J', 'xL8J', 'xL21J', 'xL14J'}
+| | | | | | | | +-- , 20 , set() , {'xL20J', 'xL12J', 'xL6J', 'xL13J', 'xL11J', 'xL8J', 'xL21J', 'xL14J'}
+| | | | | | | +-- , 22 , set() , {'xL11J', 'xL3J', 'xL0J', 'xL7J'}
+
+
+Max number of edges with non zero Y: 28
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 40.577
+Time spent solving Separator LP: 1.266
+Total time spent solving: 46.862
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL20J', 'xL12J', 'xL22J', 'xL13J', 'xL11J', 'xL21J', 'xL14J', 'xL19J', 'xL17J', 'xL6J', 'xL7J', 'xL18J', 'xL3J', 'xL15J', 'xL24J', 'xL1J', 'xL16J', 'xL0J', 'xL8J'}, {'xL16J', 'xL6J', 'xL22J', 'xL24J', 'xL0J', 'xL18J', 'xL3J', 'xL8J', 'xL21J', 'xL14J', 'xL19J'})

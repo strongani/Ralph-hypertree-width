@@ -1,0 +1,17 @@
+5, 1.0, 1.0, 1
++-- , 0 , {3, 5, 7, 9} , {'m286004_c0', 'm297004_c2', 'm297004_c1', 'm297004_c3'}
+| +-- , 3 , set() , {'m286004_c0', 'm286004_c1', 'm286004_c2', 'm286004_c3'}
+| +-- , 5 , set() , {'m252004_c0', 'm286004_c0', 'm252004_c2', 'm252004_c3'}
+| +-- , 7 , set() , {'m165004_c3', 'm286004_c0', 'm165004_c2', 'm165004_c1'}
+| +-- , 9 , set() , {'m286004_c0', 'm203004_c3', 'm203004_c2', 'm203004_c1'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.017
+Total time spent solving: 0.162
+
+LP Solver: GaifmanNormalILP
+Lower Bound Witness = ({'m286004_c2', 'm165004_c3', 'm297004_c2', 'm297004_c1', 'm286004_c1', 'm203004_c3', 'm165004_c1', 'm297004_c3', 'm252004_c0', 'm286004_c0', 'm286004_c3', 'm252004_c2', 'm165004_c2', 'm203004_c1', 'm203004_c2', 'm252004_c3'}, {'m297004_c1', 'm165004_c3', 'm165004_c1', 'm203004_c2'})

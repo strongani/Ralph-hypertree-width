@@ -1,0 +1,26 @@
+16, 2.8031936383433678, 9.0, 9
++-- , 0 , {6} , {'xL16J', 'xL26J', 'xL35J', 'xL21J', 'xL0J', 'xL3J', 'xL4J', 'xL20J', 'xL22J', 'xL28J', 'xL32J', 'xL9J', 'xL17J', 'xL2J', 'xL29J'}
+| +-- , 6 , {9} , {'xL16J', 'xL26J', 'xL35J', 'xL21J', 'xL23J', 'xL0J', 'xL3J', 'xL4J', 'xL1J', 'xL20J', 'xL22J', 'xL27J', 'xL28J', 'xL32J', 'xL31J', 'xL17J', 'xL2J', 'xL29J'}
+| | +-- , 9 , {11} , {'xL26J', 'xL35J', 'xL39J', 'xL23J', 'xL21J', 'xL3J', 'xL4J', 'xL1J', 'xL20J', 'xL22J', 'xL27J', 'xL28J', 'xL32J', 'xL17J', 'xL31J', 'xL30J', 'xL2J'}
+| | | +-- , 11 , {32, 36, 14} , {'xL36J', 'xL26J', 'xL39J', 'xL23J', 'xL21J', 'xL3J', 'xL1J', 'xL20J', 'xL6J', 'xL22J', 'xL27J', 'xL28J', 'xL7J', 'xL17J', 'xL31J', 'xL30J', 'xL2J'}
+| | | | +-- , 32 , {34} , {'xL6J', 'xL20J', 'xL8J', 'xL33J', 'xL36J', 'xL28J'}
+| | | | | +-- , 34 , set() , {'xL11J', 'xL8J'}
+| | | | +-- , 36 , set() , {'xL27J', 'xL6J', 'xL22J', 'xL24J'}
+| | | | +-- , 14 , {16} , {'xL36J', 'xL37J', 'xL26J', 'xL39J', 'xL23J', 'xL21J', 'xL3J', 'xL1J', 'xL6J', 'xL20J', 'xL28J', 'xL7J', 'xL17J', 'xL31J', 'xL30J', 'xL2J'}
+| | | | | +-- , 16 , {18, 30} , {'xL21J', 'xL1J', 'xL6J', 'xL36J', 'xL37J', 'xL38J', 'xL26J', 'xL7J', 'xL39J', 'xL17J', 'xL31J', 'xL23J', 'xL2J', 'xL3J'}
+| | | | | | +-- , 18 , {20, 22, 28} , {'xL19J', 'xL36J', 'xL13J', 'xL26J', 'xL21J', 'xL3J', 'xL1J', 'xL6J', 'xL38J', 'xL7J', 'xL17J', 'xL2J'}
+| | | | | | | +-- , 20 , set() , {'xL6J', 'xL25J', 'xL34J', 'xL13J', 'xL21J', 'xL2J'}
+| | | | | | | +-- , 22 , {24, 26} , {'xL1J', 'xL19J', 'xL14J', 'xL36J', 'xL15J', 'xL38J', 'xL13J', 'xL7J', 'xL17J'}
+| | | | | | | | +-- , 24 , set() , {'xL14J', 'xL10J', 'xL7J'}
+| | | | | | | | +-- , 26 , set() , {'xL14J', 'xL15J', 'xL5J'}
+| | | | | | | +-- , 28 , set() , {'xL18J', 'xL13J'}
+| | | | | | +-- , 30 , set() , {'xL38J', 'xL12J', 'xL3J', 'xL39J'}
+
+
+Max number of edges with non zero Y: 22
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 41.668
+Time spent solving Separator LP: 1.518
+
+LP Solver: GaifmanBoosted

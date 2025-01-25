@@ -1,0 +1,14 @@
+4, 1.0526315789473684, 3.0, 3
++-- , 0 , {3, 7} , {'73', '70', '47', '39', '66', '43', '63', '32', '51', '34', '12', '19'}
+| +-- , 3 , {5} , {'60', '39', '59', '63', '32', '58', '5', '34', '16', '8', '36', '27', '47', '2', '51', '12', '19'}
+| | +-- , 5 , set() , {'72', '47', '60', '59', '71', '48', '44', '61', '2', '0', '58'}
+| +-- , 7 , set() , {'6', '13', '74', '47', '4', '23', '25', '63', '51', '45', '35'}
+
+
+Max number of edges with non zero Y: 4
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.669
+Time spent solving Separator LP: 0.045
+
+LP Solver: GaifmanBoosted

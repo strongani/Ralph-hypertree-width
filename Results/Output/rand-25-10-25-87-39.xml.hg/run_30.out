@@ -1,0 +1,24 @@
+12, 1.967226682603465, 6.5, 7
++-- , 0 , {5} , {'xL23J', 'xL22J', 'xL19J', 'xL10J', 'xL11J', 'xL20J', 'xL3J', 'xL24J', 'xL15J', 'xL18J', 'xL9J'}
+| +-- , 5 , {7} , {'xL23J', 'xL4J', 'xL22J', 'xL19J', 'xL17J', 'xL10J', 'xL11J', 'xL20J', 'xL24J', 'xL15J', 'xL18J', 'xL9J'}
+| | +-- , 7 , {9} , {'xL23J', 'xL4J', 'xL19J', 'xL21J', 'xL17J', 'xL10J', 'xL11J', 'xL20J', 'xL24J', 'xL15J', 'xL18J', 'xL9J'}
+| | | +-- , 9 , {11} , {'xL8J', 'xL23J', 'xL19J', 'xL21J', 'xL17J', 'xL10J', 'xL11J', 'xL20J', 'xL1J', 'xL24J', 'xL15J', 'xL18J', 'xL9J'}
+| | | | +-- , 11 , {13, 21} , {'xL8J', 'xL23J', 'xL19J', 'xL17J', 'xL10J', 'xL11J', 'xL20J', 'xL1J', 'xL15J', 'xL18J', 'xL9J', 'xL7J'}
+| | | | | +-- , 13 , {15} , {'xL8J', 'xL12J', 'xL23J', 'xL19J', 'xL17J', 'xL11J', 'xL20J', 'xL1J', 'xL15J', 'xL9J', 'xL7J'}
+| | | | | | +-- , 15 , {17} , {'xL8J', 'xL12J', 'xL23J', 'xL19J', 'xL11J', 'xL20J', 'xL1J', 'xL14J', 'xL15J', 'xL9J', 'xL7J'}
+| | | | | | | +-- , 17 , {19} , {'xL20J', 'xL1J', 'xL19J', 'xL14J', 'xL15J', 'xL9J', 'xL11J', 'xL7J', 'xL0J', 'xL6J'}
+| | | | | | | | +-- , 19 , set() , {'xL20J', 'xL13J', 'xL1J', 'xL15J', 'xL11J', 'xL0J', 'xL6J'}
+| | | | | +-- , 21 , {23} , {'xL23J', 'xL5J', 'xL19J', 'xL17J', 'xL10J', 'xL20J', 'xL1J', 'xL15J', 'xL18J', 'xL9J', 'xL7J'}
+| | | | | | +-- , 23 , {25} , {'xL20J', 'xL23J', 'xL2J', 'xL1J', 'xL5J', 'xL19J', 'xL15J', 'xL10J', 'xL9J'}
+| | | | | | | +-- , 25 , set() , {'xL16J', 'xL20J', 'xL23J', 'xL2J', 'xL1J', 'xL15J'}
+
+
+Max number of edges with non zero Y: 18
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 28.399
+Time spent solving Separator LP: 0.694
+Total time spent solving: 33.011
+
+LP Solver: GaifmanBoosted
+Lower Bound Witness = ({'xL8J', 'xL5J', 'xL19J', 'xL10J', 'xL0J', 'xL13J', 'xL1J', 'xL24J', 'xL15J', 'xL18J', 'xL9J', 'xL12J', 'xL23J', 'xL2J', 'xL21J', 'xL17J', 'xL11J', 'xL16J', 'xL20J', 'xL14J', 'xL7J', 'xL6J'}, {'xL20J', 'xL23J', 'xL24J', 'xL19J', 'xL21J', 'xL9J', 'xL15J', 'xL17J', 'xL18J', 'xL10J', 'xL11J'})

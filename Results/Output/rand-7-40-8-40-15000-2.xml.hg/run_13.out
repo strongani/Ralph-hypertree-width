@@ -1,0 +1,32 @@
+6, 2.3348475006985834, 5.635398230088496, 8
++-- , 0 , {24} , {'xL33J', 'xL17J', 'xL0J', 'xL34J', 'xL36J', 'xL9J', 'xL39J', 'xL10J', 'xL11J', 'xL15J', 'xL31J', 'xL19J', 'xL35J', 'xL24J', 'xL7J', 'xL14J', 'xL4J', 'xL16J', 'xL30J', 'xL1J', 'xL37J', 'xL13J', 'xL5J', 'xL6J', 'xL22J', 'xL27J', 'xL23J', 'xL25J', 'xL2J', 'xL26J', 'xL29J', 'xL3J', 'xL38J', 'xL28J'}
+| +-- , 24 , {27} , {'xL33J', 'xL34J', 'xL0J', 'xL17J', 'xL36J', 'xL9J', 'xL10J', 'xL39J', 'xL11J', 'xL15J', 'xL31J', 'xL19J', 'xL35J', 'xL24J', 'xL7J', 'xL14J', 'xL16J', 'xL8J', 'xL30J', 'xL1J', 'xL32J', 'xL37J', 'xL5J', 'xL13J', 'xL6J', 'xL22J', 'xL27J', 'xL23J', 'xL25J', 'xL26J', 'xL2J', 'xL29J', 'xL3J', 'xL38J', 'xL28J'}
+| | +-- , 27 , {29} , {'xL33J', 'xL34J', 'xL0J', 'xL17J', 'xL36J', 'xL9J', 'xL10J', 'xL39J', 'xL11J', 'xL15J', 'xL31J', 'xL19J', 'xL35J', 'xL24J', 'xL7J', 'xL14J', 'xL16J', 'xL8J', 'xL30J', 'xL32J', 'xL37J', 'xL5J', 'xL6J', 'xL22J', 'xL27J', 'xL23J', 'xL25J', 'xL26J', 'xL2J', 'xL29J', 'xL3J', 'xL18J', 'xL38J', 'xL28J'}
+| | | +-- , 29 , {33, 31} , {'xL33J', 'xL34J', 'xL0J', 'xL17J', 'xL36J', 'xL10J', 'xL39J', 'xL11J', 'xL15J', 'xL31J', 'xL19J', 'xL35J', 'xL24J', 'xL7J', 'xL14J', 'xL20J', 'xL16J', 'xL8J', 'xL30J', 'xL32J', 'xL37J', 'xL5J', 'xL6J', 'xL22J', 'xL27J', 'xL23J', 'xL25J', 'xL26J', 'xL2J', 'xL29J', 'xL3J', 'xL18J', 'xL38J', 'xL28J'}
+| | | | +-- , 33 , set() , {'xL33J', 'xL34J', 'xL0J', 'xL39J', 'xL11J', 'xL15J', 'xL19J', 'xL12J', 'xL35J', 'xL20J', 'xL16J', 'xL30J', 'xL32J', 'xL37J', 'xL6J', 'xL22J', 'xL27J', 'xL25J', 'xL26J', 'xL29J', 'xL38J', 'xL28J'}
+| | | | +-- , 31 , set() , {'xL34J', 'xL17J', 'xL36J', 'xL10J', 'xL39J', 'xL11J', 'xL31J', 'xL35J', 'xL24J', 'xL7J', 'xL21J', 'xL14J', 'xL20J', 'xL8J', 'xL37J', 'xL27J', 'xL2J', 'xL29J', 'xL3J'}
+
+
+Max number of edges with non zero Y: 31
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 97.766
+Time spent solving Separator LP: 28.293
+
+LP Solver: GaifmanNormal7, 2.2814842964684936, 5.409660107334526, 8
++-- , 0 , {5} , {'xL28J', 'xL6J', 'xL2J', 'xL38J', 'xL7J', 'xL9J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL36J', 'xL19J', 'xL26J', 'xL12J', 'xL0J', 'xL37J', 'xL4J', 'xL1J', 'xL8J', 'xL32J', 'xL10J', 'xL30J', 'xL34J', 'xL15J', 'xL25J', 'xL22J', 'xL5J', 'xL33J', 'xL29J'}
+| +-- , 5 , {9} , {'xL28J', 'xL6J', 'xL2J', 'xL38J', 'xL7J', 'xL9J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL36J', 'xL19J', 'xL26J', 'xL12J', 'xL0J', 'xL37J', 'xL4J', 'xL1J', 'xL39J', 'xL8J', 'xL32J', 'xL10J', 'xL30J', 'xL34J', 'xL25J', 'xL27J', 'xL22J', 'xL5J', 'xL33J', 'xL3J', 'xL29J'}
+| | +-- , 9 , {13} , {'xL28J', 'xL6J', 'xL2J', 'xL38J', 'xL7J', 'xL9J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL36J', 'xL19J', 'xL26J', 'xL12J', 'xL0J', 'xL37J', 'xL1J', 'xL16J', 'xL39J', 'xL8J', 'xL31J', 'xL32J', 'xL10J', 'xL30J', 'xL34J', 'xL25J', 'xL27J', 'xL22J', 'xL14J', 'xL5J', 'xL13J', 'xL33J', 'xL3J', 'xL29J'}
+| | | +-- , 13 , {17, 19, 15} , {'xL28J', 'xL6J', 'xL2J', 'xL38J', 'xL7J', 'xL9J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL36J', 'xL19J', 'xL12J', 'xL0J', 'xL37J', 'xL16J', 'xL39J', 'xL8J', 'xL31J', 'xL32J', 'xL10J', 'xL30J', 'xL34J', 'xL27J', 'xL22J', 'xL14J', 'xL5J', 'xL33J', 'xL3J', 'xL20J', 'xL29J'}
+| | | | +-- , 17 , set() , {'xL6J', 'xL38J', 'xL7J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL19J', 'xL0J', 'xL37J', 'xL23J', 'xL16J', 'xL39J', 'xL32J', 'xL30J', 'xL22J', 'xL14J', 'xL5J', 'xL3J', 'xL20J', 'xL29J'}
+| | | | +-- , 19 , set() , {'xL2J', 'xL7J', 'xL11J', 'xL24J', 'xL17J', 'xL35J', 'xL36J', 'xL37J', 'xL39J', 'xL8J', 'xL31J', 'xL10J', 'xL34J', 'xL27J', 'xL14J', 'xL21J', 'xL3J', 'xL20J', 'xL29J'}
+| | | | +-- , 15 , set() , {'xL28J', 'xL6J', 'xL2J', 'xL7J', 'xL9J', 'xL11J', 'xL17J', 'xL35J', 'xL36J', 'xL19J', 'xL37J', 'xL18J', 'xL16J', 'xL39J', 'xL31J', 'xL32J', 'xL10J', 'xL30J', 'xL27J', 'xL14J', 'xL33J', 'xL3J', 'xL20J', 'xL29J'}
+
+
+Max number of edges with non zero Y: 29
+Max number of iterations of outer rounding loop: 9
+Max number of candidate sets: 2
+Time spent rounding: 37.922
+Time spent solving Separator LP: 15.203
+
+LP Solver: GaifmanNormal

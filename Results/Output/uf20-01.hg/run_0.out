@@ -1,0 +1,15 @@
+3, 0, 6.0, 7
++-- , 0 , {15} , {'X15', 'X10', 'X2', 'X5', 'X4', 'X6', 'X9', 'X11', 'X16', 'X14', 'X12', 'X3', 'X13', 'X1', 'X8', 'X18', 'X7', 'X19'}
+| +-- , 15 , {17} , {'X15', 'X2', 'X5', 'X4', 'X6', 'X9', 'X11', 'X16', 'X14', 'X12', 'X3', 'X13', 'X1', 'X20', 'X8', 'X18', 'X7', 'X19'}
+| | +-- , 17 , set() , {'X17', 'X12', 'X15', 'X3', 'X13', 'X1', 'X2', 'X7', 'X20', 'X8', 'X5', 'X6', 'X9', 'X11', 'X16', 'X19'}
+
+
+Max number of edges with non zero Y: 28
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 33.030
+Time spent solving Separator LP: 0.079
+Total time spent solving: 36.498
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'X10', 'X2', 'X4', 'X6', 'X9', 'X16', 'X14', 'X12', 'X3', 'X1', 'X8', 'X15', 'X5', 'X11', 'X17', 'X13', 'X20', 'X18', 'X7', 'X19'}, {'X7', 'X11', 'X13'})

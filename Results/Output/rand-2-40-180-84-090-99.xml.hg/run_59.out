@@ -1,0 +1,33 @@
+23, 4.0, 7.0, 7
++-- , 0 , {7, 55, 41, 47} , {'xL37J', 'xL32J', 'xL39J', 'xL29J', 'xL11J', 'xL21J', 'xL19J', 'xL6J', 'xL4J', 'xL3J'}
+| +-- , 7 , {13} , {'xL37J', 'xL32J', 'xL28J', 'xL11J', 'xL29J', 'xL26J', 'xL38J', 'xL21J', 'xL19J', 'xL18J', 'xL6J', 'xL23J', 'xL4J', 'xL3J'}
+| | +-- , 13 , {37, 39, 15} , {'xL37J', 'xL32J', 'xL28J', 'xL11J', 'xL29J', 'xL26J', 'xL30J', 'xL38J', 'xL19J', 'xL18J', 'xL6J', 'xL23J', 'xL4J', 'xL3J'}
+| | | +-- , 37 , set() , {'xL37J', 'xL38J', 'xL33J', 'xL18J', 'xL30J'}
+| | | +-- , 39 , set() , {'xL19J', 'xL36J', 'xL3J', 'xL30J'}
+| | | +-- , 15 , {17} , {'xL37J', 'xL32J', 'xL28J', 'xL11J', 'xL29J', 'xL26J', 'xL30J', 'xL8J', 'xL18J', 'xL6J', 'xL23J', 'xL4J'}
+| | | | +-- , 17 , {33, 35, 20, 27, 31} , {'xL37J', 'xL32J', 'xL8J', 'xL20J', 'xL28J', 'xL31J', 'xL11J', 'xL29J', 'xL2J', 'xL18J', 'xL6J', 'xL4J', 'xL26J'}
+| | | | | +-- , 33 , set() , {'xL2J', 'xL7J', 'xL32J'}
+| | | | | +-- , 35 , set() , {'xL31J', 'xL2J', 'xL6J', 'xL34J', 'xL26J'}
+| | | | | +-- , 20 , {25, 23} , {'xL8J', 'xL20J', 'xL28J', 'xL31J', 'xL11J', 'xL29J', 'xL2J', 'xL18J', 'xL17J', 'xL4J', 'xL13J'}
+| | | | | | +-- , 25 , set() , {'xL27J', 'xL8J', 'xL11J', 'xL29J', 'xL18J', 'xL17J', 'xL13J'}
+| | | | | | +-- , 23 , set() , {'xL20J', 'xL28J', 'xL2J', 'xL4J', 'xL14J', 'xL13J'}
+| | | | | +-- , 27 , {29} , {'xL20J', 'xL5J', 'xL6J'}
+| | | | | | +-- , 29 , set() , {'xL5J', 'xL24J'}
+| | | | | +-- , 31 , set() , {'xL37J', 'xL20J', 'xL15J', 'xL32J'}
+| +-- , 55 , set() , {'xL0J', 'xL39J', 'xL3J'}
+| +-- , 41 , {43} , {'xL9J', 'xL4J', 'xL16J', 'xL3J'}
+| | +-- , 43 , {45} , {'xL12J', 'xL16J', 'xL9J'}
+| | | +-- , 45 , set() , {'xL22J', 'xL12J'}
+| +-- , 47 , {49} , {'xL25J', 'xL6J'}
+| | +-- , 49 , {51} , {'xL25J', 'xL10J'}
+| | | +-- , 51 , {53} , {'xL35J', 'xL10J'}
+| | | | +-- , 53 , set() , {'xL35J', 'xL1J'}
+
+
+Max number of edges with non zero Y: 5
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 10.988
+
+LP Solver: GaifmanNormalILP

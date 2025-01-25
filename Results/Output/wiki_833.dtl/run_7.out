@@ -1,0 +1,14 @@
+2, 0, 1.5, 2
++-- , 0 , {3} , {'3', '4', '1', '2'}
+| +-- , 3 , set() , {'1', '0', '2'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.049
+Time spent solving Separator LP: 0.001
+Total time spent solving: 0.073
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'3', '4', '1', '0', '2'}, {'4', '1', '2'})

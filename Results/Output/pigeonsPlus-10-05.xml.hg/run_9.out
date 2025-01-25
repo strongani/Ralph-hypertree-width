@@ -1,0 +1,33 @@
+21, 0, 5.0, 5
++-- , 0 , {35, 5, 39, 43, 47, 17, 51, 23, 27, 31} , {'xL0J', 'xL3J', 'xL5J', 'xL8J', 'xL6J', 'xL1J', 'xL7J', 'xL4J', 'xL2J', 'xL9J'}
+| +-- , 35 , {37} , {'xL1J', 'yL5J'}
+| | +-- , 37 , set() , {'yL5J', 'yL7J', 'yL8J', 'yL6J', 'yL9J'}
+| +-- , 5 , {7} , {'xL0J', 'yL0J'}
+| | +-- , 7 , set() , {'yL3J', 'yL2J', 'yL4J', 'yL1J', 'yL0J'}
+| +-- , 39 , {41} , {'xL4J', 'yL20J'}
+| | +-- , 41 , set() , {'yL23J', 'yL20J', 'yL24J', 'yL22J', 'yL21J'}
+| +-- , 43 , {45} , {'yL15J', 'xL3J'}
+| | +-- , 45 , set() , {'yL17J', 'yL16J', 'yL19J', 'yL18J', 'yL15J'}
+| +-- , 47 , {49} , {'xL5J', 'yL25J'}
+| | +-- , 49 , set() , {'yL29J', 'yL28J', 'yL26J', 'yL25J', 'yL27J'}
+| +-- , 17 , {19} , {'yL35J', 'xL7J'}
+| | +-- , 19 , set() , {'yL36J', 'yL35J', 'yL38J', 'yL39J', 'yL37J'}
+| +-- , 51 , {53} , {'yL40J', 'xL8J'}
+| | +-- , 53 , set() , {'yL44J', 'yL43J', 'yL42J', 'yL41J', 'yL40J'}
+| +-- , 23 , {25} , {'xL6J', 'yL30J'}
+| | +-- , 25 , set() , {'yL33J', 'yL32J', 'yL31J', 'yL34J', 'yL30J'}
+| +-- , 27 , {29} , {'yL45J', 'xL9J'}
+| | +-- , 29 , set() , {'yL45J', 'yL48J', 'yL47J', 'yL49J', 'yL46J'}
+| +-- , 31 , {33} , {'yL10J', 'xL2J'}
+| | +-- , 33 , set() , {'yL10J', 'yL12J', 'yL11J', 'yL14J', 'yL13J'}
+
+
+Max number of edges with non zero Y: 16
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 13.208
+Time spent solving Separator LP: 0.062
+Total time spent solving: 16.836
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'yL3J', 'yL20J', 'yL32J', 'yL29J', 'yL36J', 'yL43J', 'yL12J', 'yL17J', 'yL40J', 'xL3J', 'yL22J', 'yL48J', 'xL6J', 'yL26J', 'xL1J', 'yL19J', 'yL49J', 'yL34J', 'xL9J', 'yL33J', 'yL5J', 'yL42J', 'yL2J', 'yL7J', 'yL4J', 'yL38J', 'yL1J', 'yL47J', 'xL7J', 'yL41J', 'yL27J', 'yL14J', 'yL16J', 'xL2J', 'yL39J', 'yL37J', 'yL10J', 'yL45J', 'xL0J', 'xL5J', 'xL8J', 'yL25J', 'yL6J', 'yL9J', 'yL15J', 'yL0J', 'yL46J', 'yL13J', 'yL23J', 'yL44J', 'yL28J', 'yL24J', 'yL31J', 'yL35J', 'yL11J', 'yL8J', 'yL18J', 'yL21J', 'xL4J', 'yL30J'}, {'yL34J', 'yL15J', 'yL18J', 'xL3J'})

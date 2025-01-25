@@ -1,0 +1,15 @@
+5, 1.25, 2.0, 2
++-- , 0 , {6, 8, 13} , {'v2', 'xL1J', 'xL0J', 'xL2J'}
+| +-- , 6 , set() , {'v2', 'xL0J', 'xL1J', 'xL3J'}
+| +-- , 8 , {11} , {'v2', 'yL2J', 'yL1J'}
+| | +-- , 11 , set() , {'v2', 'yL0J', 'yL1J'}
+| +-- , 13 , set() , {'yL3J', 'v2'}
+
+
+Max number of edges with non zero Y: 5
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 4.002
+Time spent solving Separator LP: 0.041
+
+LP Solver: GaifmanBoosted

@@ -1,0 +1,23 @@
+11, 1.0, 1.0, 1
++-- , 0 , {5, 7, 9, 11, 13, 15, 17, 19, 21, 23} , {'X23', 'X2', 'X1'}
+| +-- , 5 , set() , {'X23', 'X4'}
+| +-- , 7 , set() , {'X23', 'X6'}
+| +-- , 9 , set() , {'X23', 'X8', 'X9'}
+| +-- , 11 , set() , {'X23', 'X11'}
+| +-- , 13 , set() , {'X23', 'X13'}
+| +-- , 15 , set() , {'X23', 'X16', 'X15'}
+| +-- , 17 , set() , {'X23', 'X18'}
+| +-- , 19 , set() , {'X23', 'X20'}
+| +-- , 21 , set() , {'X23', 'X22'}
+| +-- , 23 , set() , {'X23', 'X24'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.015
+Total time spent solving: 0.396
+
+LP Solver: GaifmanNormalILP
+Lower Bound Witness = ({'X2', 'X24', 'X15', 'X20', 'X22', 'X1', 'X13', 'X6', 'X23', 'X11', 'X16', 'X4', 'X8', 'X18', 'X9'}, {'X8', 'X18', 'X16', 'X20'})

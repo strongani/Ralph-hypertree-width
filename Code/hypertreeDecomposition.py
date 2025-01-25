@@ -11,13 +11,24 @@ from balancedSeparator import *
 #tree decomposition of hypergraph
 class treeDecomposition:
     
+    #root is whoever is its own parent. Initially firstFreeId is root. 
     #bag is dict node ID --> set of nodes
     #children is map from ID to set of ID's (the child nodes). Empty childen mean leaves.
     #makes empty tree decomposition
-    def __init__(self, rootBag):
-        self.bag = {0 : rootBag}
-        self.children = {0 : set()}
-        self.firstFreeID = 1
+    def __init__(self, rootBag, *args):
+
+        if len(args) == 0:
+            self.firstFreeID = 0
+        else:
+            self.firstFreeID = args[0]
+
+        self.rootNode = self.firstFreeID
+        self.firstFreeID += 1
+
+        self.bag = {self.rootNode : rootBag}
+        self.children = {self.rootNode : set()}
+        self.parent = {self.rootNode : 0}
+
         self.fhtwUpper = -1
         self.fhtwLower = -1
         self.ghwUpper = -1
@@ -34,16 +45,38 @@ class treeDecomposition:
         self.children[parentID].add(childID)
         self.children[childID] = set()
         self.bag[childID] = newBag
+        self.parent[childID] = parentID
         return childID
+    
+
+    #attaches a new tree decomposition to the root of this one. Does not check that the result is valid!!
+    #the id of every node in the new decomposition is self.firstFreeID + ID in newTreeDec
+    def attachTreeDecompositionToRoot(self, newTreeDec):
+        for newNode in newTreeDec.bag:
+            self.bag[newNode + self.firstFreeID] = newTreeDec.bag[newNode]
+            self.children[newNode + self.firstFreeID] = {child + self.firstFreeID for child in newTreeDec.children[newNode]}
+            self.parent[newNode + self.firstFreeID] = newTreeDec.parent[newNode] + self.firstFreeID
+
+        self.children[self.rootNode].add(newTreeDec.rootNode + self.firstFreeID)
+        self.parent[newTreeDec.rootNode + self.firstFreeID] = self.rootNode
+
+        self.firstFreeID += newTreeDec.firstFreeID
+
+        self.fhtwUpper = max(self.fhtwUpper, newTreeDec.fhtwUpper)
+        self.fhtwLower = max(self.fhtwLower, newTreeDec.fhtwLower)
+        self.ghwUpper = max(self.ghwUpper, newTreeDec.ghwUpper)
+        
     
     #if parent is a subset of child or vice versa, contract to parent.
     def trim(self, parent, child): 
         if self.bag[parent].issubset(self.bag[child]) or self.bag[child].issubset(self.bag[parent]):
             self.bag[parent] = self.bag[parent] | self.bag[child]
+            for grandchild in self.children[child]: self.parent[grandchild] = parent
             self.children[parent] |= self.children[child]
             self.children[parent].remove(child)
             del self.children[child]
             del self.bag[child]
+            del self.parent[child]
             return True
 
     #pretty slow but whatever, will be way faster than the other stuff.
@@ -60,7 +93,7 @@ class treeDecomposition:
                 
     def __str__(self, ):
         ans = [str(len(self.children)) + ", " + str(self.fhtwLower) + ", " + str(self.fhtwUpper) + ", " + str(self.ghwUpper)]
-        self.DFS_string(0, ans, 0)        
+        self.DFS_string(self.rootNode, ans, 0)        
         return '\n'.join(ans)
                 
     def DFS_string(self, pos, ans, depth):
@@ -68,26 +101,178 @@ class treeDecomposition:
         for c in self.children[pos]: self.DFS_string(c, ans, depth + 1)
         return
     
+    def bagContainingEdge(self, H, e):
+        for b in self.bag:
+            if all(H.vName[v] in self.bag[b] for v in H.verticesOf[e]): return b
+        return None
+
+
     def verifyDecomposition(self, H):
         for v in H.V:
             bagsOfv = {b for b in self.bag if H.vName[v] in self.bag[b]}
             assert len(bagsOfv) > 0, H.vName[v] + " not found in any bag!"
             
-            bagsOfvMinimum = min(bagsOfv)
+            #this assumes that minimum id bag is the one closest to root. This will  break if we re-root. 
+            bagsOfvRoot = min(bagsOfv)
+            
+            #the fix: select root more carefully (any node in bagsOfv whose parent is not also in bags of v, or has no parent)
+            for b in bagsOfv:
+                if self.parent[b] == b or self.parent[b] not in bagsOfv:
+                    bagsOfvRoot = b
+                    break
+
             reachableFromRoot = set()
-            self.visitFromRoot(bagsOfvMinimum, bagsOfv, reachableFromRoot)
+            self.visitFromRoot(bagsOfvRoot, bagsOfv, reachableFromRoot)
             
             assert bagsOfv.issubset(reachableFromRoot), "Set of bags containing " + H.vName[v] + " is not connected! " + str(bagsOfv) + " " + str(reachableFromRoot)
             
         for e in H.E:
-            bagsOfe = {b for b in self.bag if all(H.vName[v] in self.bag[b] for v in H.verticesOf[e])}
-            assert len(bagsOfe) > 0, H.eName[e] + " not found in any bag!"
+            assert self.bagContainingEdge(H, e) != None,  H.eName[e] + " not found in any bag!"
+            #bagsOfe = {b for b in self.bag if all(H.vName[v] in self.bag[b] for v in H.verticesOf[e])}
+            #assert len(bagsOfe) > 0, H.eName[e] + " not found in any bag!"
     
     
     def visitFromRoot(self, root, allowedBags, ans):
         ans.add(root)
         for v in self.children[root] & allowedBags: self.visitFromRoot(v, allowedBags, ans)
+
+
+    def reRootFrom(self, newRoot):
+        #if the new root is the old root do nothing. 
+        if newRoot == self.rootNode: return
+
+        #walk from new root to old root using the parent function. 
+        #set parent of new root to itself. 
+        #for every other node set its new parent to be the node you just came from. 
+        #for every node except for the old root, add your old parent as a child. 
+        #for every node except the new root, your new parent is no longer your child. 
+
+        pos = newRoot
+        oldParent = self.parent[pos]
+        self.parent[newRoot] = newRoot
+        self.children[newRoot].add(oldParent)
+
+        while oldParent != self.rootNode:
+            justCameFrom = pos
+            pos = oldParent
+            oldParent = self.parent[pos]
+
+            self.parent[pos] = justCameFrom
+            self.children[pos].add(oldParent)
+            self.children[pos].remove(justCameFrom)
+
+        justCameFrom = pos
+        pos = oldParent
+        self.parent[pos] = justCameFrom
+        self.children[pos].remove(justCameFrom)
+
+        self.rootNode = newRoot
+        
+
+
+### END TREE DECOMPOSITION CLASS
+
+# maximally decomposes H by separators that are covered by a single edge. 
+def decomposeByEdges(H, ignore, rootEdge):
+    # statistics.totalTimeSolvingBalSepLP -= time.time()
     
+    #print("decomposing ", H.printVertexSet(H.V), " by ", H.printVertexSet(H.verticesOf[rootEdge]), " len(E(H)) = ", len(H.E))
+
+
+    if len(H.E) == 1:
+        outputDec = treeDecomposition(set(H.vName[x] for x in H.verticesOf[rootEdge]))
+
+        outputDec.fhtwLower = 1
+        outputDec.fhtwUpper = 1
+        outputDec.ghwUpper = 1
+
+
+        return outputDec
+
+    elif len(H.E) == 2:
+        outputDec = treeDecomposition(set(H.vName[x] for x in H.verticesOf[rootEdge]))
+        
+        #print("base case 2")
+        
+        for secondEdge in H.E:
+            if secondEdge != rootEdge: break
+        
+        outputDec.add_leaf(outputDec.rootNode, set(H.vName[x] for x in H.verticesOf[secondEdge]))
+
+        outputDec.fhtwLower = 1
+        outputDec.fhtwUpper = 1
+        outputDec.ghwUpper = 1
+
+        return outputDec
+    
+    cutEdge = None
+    for e in H.E:
+        if e in ignore: continue
+        ignore.add(e)
+
+        CC = H.inducedSubhypergraph(H.V - H.verticesOf[e]).connectedComponents()
+        if len(CC) > 1:
+            cutEdge = e
+            break
+    
+    if cutEdge != None:
+
+        #print("using cut-edge:", H.eName[cutEdge], ":", H.printVertexSet(H.verticesOf[cutEdge]))
+
+        biggestCC = CC[0]
+        for C in CC:
+            if len(C) > len(biggestCC): biggestCC = C
+        
+        outputDec = decomposeByEdges(H.subhypergraph(biggestCC | H.verticesOf[cutEdge], H.incidentHyperedges(biggestCC) | {cutEdge}), ignore, cutEdge)
+
+        #print(outputDec)
+        #print("biggest CC ", H.printVertexSet(biggestCC))
+
+        for C in CC:
+            #print("C is: ", H.printVertexSet(C))
+            if C is biggestCC: 
+                #print("skipping biggest CC")
+                continue
+
+
+            #print("outputDec is :", outputDec)
+
+            addDec = decomposeByEdges(H.subhypergraph(C | H.verticesOf[cutEdge], H.incidentHyperedges(C) | {cutEdge}), ignore, cutEdge)
+
+            #print("adding decomposition :", addDec)
+
+            outputDec.attachTreeDecompositionToRoot(addDec)
+
+            #print("outputDec is now :", outputDec)
+
+
+    else:
+
+        #print("decomposing atom:", H.printVertexSet(H.V))
+        outputDec = decomposeWithWarmStart(H)
+
+        # print(outputDec)
+
+    newRoot = outputDec.bagContainingEdge(H, rootEdge)
+    
+    #print("re rooting!")
+    #print(outputDec)
+    outputDec.reRootFrom(newRoot)
+    #print("done!")
+    return outputDec
+
+
+def decomposeWithPreprocessing(H):
+    #preprocess H to get rid of edges that are subsets of other edges.
+    HH = H.trimmedHypergraph()
+
+    #print(HH)
+    #print()
+
+    firstEdge = next(iter(HH.E))
+    return decomposeByEdges(HH, set(), firstEdge)
+
+### OLD STUFF still being used
 
 def decomposeWithWarmStart(H):
     outputDec = treeDecomposition(set())
@@ -265,7 +450,8 @@ def runDecomposition(H):
     statistics.resetStatistics()
 
     start_time = time.time()
-    outputDec = decomposeWithWarmStart(H)
+    # outputDec = decomposeWithWarmStart(H)
+    outputDec = decomposeWithPreprocessing(H)
     
     total_time = time.time() - start_time
     stats = statistics.getStatistics()

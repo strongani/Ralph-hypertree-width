@@ -1,0 +1,15 @@
+5, 0, 2.5, 3
++-- , 0 , {5} , {'70', '71', '57', '16', '73', '77', '69', '75', '34', '13', '55', '28', '17', '10', '27', '95', '54', '63', '15', '0', '22'}
+| +-- , 5 , {9, 7} , {'71', '55', '69', '38', '0', '22'}
+| | +-- , 9 , {11} , {'55', '20', '2', '30', '69', '38', '93', '89', '79', '22'}
+| | | +-- , 11 , set() , {'58', '67', '47', '55', '25', '8', '2', '19', '65', '50', '76'}
+| | +-- , 7 , set() , {'71', '9', '52', '86', '6', '23', '69', '38', '0'}
+
+
+Max number of edges with non zero Y: 5
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.907
+Time spent solving Separator LP: 0.014
+
+LP Solver: gammaPlusFractionalCoverHeuristic

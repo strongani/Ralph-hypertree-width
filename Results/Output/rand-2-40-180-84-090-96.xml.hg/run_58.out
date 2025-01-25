@@ -1,0 +1,30 @@
+20, 5.5, 8.0, 9
++-- , 0 , {3, 46, 42, 44, 14} , {'xL7J', 'xL15J', 'xL21J', 'xL6J', 'xL14J', 'xL39J', 'xL16J', 'xL9J', 'xL27J', 'xL34J', 'xL37J', 'xL13J', 'xL32J', 'xL25J'}
+| +-- , 3 , {5} , {'xL21J', 'xL6J', 'xL32J', 'xL2J', 'xL27J', 'xL25J'}
+| | +-- , 5 , {7} , {'xL2J', 'xL21J', 'xL19J', 'xL32J', 'xL25J'}
+| | | +-- , 7 , set() , {'xL25J', 'xL19J', 'xL35J'}
+| +-- , 46 , set() , {'xL18J', 'xL6J'}
+| +-- , 42 , set() , {'xL16J', 'xL24J', 'xL6J'}
+| +-- , 44 , set() , {'xL27J', 'xL29J'}
+| +-- , 14 , {17} , {'xL21J', 'xL6J', 'xL14J', 'xL39J', 'xL16J', 'xL9J', 'xL25J', 'xL15J', 'xL31J', 'xL32J', 'xL3J', 'xL34J', 'xL37J', 'xL13J', 'xL27J'}
+| | +-- , 17 , {20} , {'xL21J', 'xL6J', 'xL30J', 'xL14J', 'xL39J', 'xL9J', 'xL25J', 'xL20J', 'xL15J', 'xL31J', 'xL32J', 'xL3J', 'xL37J', 'xL13J', 'xL27J'}
+| | | +-- , 20 , {22} , {'xL21J', 'xL30J', 'xL6J', 'xL14J', 'xL9J', 'xL25J', 'xL20J', 'xL15J', 'xL31J', 'xL32J', 'xL3J', 'xL33J', 'xL37J', 'xL13J', 'xL27J'}
+| | | | +-- , 22 , {34, 24, 26} , {'xL21J', 'xL6J', 'xL30J', 'xL14J', 'xL9J', 'xL17J', 'xL20J', 'xL12J', 'xL25J', 'xL15J', 'xL32J', 'xL3J', 'xL33J', 'xL37J', 'xL13J', 'xL27J'}
+| | | | | +-- , 34 , {36} , {'xL21J', 'xL14J', 'xL17J', 'xL20J', 'xL12J', 'xL25J', 'xL15J', 'xL3J', 'xL37J', 'xL32J', 'xL8J'}
+| | | | | | +-- , 36 , {40, 38} , {'xL21J', 'xL17J', 'xL3J', 'xL5J', 'xL20J', 'xL12J', 'xL32J', 'xL25J', 'xL8J'}
+| | | | | | | +-- , 40 , set() , {'xL11J', 'xL5J', 'xL12J', 'xL32J', 'xL20J'}
+| | | | | | | +-- , 38 , set() , {'xL0J', 'xL4J', 'xL17J', 'xL5J', 'xL23J', 'xL25J', 'xL8J'}
+| | | | | +-- , 24 , set() , {'xL1J', 'xL9J', 'xL17J', 'xL26J', 'xL32J', 'xL12J'}
+| | | | | +-- , 26 , {32, 28} , {'xL15J', 'xL21J', 'xL6J', 'xL30J', 'xL14J', 'xL9J', 'xL28J', 'xL36J', 'xL17J', 'xL20J', 'xL37J', 'xL13J', 'xL27J', 'xL12J'}
+| | | | | | +-- , 32 , set() , {'xL9J', 'xL36J', 'xL17J', 'xL10J', 'xL27J'}
+| | | | | | +-- , 28 , {30} , {'xL6J', 'xL28J', 'xL14J', 'xL30J', 'xL36J', 'xL38J'}
+| | | | | | | +-- , 30 , set() , {'xL22J', 'xL38J', 'xL30J', 'xL28J'}
+
+
+Max number of edges with non zero Y: 9
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 14.741
+
+LP Solver: GaifmanNormalILP

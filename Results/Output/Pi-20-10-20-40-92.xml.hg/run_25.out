@@ -1,0 +1,19 @@
+7, 1.9297798221542506, 6.5, 7
++-- , 0 , {4} , {'xL17J', 'xL7J', 'xL16J', 'xL19J', 'xL5J', 'xL4J', 'xL3J', 'xL10J'}
+| +-- , 4 , {10} , {'xL17J', 'xL19J', 'xL5J', 'xL4J', 'xL1J', 'xL13J', 'xL10J', 'xL0J', 'xL7J', 'xL16J', 'xL2J', 'xL14J', 'xL12J'}
+| | +-- , 10 , {12} , {'xL17J', 'xL19J', 'xL5J', 'xL4J', 'xL1J', 'xL8J', 'xL13J', 'xL10J', 'xL0J', 'xL7J', 'xL12J'}
+| | | +-- , 12 , {18, 14} , {'xL17J', 'xL19J', 'xL5J', 'xL1J', 'xL8J', 'xL13J', 'xL6J', 'xL0J', 'xL10J', 'xL7J', 'xL12J'}
+| | | | +-- , 18 , set() , {'xL6J', 'xL18J'}
+| | | | +-- , 14 , {16} , {'xL6J', 'xL0J', 'xL7J', 'xL19J', 'xL11J', 'xL12J', 'xL1J', 'xL8J', 'xL10J'}
+| | | | | +-- , 16 , set() , {'xL19J', 'xL10J', 'xL11J', 'xL15J', 'xL12J', 'xL1J', 'xL8J', 'xL9J'}
+
+
+Max number of edges with non zero Y: 16
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 12.915
+Time spent solving Separator LP: 0.313
+Total time spent solving: 14.914
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'xL19J', 'xL5J', 'xL10J', 'xL13J', 'xL0J', 'xL7J', 'xL16J', 'xL18J', 'xL15J', 'xL12J', 'xL17J', 'xL4J', 'xL1J', 'xL8J', 'xL9J', 'xL6J', 'xL2J', 'xL14J', 'xL11J'}, {'xL17J', 'xL7J', 'xL16J', 'xL2J', 'xL19J', 'xL14J', 'xL4J', 'xL5J', 'xL1J', 'xL13J', 'xL10J'})

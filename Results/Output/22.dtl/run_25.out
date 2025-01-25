@@ -1,0 +1,13 @@
+3, 0.8999994000000001, 3.0, 3
++-- , 0 , {3} , {'1', '7', '5', '6', '8'}
+| +-- , 3 , {6} , {'1', '4', '7', '5', '2', '6'}
+| | +-- , 6 , set() , {'0', '1', '7', '3', '2', '6'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.347
+Time spent solving Separator LP: 0.016
+
+LP Solver: GaifmanNormal

@@ -1,0 +1,36 @@
+26, 1.601612693849514, 5.5, 6
++-- , 0 , {3, 51, 15} , {'U72', 'U64', 'U84', 'U65', 'U82', 'U66', 'U86', 'STATE_REG_2_', 'U56', 'U68', 'U83', 'U70', 'U81'}
+| +-- , 3 , {11, 5} , {'STATE_REG_2_', 'U72', 'U85', 'U68', 'U70', 'U86', 'U59', 'U66'}
+| | +-- , 11 , set() , {'CC_MUX_REG_2_', 'U59'}
+| | +-- , 5 , {7} , {'U75', 'U72', 'STATE_REG_2_', 'U85', 'U68', 'U71', 'U66'}
+| | | +-- , 7 , {9} , {'U75', 'U72', 'U61'}
+| | | | +-- , 9 , set() , {'U61', 'USCITE_REG_2_'}
+| +-- , 51 , {53, 55} , {'U83', 'U62', 'U84'}
+| | +-- , 53 , set() , {'U62', 'ENABLE_COUNT_REG'}
+| | +-- , 55 , set() , {'U62', 'ACKOUT_REG'}
+| +-- , 15 , {17} , {'U64', 'U84', 'U65', 'U82', 'U66', 'U86', 'STATE_REG_2_', 'STATE_REG_1_', 'U56', 'U68', 'U83', 'U70', 'U81'}
+| | +-- , 17 , {19} , {'U64', 'U84', 'U65', 'U82', 'U66', 'U73', 'U86', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'U83', 'U70', 'U81'}
+| | | +-- , 19 , {21} , {'U64', 'U84', 'U65', 'U66', 'U73', 'CONT_EQL', 'U86', 'U63', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'U70', 'U81'}
+| | | | +-- , 21 , {23} , {'U64', 'U65', 'U66', 'U73', 'U86', 'U63', 'STATE_REG_0_', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'U70', 'U89', 'U81'}
+| | | | | +-- , 23 , {49, 40, 26} , {'U64', 'U65', 'U66', 'U73', 'U86', 'STATE_REG_0_', 'STATE_REG_2_', 'STATE_REG_1_', 'U68', 'EQL', 'U70', 'U90', 'U89', 'U81'}
+| | | | | | +-- , 49 , set() , {'STATE_REG_2_', 'U64', 'EQL', 'U70', 'U67', 'U81', 'STATE_REG_0_'}
+| | | | | | +-- , 40 , {42} , {'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'U68', 'EQL', 'U73', 'STATE_REG_0_'}
+| | | | | | | +-- , 42 , {45} , {'U88', 'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U64', 'EQL', 'U91', 'U73', 'STATE_REG_0_'}
+| | | | | | | | +-- , 45 , {47} , {'U88', 'STATE_REG_2_', 'U87', 'STATE_REG_1_', 'U92', 'U58', 'U91', 'U69', 'U73', 'STATE_REG_0_'}
+| | | | | | | | | +-- , 47 , set() , {'CC_MUX_REG_1_', 'U58'}
+| | | | | | +-- , 26 , {36, 28} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'EQL', 'U65', 'U70', 'U90', 'U86', 'U89', 'STATE_REG_0_'}
+| | | | | | | +-- , 36 , {38} , {'U54', 'STATE_REG_2_', 'U76', 'STATE_REG_1_', 'EQL', 'U60'}
+| | | | | | | | +-- , 38 , set() , {'U60', 'USCITE_REG_1_'}
+| | | | | | | +-- , 28 , {34, 30} , {'U54', 'STATE_REG_2_', 'STATE_REG_1_', 'U65', 'U70', 'U55', 'U74', 'U78', 'U86', 'U79', 'STATE_REG_0_'}
+| | | | | | | | +-- , 34 , set() , {'STATE_REG_1_', 'U65', 'U77', 'U78', 'STATE_REG_0_'}
+| | | | | | | | +-- , 30 , {32} , {'U80', 'U78', 'STATE_REG_2_', 'U79'}
+| | | | | | | | | +-- , 32 , set() , {'U80', 'U57', 'U79', 'STATE_REG_2_'}
+
+
+Max number of edges with non zero Y: 14
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 14.237
+Time spent solving Separator LP: 0.758
+
+LP Solver: GaifmanNormal

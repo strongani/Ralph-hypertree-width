@@ -1,0 +1,27 @@
+17, 2.8629158779501442, 9.0, 10
++-- , 0 , {35, 37, 7, 39} , {'xL8J', 'xL36J', 'xL10J', 'xL34J', 'xL33J', 'xL29J', 'xL6J', 'xL16J', 'xL15J', 'xL28J', 'xL32J', 'xL19J', 'xL11J', 'xL27J', 'xL18J', 'xL38J', 'xL5J'}
+| +-- , 35 , set() , {'xL12J', 'xL15J', 'xL10J', 'xL5J'}
+| +-- , 37 , set() , {'xL14J', 'xL38J', 'xL28J'}
+| +-- , 7 , {10} , {'xL8J', 'xL36J', 'xL10J', 'xL34J', 'xL29J', 'xL6J', 'xL3J', 'xL16J', 'xL15J', 'xL28J', 'xL26J', 'xL32J', 'xL11J', 'xL27J', 'xL18J', 'xL38J', 'xL5J'}
+| | +-- , 10 , {33, 13} , {'xL8J', 'xL36J', 'xL10J', 'xL21J', 'xL34J', 'xL29J', 'xL6J', 'xL3J', 'xL28J', 'xL26J', 'xL32J', 'xL11J', 'xL37J', 'xL27J', 'xL31J', 'xL18J', 'xL38J', 'xL5J'}
+| | | +-- , 33 , set() , {'xL32J', 'xL1J', 'xL31J'}
+| | | +-- , 13 , {25, 15} , {'xL0J', 'xL8J', 'xL36J', 'xL10J', 'xL21J', 'xL34J', 'xL29J', 'xL6J', 'xL3J', 'xL28J', 'xL26J', 'xL32J', 'xL31J', 'xL18J', 'xL38J', 'xL5J'}
+| | | | +-- , 25 , {27, 31} , {'xL7J', 'xL0J', 'xL8J', 'xL36J', 'xL6J', 'xL10J', 'xL34J', 'xL9J', 'xL31J', 'xL22J', 'xL29J', 'xL3J', 'xL28J'}
+| | | | | +-- , 27 , {29} , {'xL9J', 'xL0J', 'xL22J', 'xL3J', 'xL13J'}
+| | | | | | +-- , 29 , set() , {'xL2J', 'xL3J', 'xL0J', 'xL13J'}
+| | | | | +-- , 31 , set() , {'xL36J', 'xL4J', 'xL0J', 'xL22J'}
+| | | | +-- , 15 , {17, 19} , {'xL0J', 'xL21J', 'xL29J', 'xL6J', 'xL3J', 'xL25J', 'xL26J', 'xL32J', 'xL30J', 'xL18J', 'xL38J', 'xL5J'}
+| | | | | +-- , 17 , set() , {'xL32J', 'xL25J', 'xL17J', 'xL30J'}
+| | | | | +-- , 19 , {21} , {'xL26J', 'xL0J', 'xL30J', 'xL21J', 'xL39J', 'xL29J', 'xL3J', 'xL38J'}
+| | | | | | +-- , 21 , {23} , {'xL26J', 'xL35J', 'xL30J', 'xL21J', 'xL39J', 'xL29J', 'xL3J', 'xL38J'}
+| | | | | | | +-- , 23 , set() , {'xL26J', 'xL35J', 'xL30J', 'xL20J', 'xL21J', 'xL39J', 'xL29J', 'xL23J'}
+| +-- , 39 , set() , {'xL16J', 'xL27J', 'xL24J'}
+
+
+Max number of edges with non zero Y: 27
+Max number of iterations of outer rounding loop: 6
+Max number of candidate sets: 2
+Time spent rounding: 23.673
+Time spent solving Separator LP: 0.593
+
+LP Solver: GaifmanNormal

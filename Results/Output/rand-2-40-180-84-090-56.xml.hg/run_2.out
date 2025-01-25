@@ -1,0 +1,27 @@
+17, 0, 10.5, 11
++-- , 0 , {38, 8, 40} , {'xL39J', 'xL25J', 'xL22J', 'xL10J', 'xL7J', 'xL24J', 'xL13J', 'xL34J', 'xL23J', 'xL17J', 'xL11J', 'xL21J', 'xL8J', 'xL1J', 'xL19J', 'xL26J', 'xL27J', 'xL14J'}
+| +-- , 38 , set() , {'xL5J', 'xL27J', 'xL8J'}
+| +-- , 8 , {12, 36} , {'xL18J', 'xL39J', 'xL25J', 'xL22J', 'xL10J', 'xL7J', 'xL24J', 'xL13J', 'xL34J', 'xL2J', 'xL23J', 'xL30J', 'xL17J', 'xL21J', 'xL1J', 'xL8J', 'xL19J', 'xL26J', 'xL27J', 'xL3J', 'xL14J'}
+| | +-- , 12 , {14} , {'xL18J', 'xL39J', 'xL25J', 'xL10J', 'xL7J', 'xL24J', 'xL13J', 'xL34J', 'xL2J', 'xL23J', 'xL30J', 'xL17J', 'xL1J', 'xL19J', 'xL26J', 'xL27J', 'xL33J', 'xL3J'}
+| | | +-- , 14 , {16, 32, 34, 30} , {'xL18J', 'xL39J', 'xL25J', 'xL10J', 'xL7J', 'xL24J', 'xL13J', 'xL34J', 'xL4J', 'xL2J', 'xL23J', 'xL30J', 'xL17J', 'xL1J', 'xL26J', 'xL35J', 'xL33J', 'xL27J', 'xL3J'}
+| | | | +-- , 16 , {18, 24, 26} , {'xL18J', 'xL39J', 'xL7J', 'xL24J', 'xL34J', 'xL4J', 'xL2J', 'xL0J', 'xL30J', 'xL17J', 'xL1J', 'xL37J', 'xL26J', 'xL27J', 'xL3J'}
+| | | | | +-- , 18 , {20, 22} , {'xL0J', 'xL18J', 'xL4J', 'xL7J', 'xL37J', 'xL26J', 'xL34J', 'xL3J', 'xL2J', 'xL28J'}
+| | | | | | +-- , 20 , set() , {'xL6J', 'xL28J'}
+| | | | | | +-- , 22 , set() , {'xL16J', 'xL7J', 'xL26J', 'xL4J', 'xL28J'}
+| | | | | +-- , 24 , set() , {'xL39J', 'xL18J', 'xL9J', 'xL24J', 'xL37J'}
+| | | | | +-- , 26 , {28} , {'xL18J', 'xL30J', 'xL24J', 'xL37J', 'xL36J', 'xL2J'}
+| | | | | | +-- , 28 , set() , {'xL30J', 'xL29J', 'xL24J', 'xL37J', 'xL36J'}
+| | | | +-- , 32 , set() , {'xL2J', 'xL20J', 'xL35J', 'xL4J'}
+| | | | +-- , 34 , set() , {'xL10J', 'xL35J', 'xL3J', 'xL2J', 'xL38J'}
+| | | | +-- , 30 , set() , {'xL12J', 'xL18J', 'xL35J', 'xL3J', 'xL13J', 'xL15J'}
+| | +-- , 36 , set() , {'xL22J', 'xL21J', 'xL8J', 'xL32J', 'xL3J'}
+| +-- , 40 , set() , {'xL21J', 'xL31J'}
+
+
+Max number of edges with non zero Y: 32
+Max number of iterations of outer rounding loop: 11
+Max number of candidate sets: 2
+Time spent rounding: 32.913
+Time spent solving Separator LP: 0.058
+
+LP Solver: gammaPlusFractionalCoverHeuristic

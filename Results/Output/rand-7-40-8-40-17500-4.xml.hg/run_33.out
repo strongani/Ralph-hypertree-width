@@ -1,0 +1,34 @@
+8, 2.384253166270321, 5.52227318665941, 8
++-- , 0 , {27, 12} , {'xL13J', 'xL11J', 'xL33J', 'xL22J', 'xL29J', 'xL6J', 'xL4J', 'xL12J', 'xL25J', 'xL21J', 'xL9J', 'xL14J', 'xL32J', 'xL26J', 'xL27J', 'xL8J', 'xL28J', 'xL35J', 'xL23J', 'xL24J', 'xL16J', 'xL17J', 'xL20J', 'xL1J', 'xL38J', 'xL0J', 'xL3J', 'xL10J', 'xL36J', 'xL30J'}
+| +-- , 27 , set() , {'xL22J', 'xL34J', 'xL24J', 'xL17J', 'xL25J', 'xL3J', 'xL30J'}
+| +-- , 12 , {17} , {'xL11J', 'xL22J', 'xL29J', 'xL7J', 'xL4J', 'xL25J', 'xL9J', 'xL31J', 'xL27J', 'xL8J', 'xL23J', 'xL24J', 'xL15J', 'xL39J', 'xL38J', 'xL30J', 'xL13J', 'xL33J', 'xL6J', 'xL12J', 'xL21J', 'xL14J', 'xL32J', 'xL28J', 'xL35J', 'xL16J', 'xL17J', 'xL20J', 'xL1J', 'xL0J', 'xL10J', 'xL36J', 'xL3J'}
+| | +-- , 17 , {19} , {'xL11J', 'xL22J', 'xL29J', 'xL7J', 'xL4J', 'xL25J', 'xL9J', 'xL31J', 'xL27J', 'xL8J', 'xL23J', 'xL15J', 'xL24J', 'xL39J', 'xL38J', 'xL13J', 'xL33J', 'xL6J', 'xL12J', 'xL21J', 'xL14J', 'xL37J', 'xL32J', 'xL28J', 'xL35J', 'xL16J', 'xL17J', 'xL20J', 'xL1J', 'xL0J', 'xL10J', 'xL36J', 'xL3J'}
+| | | +-- , 19 , {21} , {'xL11J', 'xL22J', 'xL29J', 'xL7J', 'xL4J', 'xL2J', 'xL25J', 'xL9J', 'xL31J', 'xL8J', 'xL23J', 'xL15J', 'xL24J', 'xL39J', 'xL38J', 'xL13J', 'xL33J', 'xL6J', 'xL12J', 'xL14J', 'xL37J', 'xL32J', 'xL28J', 'xL35J', 'xL16J', 'xL17J', 'xL20J', 'xL1J', 'xL0J', 'xL10J', 'xL36J', 'xL3J'}
+| | | | +-- , 21 , {25, 23} , {'xL11J', 'xL18J', 'xL22J', 'xL29J', 'xL4J', 'xL2J', 'xL25J', 'xL9J', 'xL31J', 'xL8J', 'xL23J', 'xL15J', 'xL24J', 'xL39J', 'xL13J', 'xL33J', 'xL6J', 'xL12J', 'xL14J', 'xL37J', 'xL32J', 'xL28J', 'xL35J', 'xL17J', 'xL1J', 'xL0J', 'xL10J', 'xL3J'}
+| | | | | +-- , 25 , set() , {'xL33J', 'xL18J', 'xL23J', 'xL22J', 'xL2J', 'xL24J', 'xL17J', 'xL25J', 'xL9J', 'xL19J', 'xL1J', 'xL14J', 'xL32J', 'xL3J'}
+| | | | | +-- , 23 , set() , {'xL28J', 'xL35J', 'xL11J', 'xL18J', 'xL23J', 'xL29J', 'xL22J', 'xL4J', 'xL12J', 'xL9J', 'xL1J', 'xL14J', 'xL32J', 'xL5J', 'xL10J', 'xL3J'}
+
+
+Max number of edges with non zero Y: 32
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 78.110
+Time spent solving Separator LP: 33.240
+
+LP Solver: GaifmanBoosted7, 2.346203847775127, 5.1305458624127604, 7
++-- , 0 , {4} , {'xL36J', 'xL9J', 'xL25J', 'xL3J', 'xL1J', 'xL23J', 'xL18J', 'xL29J', 'xL17J', 'xL32J', 'xL31J', 'xL22J', 'xL21J', 'xL2J', 'xL14J', 'xL33J', 'xL39J', 'xL37J', 'xL7J', 'xL6J', 'xL24J', 'xL15J', 'xL35J', 'xL8J', 'xL28J', 'xL19J', 'xL0J'}
+| +-- , 4 , {12} , {'xL36J', 'xL9J', 'xL25J', 'xL3J', 'xL1J', 'xL23J', 'xL18J', 'xL29J', 'xL27J', 'xL17J', 'xL32J', 'xL31J', 'xL22J', 'xL21J', 'xL13J', 'xL2J', 'xL33J', 'xL11J', 'xL14J', 'xL39J', 'xL37J', 'xL7J', 'xL6J', 'xL24J', 'xL15J', 'xL20J', 'xL35J', 'xL4J', 'xL8J', 'xL28J', 'xL16J', 'xL12J', 'xL0J'}
+| | +-- , 12 , {14} , {'xL9J', 'xL25J', 'xL3J', 'xL38J', 'xL1J', 'xL23J', 'xL18J', 'xL29J', 'xL27J', 'xL17J', 'xL32J', 'xL31J', 'xL22J', 'xL21J', 'xL13J', 'xL2J', 'xL14J', 'xL39J', 'xL33J', 'xL11J', 'xL7J', 'xL6J', 'xL24J', 'xL15J', 'xL20J', 'xL35J', 'xL4J', 'xL8J', 'xL28J', 'xL16J', 'xL12J', 'xL0J'}
+| | | +-- , 14 , {16, 18, 20} , {'xL7J', 'xL9J', 'xL25J', 'xL6J', 'xL3J', 'xL33J', 'xL24J', 'xL38J', 'xL1J', 'xL15J', 'xL23J', 'xL18J', 'xL29J', 'xL20J', 'xL27J', 'xL35J', 'xL4J', 'xL17J', 'xL8J', 'xL32J', 'xL22J', 'xL21J', 'xL13J', 'xL30J', 'xL28J', 'xL16J', 'xL12J', 'xL14J', 'xL11J', 'xL0J'}
+| | | | +-- , 16 , set() , {'xL17J', 'xL34J', 'xL22J', 'xL25J', 'xL3J', 'xL30J', 'xL24J'}
+| | | | +-- , 18 , set() , {'xL10J', 'xL9J', 'xL3J', 'xL5J', 'xL1J', 'xL23J', 'xL18J', 'xL29J', 'xL27J', 'xL32J', 'xL22J', 'xL30J', 'xL14J', 'xL11J', 'xL6J', 'xL20J', 'xL35J', 'xL4J', 'xL28J', 'xL12J', 'xL0J'}
+| | | | +-- , 20 , set() , {'xL9J', 'xL25J', 'xL38J', 'xL1J', 'xL23J', 'xL29J', 'xL32J', 'xL22J', 'xL21J', 'xL13J', 'xL30J', 'xL14J', 'xL33J', 'xL11J', 'xL6J', 'xL24J', 'xL20J', 'xL8J', 'xL28J', 'xL26J', 'xL0J'}
+
+
+Max number of edges with non zero Y: 34
+Max number of iterations of outer rounding loop: 8
+Max number of candidate sets: 2
+Time spent rounding: 73.189
+Time spent solving Separator LP: 52.425
+
+LP Solver: GaifmanBoosted

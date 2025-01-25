@@ -1,0 +1,27 @@
+17, 3.079178382693015, 9.0, 9
++-- , 0 , {34, 3, 36, 11} , {'xL13J', 'xL17J', 'xL20J', 'xL22J', 'xL5J', 'xL19J', 'xL34J', 'xL15J', 'xL32J', 'xL33J', 'xL10J', 'xL14J', 'xL36J', 'xL21J', 'xL27J', 'xL35J'}
+| +-- , 34 , set() , {'xL14J', 'xL3J', 'xL5J', 'xL32J', 'xL10J'}
+| +-- , 3 , {5} , {'xL8J', 'xL14J', 'xL36J', 'xL20J', 'xL22J', 'xL5J', 'xL30J', 'xL27J', 'xL35J', 'xL25J', 'xL10J'}
+| | +-- , 5 , {7} , {'xL8J', 'xL14J', 'xL0J', 'xL30J', 'xL35J', 'xL25J'}
+| | | +-- , 7 , set() , {'xL14J', 'xL26J', 'xL30J', 'xL0J', 'xL35J'}
+| +-- , 36 , set() , {'xL17J', 'xL20J', 'xL19J', 'xL6J'}
+| +-- , 11 , {32, 13} , {'xL13J', 'xL17J', 'xL20J', 'xL22J', 'xL5J', 'xL19J', 'xL15J', 'xL34J', 'xL32J', 'xL33J', 'xL23J', 'xL10J', 'xL36J', 'xL21J', 'xL27J', 'xL35J'}
+| | +-- , 32 , set() , {'xL9J', 'xL5J', 'xL32J', 'xL23J', 'xL10J'}
+| | +-- , 13 , {16} , {'xL17J', 'xL13J', 'xL20J', 'xL22J', 'xL5J', 'xL19J', 'xL2J', 'xL12J', 'xL15J', 'xL34J', 'xL32J', 'xL33J', 'xL23J', 'xL36J', 'xL21J', 'xL27J', 'xL35J', 'xL11J'}
+| | | +-- , 16 , {18, 20} , {'xL17J', 'xL13J', 'xL20J', 'xL22J', 'xL5J', 'xL19J', 'xL2J', 'xL12J', 'xL34J', 'xL33J', 'xL23J', 'xL37J', 'xL21J', 'xL16J', 'xL27J', 'xL35J', 'xL11J'}
+| | | | +-- , 18 , set() , {'xL37J', 'xL16J', 'xL34J', 'xL18J'}
+| | | | +-- , 20 , {22} , {'xL13J', 'xL20J', 'xL5J', 'xL19J', 'xL2J', 'xL12J', 'xL7J', 'xL33J', 'xL23J', 'xL37J', 'xL16J', 'xL11J'}
+| | | | | +-- , 22 , {24, 26, 30} , {'xL37J', 'xL28J', 'xL20J', 'xL19J', 'xL2J', 'xL12J', 'xL16J', 'xL7J', 'xL33J', 'xL23J', 'xL11J'}
+| | | | | | +-- , 24 , set() , {'xL28J', 'xL31J', 'xL12J', 'xL16J', 'xL7J'}
+| | | | | | +-- , 26 , {28} , {'xL28J', 'xL20J', 'xL39J', 'xL24J', 'xL2J', 'xL4J', 'xL33J', 'xL11J'}
+| | | | | | | +-- , 28 , set() , {'xL39J', 'xL1J', 'xL2J'}
+| | | | | | +-- , 30 , set() , {'xL28J', 'xL29J', 'xL19J', 'xL38J', 'xL23J', 'xL11J'}
+
+
+Max number of edges with non zero Y: 35
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 15.230
+Time spent solving Separator LP: 1.106
+
+LP Solver: GaifmanNormal

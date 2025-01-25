@@ -1,0 +1,35 @@
+8, 0, 5.1305458624127604, 7
++-- , 0 , {11, 3} , {'xL0J', 'xL14J', 'xL16J', 'xL6J', 'xL33J', 'xL20J', 'xL35J', 'xL15J', 'xL7J', 'xL18J', 'xL36J', 'xL17J', 'xL32J', 'xL21J', 'xL25J', 'xL1J', 'xL2J', 'xL8J', 'xL3J', 'xL9J', 'xL23J', 'xL39J', 'xL27J', 'xL28J', 'xL19J', 'xL31J', 'xL29J', 'xL24J', 'xL22J', 'xL13J', 'xL12J'}
+| +-- , 11 , {13} , {'xL0J', 'xL14J', 'xL16J', 'xL6J', 'xL33J', 'xL20J', 'xL35J', 'xL11J', 'xL15J', 'xL7J', 'xL18J', 'xL36J', 'xL17J', 'xL32J', 'xL25J', 'xL21J', 'xL1J', 'xL2J', 'xL4J', 'xL8J', 'xL3J', 'xL9J', 'xL23J', 'xL39J', 'xL27J', 'xL28J', 'xL31J', 'xL29J', 'xL24J', 'xL22J', 'xL13J', 'xL12J'}
+| | +-- , 13 , {15} , {'xL0J', 'xL14J', 'xL16J', 'xL6J', 'xL33J', 'xL20J', 'xL35J', 'xL11J', 'xL15J', 'xL7J', 'xL18J', 'xL17J', 'xL32J', 'xL25J', 'xL21J', 'xL1J', 'xL2J', 'xL4J', 'xL38J', 'xL8J', 'xL3J', 'xL9J', 'xL23J', 'xL39J', 'xL27J', 'xL28J', 'xL31J', 'xL29J', 'xL24J', 'xL22J', 'xL13J', 'xL12J'}
+| | | +-- , 15 , {17, 19, 21} , {'xL0J', 'xL14J', 'xL16J', 'xL6J', 'xL33J', 'xL20J', 'xL35J', 'xL11J', 'xL30J', 'xL15J', 'xL7J', 'xL18J', 'xL17J', 'xL32J', 'xL25J', 'xL21J', 'xL1J', 'xL4J', 'xL38J', 'xL3J', 'xL9J', 'xL8J', 'xL23J', 'xL27J', 'xL28J', 'xL29J', 'xL24J', 'xL22J', 'xL13J', 'xL12J'}
+| | | | +-- , 17 , set() , {'xL3J', 'xL17J', 'xL22J', 'xL25J', 'xL34J', 'xL24J', 'xL30J'}
+| | | | +-- , 19 , set() , {'xL0J', 'xL14J', 'xL6J', 'xL20J', 'xL35J', 'xL11J', 'xL30J', 'xL18J', 'xL10J', 'xL32J', 'xL1J', 'xL4J', 'xL3J', 'xL9J', 'xL27J', 'xL28J', 'xL29J', 'xL23J', 'xL22J', 'xL12J', 'xL5J'}
+| | | | +-- , 21 , set() , {'xL0J', 'xL14J', 'xL6J', 'xL33J', 'xL20J', 'xL11J', 'xL30J', 'xL32J', 'xL25J', 'xL21J', 'xL1J', 'xL26J', 'xL8J', 'xL38J', 'xL9J', 'xL23J', 'xL28J', 'xL29J', 'xL24J', 'xL22J', 'xL13J'}
+| +-- , 3 , set() , {'xL0J', 'xL14J', 'xL16J', 'xL6J', 'xL33J', 'xL20J', 'xL35J', 'xL15J', 'xL18J', 'xL37J', 'xL32J', 'xL21J', 'xL8J', 'xL3J', 'xL23J', 'xL39J', 'xL27J', 'xL28J', 'xL31J', 'xL29J', 'xL24J', 'xL22J', 'xL13J'}
+
+
+Max number of edges with non zero Y: 36
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 32.589
+Time spent solving Separator LP: 0.075
+
+LP Solver: gammaPlusFractionalCoverHeuristic8, 0, 5.39138688506807, 9
++-- , 0 , {3, 9, 11, 13} , {'xL37J', 'xL30J', 'xL38J', 'xL13J', 'xL22J', 'xL0J', 'xL39J', 'xL3J', 'xL21J', 'xL16J', 'xL35J', 'xL23J', 'xL24J', 'xL20J', 'xL15J', 'xL27J', 'xL36J', 'xL1J', 'xL12J', 'xL25J', 'xL32J', 'xL19J', 'xL6J', 'xL28J', 'xL7J', 'xL31J', 'xL29J', 'xL9J', 'xL11J', 'xL17J', 'xL14J', 'xL18J'}
+| +-- , 3 , {5} , {'xL37J', 'xL30J', 'xL38J', 'xL13J', 'xL22J', 'xL0J', 'xL3J', 'xL21J', 'xL16J', 'xL35J', 'xL23J', 'xL24J', 'xL20J', 'xL15J', 'xL27J', 'xL36J', 'xL1J', 'xL12J', 'xL25J', 'xL33J', 'xL32J', 'xL19J', 'xL6J', 'xL28J', 'xL7J', 'xL31J', 'xL29J', 'xL9J', 'xL11J', 'xL17J', 'xL14J', 'xL18J'}
+| | +-- , 5 , {7} , {'xL37J', 'xL30J', 'xL38J', 'xL13J', 'xL22J', 'xL0J', 'xL3J', 'xL21J', 'xL16J', 'xL35J', 'xL23J', 'xL24J', 'xL20J', 'xL15J', 'xL36J', 'xL1J', 'xL33J', 'xL25J', 'xL32J', 'xL8J', 'xL6J', 'xL28J', 'xL7J', 'xL31J', 'xL29J', 'xL9J', 'xL11J', 'xL17J', 'xL14J', 'xL18J'}
+| | | +-- , 7 , set() , {'xL30J', 'xL38J', 'xL13J', 'xL22J', 'xL0J', 'xL21J', 'xL26J', 'xL23J', 'xL24J', 'xL20J', 'xL1J', 'xL33J', 'xL25J', 'xL32J', 'xL8J', 'xL6J', 'xL28J', 'xL29J', 'xL9J', 'xL11J', 'xL14J'}
+| +-- , 9 , set() , {'xL38J', 'xL22J', 'xL3J', 'xL16J', 'xL35J', 'xL24J', 'xL20J', 'xL36J', 'xL1J', 'xL12J', 'xL25J', 'xL32J', 'xL19J', 'xL28J', 'xL7J', 'xL31J', 'xL29J', 'xL2J', 'xL9J', 'xL11J', 'xL17J', 'xL14J', 'xL18J'}
+| +-- , 11 , set() , {'xL30J', 'xL34J', 'xL17J', 'xL24J', 'xL25J', 'xL22J', 'xL3J'}
+| +-- , 13 , {15} , {'xL30J', 'xL38J', 'xL13J', 'xL22J', 'xL39J', 'xL0J', 'xL3J', 'xL4J', 'xL16J', 'xL35J', 'xL23J', 'xL24J', 'xL20J', 'xL27J', 'xL36J', 'xL1J', 'xL12J', 'xL25J', 'xL32J', 'xL6J', 'xL28J', 'xL7J', 'xL29J', 'xL9J', 'xL11J', 'xL17J', 'xL14J', 'xL18J'}
+| | +-- , 15 , set() , {'xL30J', 'xL10J', 'xL5J', 'xL22J', 'xL0J', 'xL3J', 'xL4J', 'xL35J', 'xL23J', 'xL20J', 'xL27J', 'xL1J', 'xL12J', 'xL32J', 'xL6J', 'xL28J', 'xL29J', 'xL9J', 'xL11J', 'xL14J', 'xL18J'}
+
+
+Max number of edges with non zero Y: 30
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 9.468
+Time spent solving Separator LP: 0.050
+
+LP Solver: gammaPlusFractionalCoverHeuristic

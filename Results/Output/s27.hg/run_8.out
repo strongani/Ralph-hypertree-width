@@ -1,0 +1,24 @@
+12, 0, 2.5, 3
++-- , 0 , {23, 21, 5, 25} , {'G14', 'G8', 'G10', 'G11'}
+| +-- , 23 , set() , {'G6', 'G14', 'G8', 'G11'}
+| +-- , 21 , set() , {'G14', 'G0'}
+| +-- , 5 , {13, 7} , {'G15', 'G8', 'G12', 'G10', 'G11'}
+| | +-- , 13 , {19, 15} , {'G8', 'G11', 'G15', 'G16', 'G10'}
+| | | +-- , 19 , set() , {'G3', 'G8', 'G16'}
+| | | +-- , 15 , {17} , {'G15', 'G16', 'G10', 'G9', 'G11'}
+| | | | +-- , 17 , set() , {'G10', 'G9', 'G5', 'G11'}
+| | +-- , 7 , {9} , {'G7', 'G12', 'G1'}
+| | | +-- , 9 , {11} , {'G7', 'G13', 'G12'}
+| | | | +-- , 11 , set() , {'G2', 'G13', 'G12'}
+| +-- , 25 , set() , {'G11', 'G17'}
+
+
+Max number of edges with non zero Y: 10
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 3.132
+Time spent solving Separator LP: 0.022
+Total time spent solving: 4.284
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Lower Bound Witness = ({'G8', 'G5', 'G13', 'G1', 'G9', 'G0', 'G11', 'G7', 'G6', 'G15', 'G3', 'G14', 'G17', 'G16', 'G2', 'G12', 'G10'}, {'G6', 'G5', 'G0', 'G8'})

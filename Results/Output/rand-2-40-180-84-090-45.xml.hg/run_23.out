@@ -1,0 +1,31 @@
+21, 2.630471801647088, 8.0, 8
++-- , 0 , {3, 38, 40, 42, 44, 8} , {'xL3J', 'xL13J', 'xL22J', 'xL31J', 'xL2J', 'xL25J', 'xL10J', 'xL11J', 'xL33J', 'xL14J', 'xL27J', 'xL21J', 'xL37J', 'xL32J', 'xL34J', 'xL26J'}
+| +-- , 3 , set() , {'xL11J', 'xL35J'}
+| +-- , 38 , set() , {'xL13J', 'xL22J', 'xL12J', 'xL11J', 'xL32J'}
+| +-- , 40 , set() , {'xL26J', 'xL23J', 'xL2J', 'xL32J'}
+| +-- , 42 , set() , {'xL22J', 'xL34J', 'xL15J', 'xL11J', 'xL36J', 'xL33J'}
+| +-- , 44 , set() , {'xL26J', 'xL20J'}
+| +-- , 8 , {34, 36, 10} , {'xL3J', 'xL13J', 'xL2J', 'xL31J', 'xL25J', 'xL30J', 'xL11J', 'xL33J', 'xL14J', 'xL27J', 'xL21J', 'xL37J', 'xL32J', 'xL34J', 'xL26J'}
+| | +-- , 34 , set() , {'xL3J', 'xL13J', 'xL30J', 'xL17J', 'xL32J'}
+| | +-- , 36 , set() , {'xL5J', 'xL6J', 'xL25J', 'xL30J', 'xL11J'}
+| | +-- , 10 , {12} , {'xL3J', 'xL31J', 'xL2J', 'xL30J', 'xL11J', 'xL33J', 'xL29J', 'xL14J', 'xL27J', 'xL21J', 'xL37J', 'xL1J', 'xL34J'}
+| | | +-- , 12 , {24, 28, 14} , {'xL29J', 'xL14J', 'xL27J', 'xL31J', 'xL2J', 'xL1J', 'xL30J', 'xL11J', 'xL34J', 'xL8J', 'xL33J'}
+| | | | +-- , 24 , {26} , {'xL14J', 'xL19J', 'xL8J', 'xL2J'}
+| | | | | +-- , 26 , set() , {'xL16J', 'xL19J'}
+| | | | +-- , 28 , {30} , {'xL31J', 'xL30J', 'xL4J', 'xL34J', 'xL8J', 'xL33J'}
+| | | | | +-- , 30 , {32} , {'xL4J', 'xL34J', 'xL8J', 'xL38J', 'xL30J'}
+| | | | | | +-- , 32 , set() , {'xL24J', 'xL34J', 'xL38J'}
+| | | | +-- , 14 , {16} , {'xL18J', 'xL29J', 'xL1J', 'xL27J', 'xL31J', 'xL30J', 'xL11J', 'xL34J', 'xL8J', 'xL33J'}
+| | | | | +-- , 16 , {18, 22} , {'xL18J', 'xL29J', 'xL1J', 'xL31J', 'xL9J', 'xL30J', 'xL39J', 'xL11J', 'xL34J', 'xL8J'}
+| | | | | | +-- , 18 , {20} , {'xL7J', 'xL29J', 'xL1J', 'xL11J', 'xL9J', 'xL30J'}
+| | | | | | | +-- , 20 , set() , {'xL7J', 'xL28J', 'xL29J'}
+| | | | | | +-- , 22 , set() , {'xL0J', 'xL31J', 'xL9J', 'xL39J', 'xL11J'}
+
+
+Max number of edges with non zero Y: 26
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 16.889
+Time spent solving Separator LP: 0.422
+
+LP Solver: GaifmanNormal

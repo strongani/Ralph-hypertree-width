@@ -1,0 +1,18 @@
+8, 2.231759775185618, 5.185185185185184, 8
++-- , 0 , {16} , {'xL4J', 'xL33J', 'xL22J', 'xL19J', 'xL23J', 'xL35J', 'xL6J', 'xL16J', 'xL26J', 'xL7J', 'xL1J', 'xL30J', 'xL32J', 'xL25J', 'xL31J', 'xL14J', 'xL10J', 'xL13J', 'xL0J', 'xL37J', 'xL39J', 'xL12J', 'xL29J', 'xL18J', 'xL38J', 'xL2J', 'xL36J', 'xL28J', 'xL15J'}
+| +-- , 16 , {19} , {'xL4J', 'xL33J', 'xL22J', 'xL19J', 'xL23J', 'xL35J', 'xL6J', 'xL21J', 'xL16J', 'xL26J', 'xL7J', 'xL1J', 'xL30J', 'xL32J', 'xL25J', 'xL31J', 'xL14J', 'xL10J', 'xL13J', 'xL0J', 'xL39J', 'xL12J', 'xL29J', 'xL18J', 'xL38J', 'xL2J', 'xL36J', 'xL3J', 'xL28J', 'xL15J'}
+| | +-- , 19 , {22} , {'xL4J', 'xL33J', 'xL22J', 'xL19J', 'xL23J', 'xL35J', 'xL6J', 'xL21J', 'xL16J', 'xL5J', 'xL26J', 'xL1J', 'xL30J', 'xL32J', 'xL25J', 'xL31J', 'xL14J', 'xL10J', 'xL27J', 'xL13J', 'xL0J', 'xL39J', 'xL12J', 'xL29J', 'xL18J', 'xL38J', 'xL2J', 'xL36J', 'xL3J', 'xL28J', 'xL15J'}
+| | | +-- , 22 , {33, 27, 29} , {'xL4J', 'xL33J', 'xL22J', 'xL19J', 'xL23J', 'xL35J', 'xL6J', 'xL21J', 'xL16J', 'xL5J', 'xL26J', 'xL1J', 'xL30J', 'xL8J', 'xL9J', 'xL25J', 'xL31J', 'xL11J', 'xL10J', 'xL27J', 'xL13J', 'xL39J', 'xL12J', 'xL29J', 'xL18J', 'xL38J', 'xL2J', 'xL36J', 'xL3J', 'xL28J', 'xL15J'}
+| | | | +-- , 33 , set() , {'xL33J', 'xL9J', 'xL1J', 'xL29J', 'xL34J', 'xL36J', 'xL8J'}
+| | | | +-- , 27 , set() , {'xL33J', 'xL35J', 'xL6J', 'xL21J', 'xL26J', 'xL30J', 'xL8J', 'xL17J', 'xL25J', 'xL11J', 'xL10J', 'xL27J', 'xL39J', 'xL12J', 'xL29J', 'xL18J', 'xL36J', 'xL3J', 'xL28J', 'xL15J'}
+| | | | +-- , 29 , {31} , {'xL25J', 'xL22J', 'xL31J', 'xL11J', 'xL19J', 'xL23J', 'xL20J', 'xL10J', 'xL35J', 'xL27J', 'xL6J', 'xL16J', 'xL5J', 'xL3J', 'xL26J', 'xL1J', 'xL29J', 'xL18J', 'xL38J', 'xL2J', 'xL9J', 'xL30J', 'xL8J', 'xL28J', 'xL15J'}
+| | | | | +-- , 31 , set() , {'xL16J', 'xL24J', 'xL19J', 'xL23J', 'xL20J', 'xL18J', 'xL10J', 'xL35J', 'xL2J', 'xL9J', 'xL8J', 'xL15J'}
+
+
+Max number of edges with non zero Y: 27
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 55.583
+Time spent solving Separator LP: 13.214
+
+LP Solver: GaifmanNormal

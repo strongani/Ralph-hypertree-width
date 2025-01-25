@@ -1,0 +1,17 @@
+5, 0.4999995, 1.0, 1
++-- , 0 , {3, 4} , {'1', '37', '49', '9', '13', '47'}
+| +-- , 3 , set() , {'1', '11', '26', '6', '45', '13', '34'}
+| +-- , 4 , {8, 6} , {'52', '35', '40', '48', '0', '8'}
+| | +-- , 8 , set() , {'44', '40', '25', '39', '33', '2'}
+| | +-- , 6 , set() , {'52', '41', '50', '10', '14', '57', '55'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.580
+Time spent solving Separator LP: 0.017
+Total time spent solving: 2.169
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'44', '52', '40', '25', '39', '33', '41', '2', '0', '8', '50', '10', '14', '48', '35', '57', '55'}, {'39', '50', '57', '14'})

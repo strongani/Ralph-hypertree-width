@@ -1,0 +1,25 @@
+15, 2.280042269551137, 9.0, 9
++-- , 0 , {7, 36, 38} , {'xL21J', 'xL0J', 'xL14J', 'xL4J', 'xL5J', 'xL20J', 'xL25J', 'xL28J', 'xL36J', 'xL38J', 'xL19J', 'xL34J', 'xL27J'}
+| +-- , 7 , {11} , {'xL21J', 'xL0J', 'xL14J', 'xL5J', 'xL20J', 'xL25J', 'xL15J', 'xL11J', 'xL28J', 'xL36J', 'xL3J', 'xL38J', 'xL19J', 'xL34J', 'xL27J'}
+| | +-- , 11 , {32, 34, 15} , {'xL21J', 'xL0J', 'xL6J', 'xL14J', 'xL25J', 'xL20J', 'xL15J', 'xL11J', 'xL28J', 'xL36J', 'xL32J', 'xL3J', 'xL38J', 'xL19J', 'xL34J', 'xL27J'}
+| | | +-- , 32 , set() , {'xL27J', 'xL2J', 'xL19J', 'xL6J'}
+| | | +-- , 34 , set() , {'xL18J', 'xL6J'}
+| | | +-- , 15 , {17} , {'xL21J', 'xL0J', 'xL6J', 'xL14J', 'xL23J', 'xL20J', 'xL15J', 'xL11J', 'xL28J', 'xL36J', 'xL32J', 'xL3J', 'xL38J', 'xL34J', 'xL27J'}
+| | | | +-- , 17 , {20, 30} , {'xL21J', 'xL30J', 'xL6J', 'xL14J', 'xL17J', 'xL23J', 'xL20J', 'xL12J', 'xL15J', 'xL11J', 'xL28J', 'xL36J', 'xL27J', 'xL38J', 'xL3J', 'xL34J', 'xL32J', 'xL8J'}
+| | | | | +-- , 20 , {22} , {'xL21J', 'xL6J', 'xL30J', 'xL14J', 'xL39J', 'xL17J', 'xL26J', 'xL10J', 'xL12J', 'xL7J', 'xL36J', 'xL32J', 'xL3J', 'xL34J', 'xL27J', 'xL8J'}
+| | | | | | +-- , 22 , {24, 26} , {'xL21J', 'xL6J', 'xL30J', 'xL14J', 'xL39J', 'xL17J', 'xL26J', 'xL10J', 'xL12J', 'xL7J', 'xL36J', 'xL31J', 'xL32J', 'xL3J', 'xL27J', 'xL8J'}
+| | | | | | | +-- , 24 , set() , {'xL6J', 'xL14J', 'xL16J', 'xL24J', 'xL31J', 'xL3J', 'xL27J'}
+| | | | | | | +-- , 26 , {28} , {'xL21J', 'xL6J', 'xL30J', 'xL39J', 'xL17J', 'xL26J', 'xL10J', 'xL12J', 'xL7J', 'xL36J', 'xL31J', 'xL33J', 'xL37J', 'xL13J', 'xL27J', 'xL8J'}
+| | | | | | | | +-- , 28 , set() , {'xL1J', 'xL21J', 'xL6J', 'xL9J', 'xL17J', 'xL26J', 'xL13J', 'xL37J', 'xL10J'}
+| | | | | +-- , 30 , set() , {'xL22J', 'xL38J', 'xL30J', 'xL28J'}
+| +-- , 36 , set() , {'xL25J', 'xL19J', 'xL35J'}
+| +-- , 38 , set() , {'xL27J', 'xL29J'}
+
+
+Max number of edges with non zero Y: 25
+Max number of iterations of outer rounding loop: 7
+Max number of candidate sets: 2
+Time spent rounding: 26.828
+Time spent solving Separator LP: 0.465
+
+LP Solver: GaifmanNormal

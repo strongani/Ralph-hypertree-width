@@ -1,0 +1,33 @@
+21, 1.309523238095238, 6.5, 7
++-- , 0 , {33, 37, 6, 41, 45, 25, 29} , {'xL7J', 'yL16J', 'xL6J', 'yL12J', 'yL17J', 'xL4J', 'xL5J', 'yL15J', 'xL8J', 'xL3J', 'yL13J', 'yL14J'}
+| +-- , 33 , {35} , {'yL24J', 'xL4J'}
+| | +-- , 35 , set() , {'yL28J', 'yL27J', 'yL24J', 'yL29J', 'yL26J', 'yL25J'}
+| +-- , 37 , {39} , {'yL36J', 'xL6J'}
+| | +-- , 39 , set() , {'yL36J', 'yL39J', 'yL41J', 'yL38J', 'yL37J', 'yL40J'}
+| +-- , 6 , {8} , {'xL7J', 'xL2J', 'xL6J', 'yL12J', 'xL4J', 'xL8J', 'xL3J', 'xL5J'}
+| | +-- , 8 , {11} , {'yL10J', 'xL7J', 'xL2J', 'yL11J', 'xL8J', 'yL7J', 'xL6J', 'xL4J', 'yL6J', 'yL9J', 'xL3J', 'yL8J', 'xL5J'}
+| | | +-- , 11 , {13} , {'xL7J', 'xL2J', 'xL6J', 'xL4J', 'xL3J', 'xL8J', 'xL1J', 'yL6J', 'xL5J'}
+| | | | +-- , 13 , {17, 21} , {'xL9J', 'xL7J', 'yL2J', 'yL1J', 'xL2J', 'yL0J', 'xL8J', 'yL60J', 'xL6J', 'yL64J', 'yL61J', 'yL5J', 'yL3J', 'xL4J', 'yL63J', 'xL3J', 'yL62J', 'yL4J', 'xL1J', 'yL65J', 'xL5J'}
+| | | | | +-- , 17 , {19} , {'xL9J', 'xL7J', 'xL2J', 'yL0J', 'xL8J', 'xL0J', 'yL60J', 'xL6J', 'xL1J', 'xL4J', 'xL3J', 'xL5J'}
+| | | | | | +-- , 19 , set() , {'xL9J', 'xL7J', 'xL8J', 'yL60J', 'xL2J', 'xL10J', 'xL6J', 'xL4J', 'xL3J', 'xL0J', 'xL1J', 'xL5J'}
+| | | | | +-- , 21 , {23} , {'xL9J', 'yL54J'}
+| | | | | | +-- , 23 , set() , {'yL54J', 'yL58J', 'yL56J', 'yL55J', 'yL57J', 'yL59J'}
+| +-- , 41 , {43} , {'yL30J', 'xL5J'}
+| | +-- , 43 , set() , {'yL31J', 'yL34J', 'yL30J', 'yL35J', 'yL33J', 'yL32J'}
+| +-- , 45 , {47} , {'xL7J', 'yL42J'}
+| | +-- , 47 , set() , {'yL42J', 'yL46J', 'yL43J', 'yL45J', 'yL47J', 'yL44J'}
+| +-- , 25 , {27} , {'yL48J', 'xL8J'}
+| | +-- , 27 , set() , {'yL53J', 'yL52J', 'yL49J', 'yL50J', 'yL48J', 'yL51J'}
+| +-- , 29 , {31} , {'yL18J', 'xL3J'}
+| | +-- , 31 , set() , {'yL20J', 'yL19J', 'yL18J', 'yL23J', 'yL22J', 'yL21J'}
+
+
+Max number of edges with non zero Y: 8
+Max number of iterations of outer rounding loop: 3
+Max number of candidate sets: 2
+Time spent rounding: 22.957
+Time spent solving Separator LP: 0.601
+Total time spent solving: 28.657
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'xL9J', 'xL7J', 'xL10J', 'yL2J', 'yL57J', 'xL6J', 'yL54J', 'yL58J', 'yL4J', 'yL65J', 'yL59J', 'yL1J', 'xL2J', 'yL0J', 'xL8J', 'xL0J', 'yL60J', 'yL64J', 'yL61J', 'yL5J', 'yL3J', 'xL1J', 'xL4J', 'yL63J', 'yL56J', 'yL55J', 'yL62J', 'xL3J', 'xL5J'}, {'xL7J', 'xL2J', 'xL6J', 'xL4J', 'xL3J', 'xL8J', 'xL1J', 'xL5J'})

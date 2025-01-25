@@ -1,0 +1,15 @@
+3, 0.4999995, 1.0, 1
++-- , 0 , {3, 5} , {'X15', 'X2'}
+| +-- , 3 , set() , {'X1', 'X2', 'X6', 'X0', 'X11', 'X3', 'X12', 'X8', 'X4', 'X7', 'X9', 'X10', 'X5', 'X13'}
+| +-- , 5 , set() , {'X17', 'X18', 'X15', 'X19'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 15.535
+Time spent solving Separator LP: 0.424
+Total time spent solving: 21.687
+
+LP Solver: GaifmanNormal
+Lower Bound Witness = ({'X1', 'X2', 'X18', 'X6', 'X0', 'X11', 'X3', 'X12', 'X8', 'X15', 'X4', 'X7', 'X17', 'X19', 'X9', 'X10', 'X5', 'X13'}, {'X6', 'X3', 'X17', 'X5', 'X13'})

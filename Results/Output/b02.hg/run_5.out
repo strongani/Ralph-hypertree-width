@@ -1,0 +1,24 @@
+14, 0, 4.0, 5
++-- , 0 , {3, 5, 26} , {'U32', 'STATO_REG_0_', 'U37', 'U45', 'STATO_REG_2_', 'STATO_REG_1_', 'U47', 'U35'}
+| +-- , 3 , set() , {'U32', 'U37', 'STATO_REG_0_', 'U45', 'U47', 'U48', 'U46'}
+| +-- , 5 , {18, 7} , {'STATO_REG_0_', 'U45', 'U52', 'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U47', 'U34', 'U35'}
+| | +-- , 18 , {24, 20} , {'STATO_REG_0_', 'U52', 'U51', 'LINEA', 'STATO_REG_1_', 'U34'}
+| | | +-- , 24 , set() , {'U52', 'STATO_REG_1_', 'U38', 'U51'}
+| | | +-- , 20 , {22} , {'STATO_REG_0_', 'U51', 'U44', 'LINEA', 'STATO_REG_1_', 'U34'}
+| | | | +-- , 22 , set() , {'U44', 'LINEA', 'STATO_REG_1_', 'U34', 'U43'}
+| | +-- , 7 , {10} , {'STATO_REG_0_', 'U41', 'STATO_REG_2_', 'U40', 'LINEA', 'STATO_REG_1_', 'U34', 'U35'}
+| | | +-- , 10 , {12} , {'U33', 'U41', 'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U42', 'U34', 'U35'}
+| | | | +-- , 12 , {14} , {'STATO_REG_2_', 'LINEA', 'STATO_REG_1_', 'U42', 'U34', 'U39', 'U35'}
+| | | | | +-- , 14 , {16} , {'U49', 'STATO_REG_2_', 'LINEA', 'U34', 'U39', 'U35', 'U50'}
+| | | | | | +-- , 16 , set() , {'STATO_REG_2_', 'U36', 'U50', 'LINEA'}
+| +-- , 26 , {28} , {'U37', 'U31', 'STATO_REG_2_', 'U35'}
+| | +-- , 28 , set() , {'U31', 'U_REG'}
+
+
+Max number of edges with non zero Y: 14
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 6.087
+Time spent solving Separator LP: 0.061
+
+LP Solver: gammaPlusFractionalCoverHeuristic

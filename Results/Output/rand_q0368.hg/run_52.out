@@ -1,0 +1,19 @@
+7, 1.0, 1.0, 1
++-- , 0 , {3, 4, 5, 6, 7, 8} , {'45', '26', '94'}
+| +-- , 3 , set() , {'6', '19', '94'}
+| +-- , 4 , set() , {'48', '57', '3'}
+| +-- , 5 , set() , {'31', '63', '38'}
+| +-- , 6 , set() , {'85', '55', '86'}
+| +-- , 7 , set() , {'49', '27', '46'}
+| +-- , 8 , set() , {'72', '29', '65'}
+
+
+Max number of edges with non zero Y: 1
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.023
+Total time spent solving: 0.073
+
+LP Solver: GaifmanNormalILP
+Lower Bound Witness = ({'26', '6', '45', '19', '94'}, {'45', '26'})

@@ -1,0 +1,14 @@
+4, 0, 2.5, 3
++-- , 0 , {6, 11} , {'v2', 'xL1J', 'xL0J', 'xL2J', 'xL3J'}
+| +-- , 6 , {9} , {'v2', 'yL2J', 'yL1J'}
+| | +-- , 9 , set() , {'v2', 'yL0J', 'yL1J'}
+| +-- , 11 , set() , {'yL3J', 'v2'}
+
+
+Max number of edges with non zero Y: 8
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 5.427
+Time spent solving Separator LP: 0.036
+
+LP Solver: gammaPlusFractionalCoverHeuristic

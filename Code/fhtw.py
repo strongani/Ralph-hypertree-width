@@ -21,16 +21,23 @@ def runDecompositions(H, name, numberOfRuns, timeLimit):
 
     # order is 4 -> 0 -> 2 -> 3
     # cutoffs are Heuristic: 10, Normal: 20, Boosted: 20, ILP: 10
+    if settings.doMixedRun:
+        numberOfRuns = settings.num_heuristic + settings.num_normal + settings.num_boosted + settings.num_ILP
 
     for i in range(numberOfRuns):
-        if i < 10:
-            settings.useSeparatorLP = settings.availableSeparatorLPs[4]
-        elif 10 <= i < 30:
-            settings.useSeparatorLP = settings.availableSeparatorLPs[0]
-        elif 30 <= i < 50:
-            settings.useSeparatorLP = settings.availableSeparatorLPs[2]
-        else:
-            settings.useSeparatorLP = settings.availableSeparatorLPs[3]
+        if settings.doMixedRun:
+            if i < settings.num_heuristic: 
+                # Heuristic
+                settings.useSeparatorLP = settings.availableSeparatorLPs[4]
+            elif settings.num_heuristic <= i < settings.num_heuristic + settings.num_normal: 
+                # Normal
+                settings.useSeparatorLP = settings.availableSeparatorLPs[0]
+            elif settings.num_heuristic + settings.num_normal <= i < settings.num_heuristic + settings.num_normal + settings.num_boosted:
+                # Boosted
+                settings.useSeparatorLP = settings.availableSeparatorLPs[2]
+            else:
+                # ILP
+                settings.useSeparatorLP = settings.availableSeparatorLPs[3]
 
         try:
             outputDec, stats = hypertreeDecomposition.runDecomposition(H)
@@ -75,6 +82,8 @@ def runDecompositions(H, name, numberOfRuns, timeLimit):
 
         writeToFile.write(f'LP Solver: {settings.useSeparatorLP}')
         writeToFile.write('\n')
+        writeToFile.write(f'Number of Rounding Attemps: {settings.roundingAttempts}')
+        writeToFile.write('\n')
         writeToFile.write(f'Lower Bound Witness = {outputDec.fhtwLowerWitness}')
 
         writeToFile.close()
@@ -107,10 +116,12 @@ def main():
 
     sys.setrecursionlimit(100000) 
 
-    if not ('wiki' in name or 'tpcds' in name or ('tpch' in name and'tpch-' not in name)):
-        sys.stdin = open(f'Hypergraphs/{name}')
-    else:
-        sys.stdin = open(f'New_Instances/{name}')
+    # if not ('wiki' in name or 'tpcds' in name or ('tpch' in name and'tpch-' not in name)):
+    #     sys.stdin = open(f'Hypergraphs/{name}')
+    # else:
+    #     sys.stdin = open(f'New_Instances/{name}')
+
+    sys.stdin = open(f'../Hypergraphs/{name}')
 
     H = hypergraph()
     print(f'[{time.time()}]: Starting fhtw on {name}')

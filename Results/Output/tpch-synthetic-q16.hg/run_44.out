@@ -1,0 +1,15 @@
+5, 0.7499999999999999, 1.5, 2
++-- , 0 , {3, 5} , {'X31', 'X39', 'X50', 'X37', 'X49', 'X34', 'X32', 'X38', 'X52'}
+| +-- , 3 , set() , {'X44', 'X41', 'X47', 'X45', 'X42', 'X46', 'X43', 'X52'}
+| +-- , 5 , {8, 10} , {'X48', 'X51', 'X49', 'X50'}
+| | +-- , 8 , set() , {'X48', 'X6', 'X16', 'X13', 'X3', 'X50', 'X7', 'X12', 'X15', 'X14', 'X51', 'X11', 'X4', 'X1', 'X10', 'X2'}
+| | +-- , 10 , set() , {'X48', 'X22', 'X27', 'X25', 'X18', 'X21', 'X29', 'X30', 'X19', 'X24', 'X51', 'X49', 'X26', 'X23'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 1.740
+Time spent solving Separator LP: 0.087
+
+LP Solver: GaifmanBoosted
