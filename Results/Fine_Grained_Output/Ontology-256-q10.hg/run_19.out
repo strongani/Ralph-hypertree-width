@@ -1,0 +1,19 @@
+6, 1, 1, 1
++-- , 0 , {1, 2, 4} , {'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'family_vnm_20_nl0_ce0_represent_vnm_20_nl0_ae00', 'family_vnm_20_nl0_ce0_pain_vnm_20_nl0_ae1'}
+| +-- , 1 , set() , {'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'relation_vnm_53_nl0_ce0_zoo_vnm_53_nl0_ae00', 'relation_vnm_53_nl0_ce0_mean_vnm_53_nl0_ae2', 'relation_vnm_53_nl0_ce0_gain_vnm_53_nl0_ae0ke0'}
+| +-- , 2 , {3} , {'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'family_vnm_20_nl0_ce0_represent_vnm_20_nl0_ae00', 'family_vnm_20_nl0_ce0_pain_vnm_20_nl0_ae1'}
+| | +-- , 3 , set() , {'thread_vi_13_nl0_ce0_avoid_vi_13_nl0_ae0ke0JoinAttr', 'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'thread_vi_13_nl0_ce0_knock_vi_13_nl0_ae2'}
+| +-- , 4 , {5} , {'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'family_vnm_20_nl0_ce0_represent_vnm_20_nl0_ae00', 'family_vnm_20_nl0_ce0_pain_vnm_20_nl0_ae1'}
+| | +-- , 5 , set() , {'delicate_vi_26_nl0_ce1_private_vi_26_nl0_ae3', 'family_vnm_20_nl0_ce0_ice_vnm_20_nl0_ae0ke0', 'delicate_vi_26_nl0_ce1_affect_vi_26_nl0_ae2'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.006
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 2
+Lower Bound Witness = None

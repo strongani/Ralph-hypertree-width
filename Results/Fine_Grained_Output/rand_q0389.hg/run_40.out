@@ -1,0 +1,15 @@
+2, 0, 2.727272727272727, 4
++-- , 0 , {5} , {'22', '13', '8', '26', '10', '4', '12', '11', '16', '20', '25', '15', '5', '23', '3', '14', '9', '2', '6', '18', '17', '19', '21', '1', '7', '0'}
+| +-- , 5 , set() , {'8', '10', '4', '12', '11', '16', '20', '25', '15', '23', '5', '3', '14', '9', '2', '6', '18', '17', '24', '19', '21', '1', '7', '0'}
+
+
+Max number of edges with non zero Y: 9
+Max number of iterations of outer rounding loop: 5
+Max number of candidate sets: 2
+Time spent rounding: 1.277
+Time spent solving Separator LP: 0.013
+Total time spent solving: 1.599
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = ({'22', '13', '8', '26', '10', '4', '12', '11', '16', '20', '25', '15', '23', '5', '3', '14', '9', '2', '6', '18', '17', '24', '19', '21', '1', '7', '0'}, {'3', '8', '7', '4', '23'})

@@ -1,0 +1,17 @@
+4, 1, 1, 1
++-- , 0 , {1, 2} , {'oven_vp_28_nl0_ce1_work_vp_28_nl0_ae1', 'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'oven_vp_28_nl0_ce1_extend_vp_28_nl0_ae0JoinAttrRef'}
+| +-- , 1 , set() , {'base_vp_12_nl0_ce1_aim_vp_12_nl0_ae3', 'base_vp_12_nl0_ce1_opinion_vp_12_nl0_ae4', 'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'base_vp_12_nl0_ce1_prove_vp_12_nl0_ae0JoinAttrRef'}
+| +-- , 2 , {3} , {'oven_vp_28_nl0_ce1_work_vp_28_nl0_ae1', 'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'oven_vp_28_nl0_ce1_extend_vp_28_nl0_ae0JoinAttrRef'}
+| | +-- , 3 , set() , {'talk_vp_15_nl0_ce1_safe_vp_15_nl0_ae0JoinAttrRef', 'talk_vp_15_nl0_ce1_branch_vp_15_nl0_ae4', 'oven_vp_28_nl0_ce1_public_vp_28_nl0_ae2', 'talk_vp_15_nl0_ce1_stem_vp_15_nl0_ae3'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.002
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = None

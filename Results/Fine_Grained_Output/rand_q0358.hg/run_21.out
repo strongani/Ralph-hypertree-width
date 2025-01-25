@@ -1,0 +1,14 @@
+1, 0, 2.181818181818182, 3
++-- , 0 , set() , {'18', '12', '2', '4', '14', '5', '17', '16', '1', '11', '15', '8', '7', '10', '13', '6', '3', '9', '0'}
+
+
+Max number of edges with non zero Y: 14
+Max number of iterations of outer rounding loop: 2
+Max number of candidate sets: 2
+Time spent rounding: 0.234
+Time spent solving Separator LP: 0.010
+Total time spent solving: 0.379
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 4
+Lower Bound Witness = ({'18', '12', '5', '17', '16', '1', '15', '8', '10', '2', '4', '14', '11', '7', '13', '6', '3', '9', '0'}, {'2', '14', '17', '1', '3'})

@@ -1,0 +1,23 @@
+10, 1, 1, 1
++-- , 1 , {0, 8} , {'stomach_ad_6_nl0_ce0_speak_ad_6_nl0_ae4', 'stomach_ad_6_nl0_ce0_rhythm_ad_6_nl0_ae3', 'stomach_ad_6_nl0_ce0_sleep_ad_6_nl0_ae0ke0', 'stomach_ad_6_nl0_ce0_road_ad_6_nl0_ae2', 'stomach_ad_6_nl0_ce0_call_ad_6_nl0_ae1'}
+| +-- , 0 , {2, 7} , {'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr', 'stomach_ad_6_nl0_ce0_call_ad_6_nl0_ae1'}
+| | +-- , 2 , {3} , {'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr', 'stomach_ad_6_nl0_ce0_call_ad_6_nl0_ae1'}
+| | | +-- , 3 , set() , {'swim_vi_54_nl0_ce0_interest_vnm_7_nl0_ae0ke0JoinAttr', 'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr'}
+| | +-- , 7 , {6} , {'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr', 'stomach_ad_6_nl0_ce0_call_ad_6_nl0_ae1'}
+| | | +-- , 6 , {4} , {'awake_vnm_7_nl0_ce0_disappear_vnm_7_nl0_ae00', 'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr', 'awake_vnm_7_nl0_ce0_interest_vnm_7_nl0_ae0ke0'}
+| | | | +-- , 4 , {5} , {'awake_vnm_7_nl0_ce0_disappear_vnm_7_nl0_ae00', 'narrow_vi_45_nl0_ce0_sleep_ad_6_nl0_ae0ke0JoinAttr', 'awake_vnm_7_nl0_ce0_interest_vnm_7_nl0_ae0ke0'}
+| | | | | +-- , 5 , set() , {'awake_vnm_7_nl0_ce0_disappear_vnm_7_nl0_ae00', 'regret_vi_54_nl0_ce1_interest_vnm_7_nl0_ae0ke0Ref', 'regret_vi_54_nl0_ce1_seem_vnm_7_nl0_ae3'}
+| +-- , 8 , {9} , {'stomach_ad_6_nl0_ce0_speak_ad_6_nl0_ae4', 'stomach_ad_6_nl0_ce0_rhythm_ad_6_nl0_ae3', 'stomach_ad_6_nl0_ce0_sleep_ad_6_nl0_ae0ke0', 'stomach_ad_6_nl0_ce0_road_ad_6_nl0_ae2', 'stomach_ad_6_nl0_ce0_call_ad_6_nl0_ae1'}
+| | +-- , 9 , set() , {'disease_vi_45_nl0_ce1_rhythm_ad_6_nl0_ae3', 'disease_vi_45_nl0_ce1_sleep_ad_6_nl0_ae0ke0Ref', 'stomach_ad_6_nl0_ce0_road_ad_6_nl0_ae2'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.004
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

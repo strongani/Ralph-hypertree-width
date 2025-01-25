@@ -1,0 +1,24 @@
+11, 1, 2.0, 2
++-- , 9 , {7} , {'13', '11', '1', '28'}
+| +-- , 7 , {5, 11} , {'13', '11', '15', '28'}
+| | +-- , 5 , {3} , {'26', '31', '13', '27', '15', '28'}
+| | | +-- , 3 , {0, 16} , {'26', '31', '13', '12', '0', '15'}
+| | | | +-- , 0 , {13} , {'16', '13', '12', '15', '0'}
+| | | | | +-- , 13 , {14} , {'16', '29', '0'}
+| | | | | | +-- , 14 , {15} , {'16', '29', '0'}
+| | | | | | | +-- , 15 , set() , {'3', '17', '8', '29'}
+| | | | +-- , 16 , {17} , {'12', '31', '26', '0'}
+| | | | | +-- , 17 , set() , {'9', '26', '0'}
+| | +-- , 11 , set() , {'4', '11', '15', '28'}
+
+
+Max number of edges with non zero Y: 6
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.128
+Time spent solving Separator LP: 0.007
+Total time spent solving: 0.310
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 8
+Lower Bound Witness = ({'26', '1', '31', '13', '11', '12', '27', '0', '4', '16', '29', '15', '28'}, {'26', '27', '12', '29', '15'})

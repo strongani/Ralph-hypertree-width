@@ -1,0 +1,17 @@
+4, 1, 1, 1
++-- , 0 , {1, 2} , {'21', '27', '6', '0', '26'}
+| +-- , 1 , set() , {'33', '25', '23', '14'}
+| +-- , 2 , {3} , {'21', '27', '6', '0', '26'}
+| | +-- , 3 , set() , {'27', '19', '2', '22', '26'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.002
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = None

@@ -1,0 +1,17 @@
+4, 1, 1, 1
++-- , 0 , {1, 2} , {'6', '43', '84'}
+| +-- , 1 , set() , {'0', '70', '62'}
+| +-- , 2 , {3} , {'6', '43', '84'}
+| | +-- , 3 , set() , {'60', '1', '57'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.003
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

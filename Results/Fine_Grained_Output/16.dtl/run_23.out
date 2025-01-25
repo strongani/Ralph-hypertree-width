@@ -1,0 +1,19 @@
+6, 0, 3.0, 3
++-- , 6 , {0} , {'0', '1', '2'}
+| +-- , 0 , {8, 10, 12, 14} , {'16', '2', '6', '3', '5', '4', '17', '1'}
+| | +-- , 8 , set() , {'7', '6', '5', '8', '9', '4', '2'}
+| | +-- , 10 , set() , {'12', '10', '6', '5', '4', '11', '2'}
+| | +-- , 12 , set() , {'6', '5', '15', '14', '4', '13', '2'}
+| | +-- , 14 , set() , {'6', '18', '5', '4', '17'}
+
+
+Max number of edges with non zero Y: 10
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.149
+Time spent solving Separator LP: 0.923
+Total time spent solving: 1.394
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 4
+Lower Bound Witness = ({'16', '10', '8', '13', '6', '18', '3', '14', '17', '12', '7', '9', '5', '15', '2', '0', '4', '11', '1'}, {'6', '18', '3', '17', '2'})

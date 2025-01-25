@@ -1,0 +1,27 @@
+14, 1, 1, 1
++-- , 0 , {1, 2, 4, 6, 8, 10, 12} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| +-- , 1 , set() , {'m233004_c3', 'm233004_c1', 'm233004_c2', 'm111004_c0'}
+| +-- , 2 , {3} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 3 , set() , {'m192004_c3', 'm192004_c1', 'm192004_c2', 'm111004_c0'}
+| +-- , 4 , {5} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 5 , set() , {'m199004_c3', 'm199004_c1', 'm199004_c2', 'm111004_c0'}
+| +-- , 6 , {7} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 7 , set() , {'m158004_c3', 'm158004_c1', 'm111004_c0', 'm158004_c2'}
+| +-- , 8 , {9} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 9 , set() , {'m248004_c3', 'm248004_c1', 'm248004_c2', 'm111004_c0'}
+| +-- , 10 , {11} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 11 , set() , {'m6004_c0', 'm6004_c2', 'm6004_c3', 'm111004_c0'}
+| +-- , 12 , {13} , {'m111004_c3', 'm111004_c1', 'm111004_c2', 'm111004_c0'}
+| | +-- , 13 , set() , {'m209004_c2', 'm209004_c3', 'm111004_c0', 'm209004_c1'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.004
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 8
+Lower Bound Witness = None

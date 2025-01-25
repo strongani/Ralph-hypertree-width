@@ -1,0 +1,16 @@
+3, 1, 1.5, 2
++-- , 0 , {1, 2} , {'0', '2', '1'}
+| +-- , 1 , set() , {'0', '3'}
+| +-- , 2 , set() , {'0', '4', '2', '1'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.144
+Time spent solving Separator LP: 0.008
+Total time spent solving: 0.225
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 8
+Lower Bound Witness = None

@@ -1,0 +1,21 @@
+8, 1, 1, 1
++-- , 0 , {1, 2, 4, 6} , {'X3', 'X4', 'X6', 'X7', 'X1', 'X5', 'X0', 'X2'}
+| +-- , 1 , set() , {'X14', 'X45', 'X27', 'X33', 'X42', 'X23', 'X15', 'X29', 'X30', 'X32', 'X18', 'X35', 'X9', 'X28', 'X41', 'X11', 'X8', 'X13', 'X38', 'X17', 'X40', 'X24', 'X39', 'X37', 'X3', 'X19', 'X16', 'X31', 'X22', 'X25', 'X21', 'X34', 'X12', 'X20', 'X26', 'X44', 'X43', 'X10', 'X36'}
+| +-- , 2 , {3} , {'X3', 'X4', 'X6', 'X7', 'X1', 'X5', 'X0', 'X2'}
+| | +-- , 3 , set() , {'X49', 'X53', 'X3', 'X57', 'X59', 'X52', 'X56', 'X50', 'X51', 'X58', 'X47', 'X48', 'X55', 'X54', 'X46'}
+| +-- , 4 , {5} , {'X3', 'X4', 'X6', 'X7', 'X1', 'X5', 'X0', 'X2'}
+| | +-- , 5 , set() , {'X75', 'X63', 'X72', 'X62', 'X74', 'X68', 'X61', 'X60', 'X76', 'X73', 'X78', 'X3', 'X69', 'X67', 'X66', 'X64', 'X65', 'X70', 'X71', 'X77'}
+| +-- , 6 , {7} , {'X3', 'X4', 'X6', 'X7', 'X1', 'X5', 'X0', 'X2'}
+| | +-- , 7 , set() , {'X103', 'X4', 'X95', 'X79', 'X99', 'X90', 'X87', 'X96', 'X102', 'X104', 'X93', 'X80', 'X86', 'X3', 'X98', 'X100', 'X101', 'X94', 'X89', 'X91', 'X85', 'X97', 'X81', 'X88', 'X92', 'X84'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.004
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 2
+Lower Bound Witness = None

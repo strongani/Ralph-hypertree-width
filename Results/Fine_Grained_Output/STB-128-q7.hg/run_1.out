@@ -1,0 +1,19 @@
+6, 1, 1, 1
++-- , 0 , {1, 2, 4} , {'give_vp_8_nl0_ce0_oven_vp_8_nl0_ae0JoinAttr', 'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0'}
+| +-- , 1 , set() , {'bell_vp_17_nl0_ce0_see_vp_17_nl0_ae0ke0', 'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0'}
+| +-- , 2 , {3} , {'give_vp_8_nl0_ce0_oven_vp_8_nl0_ae0JoinAttr', 'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0'}
+| | +-- , 3 , set() , {'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0', 'beat_vp_13_nl0_ce1_regret_vp_13_nl0_ae0JoinAttrRef'}
+| +-- , 4 , {5} , {'give_vp_8_nl0_ce0_oven_vp_8_nl0_ae0JoinAttr', 'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0'}
+| | +-- , 5 , set() , {'train_cp_8_nl0_ce0copy8_7_dependent_cp_8_nl0_ae1', 'give_vp_8_nl0_ce0_match_vp_8_nl0_ae0ke0'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.036
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

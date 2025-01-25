@@ -1,0 +1,23 @@
+10, 1, 1, 1
++-- , 1 , {0, 8, 4, 6} , {'4', '55', '24', '93'}
+| +-- , 0 , {2} , {'32', '28', '12', '87'}
+| | +-- , 2 , {3} , {'32', '28', '12', '87'}
+| | | +-- , 3 , set() , {'41', '25', '28', '14'}
+| +-- , 8 , {9} , {'4', '55', '24', '93'}
+| | +-- , 9 , set() , {'55', '71', '7', '13'}
+| +-- , 4 , {5} , {'4', '55', '24', '93'}
+| | +-- , 5 , set() , {'66', '10', '81', '45'}
+| +-- , 6 , {7} , {'4', '55', '24', '93'}
+| | +-- , 7 , set() , {'84', '65', '16'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.004
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

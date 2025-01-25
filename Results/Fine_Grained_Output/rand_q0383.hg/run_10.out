@@ -1,0 +1,29 @@
+16, 1, 1, 1
++-- , 1 , {0, 6, 8, 10, 12, 14} , {'32', '53', '44'}
+| +-- , 0 , {2, 4} , {'32', '30', '33'}
+| | +-- , 2 , {3} , {'32', '30', '33'}
+| | | +-- , 3 , set() , {'30', '6', '13'}
+| | +-- , 4 , {5} , {'32', '30', '33'}
+| | | +-- , 5 , set() , {'33', '25', '5'}
+| +-- , 6 , {7} , {'32', '53', '44'}
+| | +-- , 7 , set() , {'42', '52', '3'}
+| +-- , 8 , {9} , {'32', '53', '44'}
+| | +-- , 9 , set() , {'2', '0', '41'}
+| +-- , 10 , {11} , {'32', '53', '44'}
+| | +-- , 11 , set() , {'38', '26', '18'}
+| +-- , 12 , {13} , {'32', '53', '44'}
+| | +-- , 13 , set() , {'19', '31', '37'}
+| +-- , 14 , {15} , {'32', '53', '44'}
+| | +-- , 15 , set() , {'11', '43', '23'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.006
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 2
+Lower Bound Witness = None

@@ -1,0 +1,27 @@
+14, 1, 1, 1
++-- , 1 , {0} , {'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'play_vh_59_nl0_ce1_spade_vh_59_nl0_ae0JoinAttrRef', 'play_vh_59_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_spade_vh_59_nl0_ae0JoinAttr'}
+| +-- , 0 , {2, 4, 6, 8, 10, 12} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | +-- , 2 , {3} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 3 , set() , {'answer_vh_59_nl0_ce0_spade_vh_59_nl0_ae0JoinAttr', 'answer_vh_59_nl0_ce0_stand_vi_17_nl0_ae1', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | +-- , 4 , {5} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 5 , set() , {'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref', 'hide_vi_17_nl0_ce0_stand_vi_17_nl0_ae1'}
+| | +-- , 6 , {7} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 7 , set() , {'sleep_vnm_12_nl0_ce0_driving_vnm_12_nl0_ae0ke0', 'sleep_vnm_12_nl0_ce0_dependent_vnm_12_nl0_ae00', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | +-- , 8 , {9} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 9 , set() , {'regret_vi_54_nl0_ce1_heart_vnm_7_nl0_ae2', 'regret_vi_54_nl0_ce1_interest_vnm_7_nl0_ae0ke0Ref', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | +-- , 10 , {11} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 11 , set() , {'mean_vi_59_nl0_ce1_form_vi_59_nl0_ae5', 'mean_vi_59_nl0_ce1_engine_vi_59_nl0_ae3', 'mean_vi_59_nl0_ce1_edge_vi_59_nl0_ae4', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | +-- , 12 , {13} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'play_vh_59_nl0_ce1_begin_vi_17_nl0_ae3', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+| | | +-- , 13 , set() , {'change_vi_15_nl0_ce1_warn_vi_15_nl0_ae2', 'shoe_vi_17_nl0_ce1_cry_vi_17_nl0_ae0ke0Ref'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.002
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 2
+Lower Bound Witness = None

@@ -1,0 +1,23 @@
+10, 1, 1, 1
++-- , 7 , {6} , {'X50', 'X21'}
+| +-- , 6 , {4} , {'X29', 'X24', 'X28', 'X26', 'X51', 'X33', 'X50', 'X48', 'X31'}
+| | +-- , 4 , {8, 5} , {'X29', 'X24', 'X28', 'X26', 'X51', 'X33', 'X50', 'X48', 'X31'}
+| | | +-- , 8 , {9} , {'X29', 'X24', 'X28', 'X26', 'X51', 'X33', 'X50', 'X48', 'X31'}
+| | | | +-- , 9 , set() , {'X23', 'X48'}
+| | | +-- , 5 , {1} , {'X6', 'X11', 'X5', 'X12', 'X51', 'X4', 'X2', 'X1', 'X10', 'X9', 'X3', 'X8'}
+| | | | +-- , 1 , {0} , {'X6', 'X11', 'X5', 'X12', 'X51', 'X4', 'X2', 'X1', 'X10', 'X9', 'X3', 'X8'}
+| | | | | +-- , 0 , {2} , {'X14', 'X51', 'X16', 'X44', 'X15', 'X17', 'X13'}
+| | | | | | +-- , 2 , {3} , {'X14', 'X51', 'X16', 'X44', 'X15', 'X17', 'X13'}
+| | | | | | | +-- , 3 , set() , {'X38', 'X39', 'X34', 'X36', 'X35', 'X41', 'X44', 'X42', 'X37'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.003
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = None

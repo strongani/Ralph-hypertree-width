@@ -1,0 +1,27 @@
+14, 1, 1, 1
++-- , 1 , {0, 4, 6, 8, 10, 12} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| +-- , 0 , {2} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'shoe_vi_17_nl0_ce1_begin_vi_17_nl0_ae3', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 2 , {3} , {'shoe_vi_17_nl0_ce1_man_vi_17_nl0_ae2', 'shoe_vi_17_nl0_ce1_begin_vi_17_nl0_ae3', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | | +-- , 3 , set() , {'play_vh_59_nl0_ce1_spade_vh_59_nl0_ae0JoinAttr', 'play_vh_59_nl0_ce1_spade_vh_59_nl0_ae0JoinAttrRef', 'shoe_vi_17_nl0_ce1_begin_vi_17_nl0_ae3', 'play_vh_59_nl0_ce1_man_vi_17_nl0_ae2'}
+| +-- , 4 , {5} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 5 , set() , {'answer_vh_59_nl0_ce0_stand_vi_17_nl0_ae1', 'answer_vh_59_nl0_ce0_spade_vh_59_nl0_ae0JoinAttr', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| +-- , 6 , {7} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 7 , set() , {'hide_vi_17_nl0_ce0_stand_vi_17_nl0_ae1', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| +-- , 8 , {9} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 9 , set() , {'sleep_vnm_12_nl0_ce0_dependent_vnm_12_nl0_ae00', 'sleep_vnm_12_nl0_ce0_driving_vnm_12_nl0_ae0ke0', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| +-- , 10 , {11} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 11 , set() , {'substance_vi_59_nl0_ce0_drain_vi_59_nl0_ae1', 'substance_vi_59_nl0_ce0_future_vi_59_nl0_ae2', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| +-- , 12 , {13} , {'person_ad_44_nl0_ce0_cry_ad_44_nl0_ae0ke0', 'person_ad_44_nl0_ce0_grow_ad_44_nl0_ae2', 'person_ad_44_nl0_ce0_animal_ad_44_nl0_ae3', 'person_ad_44_nl0_ce0_wind_ad_44_nl0_ae5', 'person_ad_44_nl0_ce0_raise_ad_44_nl0_ae4', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+| | +-- , 13 , set() , {'jewel_vi_15_nl0_ce0_ticket_vi_15_nl0_ae1', 'person_ad_44_nl0_ce0_separate_ad_44_nl0_ae1'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.003
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = None

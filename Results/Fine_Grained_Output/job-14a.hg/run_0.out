@@ -1,0 +1,21 @@
+8, 1, 2.0, 2
++-- , 3 , {0, 6} , {'X19', 'X43', 'X39', 'X17', 'X33', 'X21', 'X44'}
+| +-- , 0 , set() , {'X11', 'X43', 'X5', 'X9', 'X6', 'X10', 'X44', 'X3', 'X8', 'X12', 'X2', 'X4'}
+| +-- , 6 , {5} , {'X44', 'X39', 'X33'}
+| | +-- , 5 , {9, 7} , {'X29', 'X27', 'X22', 'X26', 'X36', 'X44', 'X40', 'X31', 'X24'}
+| | | +-- , 9 , {10} , {'X29', 'X27', 'X22', 'X26', 'X36', 'X44', 'X40', 'X31', 'X24'}
+| | | | +-- , 10 , set() , {'X36', 'X14'}
+| | | +-- , 7 , {8} , {'X29', 'X27', 'X22', 'X26', 'X36', 'X44', 'X40', 'X31', 'X24'}
+| | | | +-- , 8 , set() , {'X16', 'X40'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.027
+Time spent solving Separator LP: 0.010
+Total time spent solving: 0.131
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = ({'X11', 'X19', 'X43', 'X5', 'X39', 'X17', 'X33', 'X21', 'X44', 'X9', 'X10', 'X8', 'X12', 'X2', 'X3', 'X6', 'X4'}, {'X12', 'X6', 'X43'})

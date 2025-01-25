@@ -1,0 +1,21 @@
+8, 1, 1, 1
++-- , 0 , {1, 2, 4, 6} , {'m26004_c2', 'm26004_c1', 'm26004_c3', 'm26004_c0'}
+| +-- , 1 , set() , {'m213004_c2', 'm213004_c1', 'm213004_c3', 'm26004_c0'}
+| +-- , 2 , {3} , {'m26004_c2', 'm26004_c1', 'm26004_c3', 'm26004_c0'}
+| | +-- , 3 , set() , {'m294004_c1', 'm294004_c3', 'm294004_c2', 'm26004_c0'}
+| +-- , 4 , {5} , {'m26004_c2', 'm26004_c1', 'm26004_c3', 'm26004_c0'}
+| | +-- , 5 , set() , {'m252004_c1', 'm252004_c2', 'm252004_c3', 'm26004_c0'}
+| +-- , 6 , {7} , {'m26004_c2', 'm26004_c1', 'm26004_c3', 'm26004_c0'}
+| | +-- , 7 , set() , {'m298004_c3', 'm298004_c2', 'm26004_c0', 'm298004_c0'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.002
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

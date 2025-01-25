@@ -1,0 +1,24 @@
+11, 1, 2.0, 2
++-- , 5 , {3, 12, 20} , {'35', '19', '1', '14'}
+| +-- , 3 , {0, 7} , {'35', '19', '32'}
+| | +-- , 0 , set() , {'8', '20', '19', '32'}
+| | +-- , 7 , {10} , {'35', '27', '32', '45'}
+| | | +-- , 10 , {11} , {'35', '27', '32', '45'}
+| | | | +-- , 11 , set() , {'38', '33', '32', '18'}
+| +-- , 12 , {13} , {'35', '19', '1', '14'}
+| | +-- , 13 , set() , {'34', '12', '40', '41'}
+| +-- , 20 , {14} , {'35', '1', '11', '19', '28', '25', '14'}
+| | +-- , 14 , {22} , {'4', '5', '1', '39', '28'}
+| | | +-- , 22 , set() , {'2', '5', '22', '28'}
+
+
+Max number of edges with non zero Y: 4
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.415
+Time spent solving Separator LP: 0.020
+Total time spent solving: 0.747
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 8
+Lower Bound Witness = ({'35', '45', '1', '19', '32', '20', '8', '27', '14'}, {'20', '35', '27', '19'})

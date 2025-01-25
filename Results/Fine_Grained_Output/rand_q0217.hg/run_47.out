@@ -1,0 +1,21 @@
+8, 1, 1.5, 2
++-- , 9 , {8, 10} , {'12', '13'}
+| +-- , 8 , {3} , {'12', '5', '0'}
+| | +-- , 3 , {0} , {'12', '5', '0'}
+| | | +-- , 0 , {5, 7} , {'5', '0', '1'}
+| | | | +-- , 5 , set() , {'9', '0', '1'}
+| | | | +-- , 7 , set() , {'2', '5', '1'}
+| +-- , 10 , {11} , {'12', '13'}
+| | +-- , 11 , set() , {'8', '3', '4'}
+
+
+Max number of edges with non zero Y: 3
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.292
+Time spent solving Separator LP: 0.007
+Total time spent solving: 0.469
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 16
+Lower Bound Witness = ({'12', '2', '5', '0', '1', '9'}, {'12', '2', '9', '5'})

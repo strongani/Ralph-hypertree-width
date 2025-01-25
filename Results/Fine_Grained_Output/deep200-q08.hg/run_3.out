@@ -1,0 +1,17 @@
+4, 1, 1, 1
++-- , 0 , {1, 2} , {'m64004_c3', 'm64004_c2', 'm64004_c0', 'm64004_c1'}
+| +-- , 1 , set() , {'m9004_c2', 'm9004_c3', 'm64004_c0', 'm9004_c0'}
+| +-- , 2 , {3} , {'m64004_c3', 'm64004_c2', 'm64004_c0', 'm64004_c1'}
+| | +-- , 3 , set() , {'m153004_c1', 'm64004_c0', 'm153004_c3', 'm153004_c2'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.005
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

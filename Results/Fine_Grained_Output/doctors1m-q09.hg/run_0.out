@@ -1,0 +1,17 @@
+4, 1, 1, 1
++-- , 0 , {1, 2} , {'targethospital_doctor', 'targethospital_npi', 'ONRR90341', 'targethospital_spec', 'targethospital_conf'}
+| +-- , 1 , set() , {'doctor_spec', 'doctor_hospital', 'targethospital_npi', 'doctor_conf', 'doctor_doctor'}
+| +-- , 2 , {3} , {'targethospital_doctor', 'targethospital_npi', 'ONRR90341', 'targethospital_spec', 'targethospital_conf'}
+| | +-- , 3 , set() , {'prescription_conf', 'prescription_id', 'targethospital_npi', 'prescription_patient'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.000
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = None

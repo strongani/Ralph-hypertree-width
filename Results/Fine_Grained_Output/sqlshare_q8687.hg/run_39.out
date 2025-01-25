@@ -1,0 +1,19 @@
+6, 1, 1, 1
++-- , 0 , {1, 2, 4} , {'X10', 'X2', 'X7', 'X1', 'X0', 'X8', 'X3', 'X11', 'X53', 'X9', 'X6', 'X4'}
+| +-- , 1 , set() , {'X27', 'X17', 'X19', 'X15', 'X20', 'X28', 'X16', 'X30', 'X23', 'X24', 'X53', 'X21', 'X26', 'X25', 'X12', 'X18', 'X22', 'X29', 'X14'}
+| +-- , 2 , {3} , {'X10', 'X2', 'X7', 'X1', 'X0', 'X8', 'X3', 'X11', 'X53', 'X9', 'X6', 'X4'}
+| | +-- , 3 , set() , {'X41', 'X45', 'X46', 'X38', 'X31', 'X36', 'X40', 'X32', 'X53', 'X43', 'X39', 'X35', 'X42', 'X44', 'X47', 'X33', 'X34'}
+| +-- , 4 , {5} , {'X10', 'X2', 'X7', 'X1', 'X0', 'X8', 'X3', 'X11', 'X53', 'X9', 'X6', 'X4'}
+| | +-- , 5 , set() , {'X57', 'X51', 'X54', 'X49', 'X55', 'X53', 'X48', 'X52', 'X50', 'X56'}
+
+
+Max number of edges with non zero Y: 0
+Max number of iterations of outer rounding loop: 0
+Max number of candidate sets: 0
+Time spent rounding: 0.000
+Time spent solving Separator LP: 0.000
+Total time spent solving: 0.004
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 8
+Lower Bound Witness = None

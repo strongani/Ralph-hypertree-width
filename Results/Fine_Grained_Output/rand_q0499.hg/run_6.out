@@ -1,0 +1,14 @@
+1, 0, 1.1428571428571428, 2
++-- , 0 , set() , {'0', '11', '5', '8', '2', '9', '7', '12', '3', '4', '6', '1', '10'}
+
+
+Max number of edges with non zero Y: 9
+Max number of iterations of outer rounding loop: 1
+Max number of candidate sets: 2
+Time spent rounding: 0.044
+Time spent solving Separator LP: 0.011
+Total time spent solving: 0.110
+
+LP Solver: gammaPlusFractionalCoverHeuristic
+Number of Rounding Attemps: 1
+Lower Bound Witness = ({'0', '11', '5', '8', '3', '2', '4', '1', '6', '10', '9', '7', '12'}, {'3', '0', '12', '8'})
