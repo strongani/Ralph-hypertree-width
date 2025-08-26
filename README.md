@@ -20,7 +20,7 @@ We present our algorithm _Ralph_ (_**R**andomized **A**pproximation using **L**i
     - `cd {repository}/Code`
     - `pip install virtualenv`
     - `virtualenv -p 3.12 venv`
-    - `source venv/bin/activate`
+    - `source venv/bin/activate` (or `.\venv\Scripts\activate.bat` on Windows)
     - `pip install -r requirements.txt`
 - Add a Gurobi license or edit the settings file
   - The default settings use the Gurobi solver, which requires a license
