@@ -63,7 +63,7 @@ def getSolver():
 # Decide which separator LP to use. 
 availableSeparatorLPs = ["GaifmanNormal", "HypergraphNormal", "GaifmanBoosted", "GaifmanNormalILP", "gammaPlusFractionalCoverHeuristic"]
 useSeparatorLP = availableSeparatorLPs[4]
-doMixedRun = True        # doesn't matter what useSeparatorLP is here, nor -n numRuns passed in fhtw command
+doMixedRun = False        # doesn't matter what useSeparatorLP is here, nor -n numRuns passed in fhtw command
 num_heuristic = 10
 num_normal = 20
 num_boosted = 20
