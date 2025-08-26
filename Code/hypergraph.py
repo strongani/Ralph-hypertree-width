@@ -64,7 +64,7 @@ class hypergraph:
                 lines = [inputLine]
             
             for line in lines:
-                tokens = re.split('[\(\)\,]', line)
+                tokens = re.split(r'[\(\)\,]', line)
                 tokens = [s.strip() for s in tokens if s.strip() != ""]
             
                 edge = tokens[0]

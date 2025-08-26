@@ -1,0 +1,26 @@
+{number of nodes in the tree decomposition}, {fhtw lower bound}, {fhtw upper bound}, {ghtw upper bound}
++-- , {node id} , {children} , {vertices}
+
+(example for hypergraph 1.dtl):
++-- , 7 , {8, 11, 3} , {'1', '6', '0'}
+| +-- , 8 , {9} , {'1', '6'}
+| | +-- , 9 , set() , {'7', '6'}
+| +-- , 11 , {10} , {'1', '0'}
+| | +-- , 10 , {12} , {'3', '2', '0'}
+| | | +-- , 12 , {13} , {'3', '2', '0'}
+| | | | +-- , 13 , set() , {'9', '3'}
+| +-- , 3 , {0, 5} , {'5', '0', '6'}
+| | +-- , 0 , set() , {'5', '0', '4'}
+| | +-- , 5 , set() , {'5', '8', '6'}
+
+
+Max number of edges with non zero Y: (int)
+Max number of iterations of outer rounding loop: (int)
+Max number of candidate sets: (int)
+Time spent rounding: (real)
+Time spent solving Separator LP: (real)
+Total time spent solving: (real)
+
+LP Solver: (string) (see settings.py -> availableSeparatorLPs)
+Number of Rounding Attemps: (int) (see settings.py -> roundingAttempts)
+Lower Bound Witness = (vertices of current H, vertices of current Z)
